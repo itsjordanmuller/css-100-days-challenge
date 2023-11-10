@@ -7,13 +7,20 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 
 ## Day 1
 
-### [1 - 100 Days CSS Logo](https://100dayscss.com/days/1/)
+### [Challenge #1 - 100 Days CSS Logo](https://100dayscss.com/days/1/)
 
-![Challenge 1 Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/001-ChallengeLogo/001-ChallengeLogo.png)
+#### [My Submission - #1 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/001-ChallengeLogo/001-ChallengeLogo.png)
+
+![Challenge 1 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/001-ChallengeLogo/001-Submission.png)
 
 > An easy start into the challenge with a custom build number with gradient.
 
-### [Challenge 1 Solution](https://codepen.io/itsjordanmuller/pen/jOdmXzY)
+#### [My Submission - #1 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/jOdmXzY)
+
+<details>
+  <summary>Click to See Goal Image</summary>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/001-ChallengeLogo/001-Goal.png"/>
+</details>
 
 ## Sources & Credits
 

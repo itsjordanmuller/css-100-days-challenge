@@ -18,8 +18,9 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 #### [My Submission - #1 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/jOdmXzY)
 
 <details>
-  <summary>Click to See Goal Image</summary>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/001-ChallengeLogo/001-Goal.png"/>
+  <summary>Click/Open to See Goal Image</summary>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/001-ChallengeLogo/001-Goal.png"/><br/>
+  <a href="https://codepen.io/roydigerhund/pen/JGmvaE">View Goal CodePen Demo</a>
 </details>
 
 ## Sources & Credits

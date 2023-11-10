@@ -9,7 +9,7 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 
 ### [1 - 100 Days CSS Logo](https://100dayscss.com/days/1/)
 
-![Challenge 1 Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/001-ChallengeLogo/001.png)
+![Challenge 1 Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/001-ChallengeLogo/001-ChallengeLogo.png)
 
 > An easy start into the challenge with a custom build number with gradient.
 

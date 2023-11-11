@@ -9,7 +9,7 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 
 ### [Challenge #1 - 100 Days CSS Logo](https://100dayscss.com/days/1/)
 
-#### [My Submission - #1 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/001-ChallengeLogo/001-ChallengeLogo.png)
+#### [My Submission - #1 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/001-ChallengeLogo/001-Submission.png)
 
 ![Challenge 1 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/001-ChallengeLogo/001-Submission.png)
 
@@ -21,6 +21,24 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
   <summary>Click/Open to See Goal Image</summary>
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/001-ChallengeLogo/001-Goal.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/JGmvaE">View Goal CodePen Demo</a>
+</details>
+
+## Day 2
+
+### [Challenge #2 - Menu Icon](https://100dayscss.com/days/2/)
+
+#### [My Submission - #2 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/002-Menu-Icon/002-Submission.png)
+
+![Challenge 2 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/002-Menu-Icon/002-Submission.png)
+
+> Used on almost every website by now, simple but impressively animated it becomes a real eye-catcher.
+
+#### [My Submission - #2 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/QWYgNNx)
+
+<details>
+  <summary>Click/Open to See Goal Image</summary>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/002-Menu-Icon/002-Goal.png"/><br/>
+  <a href="https://codepen.io/roydigerhund/pen/ZQmbNm">View Goal CodePen Demo</a>
 </details>
 
 ## Sources & Credits

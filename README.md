@@ -44,6 +44,22 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
   <a href="https://codepen.io/roydigerhund/pen/ZQmbNm">View Goal CodePen Demo</a>
 </details>
 
+### [Challenge #3 - Pyramide](https://100dayscss.com/days/3/)
+
+#### [My Submission - #3 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/003-Pyramide/003-Submission.png)
+
+![Challenge 3 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/003-Pyramide/003-Submission.png)
+
+> Not as challenging as the real pyramids in Egypt, but the shadow path is not easy.
+
+#### [My Submission - ## (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/MWLoOMm)
+
+<details>
+  <summary>Click/Open to See Goal Image</summary>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/003-Pyramide/003-Goal.png"/><br/>
+  <a href="https://codepen.io/roydigerhund/pen/PZxpKO">View Goal CodePen Demo</a>
+</details>
+
 ## Sources & Credits
 
 100 Days CSS Challenges Provided by [Matthias Martin](https://www.stichwort-m.de/) on [100dayscss.com](https://100dayscss.com/)

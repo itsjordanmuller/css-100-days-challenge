@@ -60,6 +60,22 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
   <a href="https://codepen.io/roydigerhund/pen/PZxpKO">View Goal CodePen Demo</a>
 </details>
 
+### [Challenge #4 - Loading](https://100dayscss.com/days/4/)
+
+#### [My Submission - #4 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/004-Loading/004-Submission.png)
+
+![Challenge 3 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/004-Loading/004-Submission.png)
+
+> The best are always websites that do not need a loading status. If they do, here would be a calming one.
+
+#### [My Submission - #4 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/jOdLMvw)
+
+<details>
+  <summary>Click/Open to See Goal Image</summary>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/004-Loading/004-Goal.png"/><br/>
+  <a href="https://codepen.io/roydigerhund/pen/yeQZLm">View Goal CodePen Demo</a>
+</details>
+
 ## Sources & Credits
 
 100 Days CSS Challenges Provided by [Matthias Martin](https://www.stichwort-m.de/) on [100dayscss.com](https://100dayscss.com/)

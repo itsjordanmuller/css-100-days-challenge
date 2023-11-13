@@ -1,0 +1,83 @@
+$curve: cubic-bezier(0.25, 1, 0.55, 1);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #e56262;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle {
+  position: absolute;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+.l-circle {
+  z-index: 1;
+  height: 90px;
+  width: 90px;
+  animation: growLCircle 2s $curve infinite alternate;
+}
+
+.m-circle {
+  z-index: 2;
+  width: 60px;
+  height: 60px;
+  animation: growMCircle 2s $curve infinite alternate;
+}
+
+.s-circle {
+  z-index: 3;
+  width: 30px;
+  height: 30px;
+  animation: growSCircle 2s $curve infinite alternate;
+}
+
+@keyframes growSCircle {
+  0%,
+  70% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes growMCircle {
+  0%,
+  40% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes growLCircle {
+  0%,
+  10% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}

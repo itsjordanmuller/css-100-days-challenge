@@ -52,7 +52,7 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 
 > Not as challenging as the real pyramids in Egypt, but the shadow path is not easy.
 
-#### [My Submission - ## (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/MWLoOMm)
+#### [My Submission - #3 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/MWLoOMm)
 
 <details>
   <summary>Click/Open to See Goal Image</summary>

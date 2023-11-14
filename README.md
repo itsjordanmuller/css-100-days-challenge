@@ -44,6 +44,8 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
   <a href="https://codepen.io/roydigerhund/pen/ZQmbNm">View Goal CodePen Demo</a>
 </details>
 
+## Day 3
+
 ### [Challenge #3 - Pyramide](https://100dayscss.com/days/3/)
 
 #### [My Submission - #3 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/003-Pyramide/003-Submission.png)
@@ -60,6 +62,8 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
   <a href="https://codepen.io/roydigerhund/pen/PZxpKO">View Goal CodePen Demo</a>
 </details>
 
+## Day 4
+
 ### [Challenge #4 - Loading](https://100dayscss.com/days/4/)
 
 #### [My Submission - #4 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/004-Loading/004-Submission.png)
@@ -74,6 +78,27 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
   <summary>Click/Open to See Goal Image</summary>
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/004-Loading/004-Goal.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/yeQZLm">View Goal CodePen Demo</a>
+</details>
+
+## Day 5
+
+### [Challenge #5 - Menu Icon](https://100dayscss.com/days/2/)
+
+#### [My Submission - #5 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/tree/main/002-Menu-Icon)
+
+![Challenge 5 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/005-Statistic/005-Submission-1.png)
+
+![Challenge 5 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/005-Statistic/005-Submission-2.png)
+
+> In a world of numbers, it is important to be able to interpret them correctly. Beautiful statistics help to capture these data.
+
+#### [My Submission - #5 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/GRzMWJP)
+
+<details>
+  <summary>Click/Open to See Goal Image</summary>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/005-Statistic/005-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/005-Statistic/005-Goal-2.png"/><br/>
+  <a href="https://codepen.io/roydigerhund/pen/GoPvNN">View Goal CodePen Demo</a>
 </details>
 
 ## Sources & Credits

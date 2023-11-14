@@ -1,0 +1,293 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400,300);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #42a7a1;
+  color: #fff;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 280px;
+  height: 220px;
+  transform: translate(-50%, -50%);
+}
+
+.graph {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.graph-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f1ba64;
+  padding: 15px;
+  border-radius: 3px 3px 0 0;
+  height: 30px;
+}
+
+.graph-body {
+  height: 160px;
+  background-color: #fff;
+  border-radius: 0 0 3px 3px;
+  color: #666;
+  font-size: 9px;
+}
+
+.report-section,
+.revenue-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.revenue-section {
+  text-align: right;
+}
+
+.report-title,
+.revenue-total {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.report-title {
+  text-transform: uppercase;
+  padding-bottom: 2px;
+}
+
+.revenue-total {
+  padding-top: 2px;
+}
+
+.views-key {
+  padding-right: 10px;
+}
+
+.views-key-color {
+  height: 3px;
+  width: 11px;
+  background-color: #fa7373;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.purchases-key-color {
+  height: 3px;
+  width: 11px;
+  background-color: #7ba2ff;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.legend {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 14px;
+  gap: 10px;
+}
+
+.chart {
+  position: relative;
+  width: 260px;
+  margin-left: 10px;
+}
+
+.line {
+  position: absolute;
+  height: 1px;
+  width: 260px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.line-two {
+  top: 40px;
+}
+
+.line-three {
+  top: 80px;
+}
+
+.days {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 94px;
+  text-transform: uppercase;
+}
+
+.views-data,
+.purchases-data {
+  position: absolute;
+}
+
+polyline {
+  fill: none;
+  stroke-width: 2px;
+  stroke-linecap: round;
+}
+
+.views-data polyline {
+  stroke: #fa7373;
+}
+
+.purchases-data polyline {
+  top: 0;
+  stroke: #7ba2ff;
+}
+
+.points {
+  z-index: 2;
+  cursor: pointer;
+  width: 246px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0px;
+  left: 8px;
+}
+
+.views-points {
+  top: 25px;
+}
+
+.purchases-points {
+  top: 60px;
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6,
+.p7 {
+  top: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+
+  &:hover .value {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+.views-points > * {
+  background-color: #fa7373;
+}
+
+.purchases-points > * {
+  background-color: #7ba2ff;
+}
+
+.views-points .p1 {
+  top: 17px;
+}
+
+.views-points .p2 {
+  top: -15px;
+}
+
+.views-points .p3 {
+  top: -5px;
+}
+
+.views-points .p4 {
+  top: -17px;
+}
+
+.views-points .p5 {
+  top: 10px;
+}
+
+.views-points .p6 {
+  top: 19px;
+}
+
+.views-points .p7 {
+  top: -9px;
+}
+
+.purchases-points .p1 {
+  top: -2px;
+}
+
+.purchases-points .p2 {
+  top: -12px;
+}
+
+.purchases-points .p3 {
+  top: 2px;
+}
+
+.purchases-points .p4 {
+  top: -7px;
+}
+
+.purchases-points .p5 {
+  top: -2px;
+}
+
+.purchases-points .p6 {
+  top: 10px;
+}
+
+.purchases-points .p7 {
+  top: 1px;
+}
+
+.value {
+  font-size: 11px;
+  color: #fff;
+  position: absolute;
+  padding: 8px 6px;
+  border-radius: 4px;
+  left: 50%;
+  bottom: 13px;
+  visibility: hidden;
+  transform: translate(-50%, 10px);
+  opacity: 0;
+  transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+}
+
+.value:after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 9px;
+  transform: rotate(45deg);
+  left: 40%;
+  bottom: -4px;
+}
+
+.views-points .value,
+.views-points .value:after {
+  background-color: #fa7373;
+}
+
+.purchases-points .value,
+.purchases-points .value:after {
+  background-color: #7ba2ff;
+}

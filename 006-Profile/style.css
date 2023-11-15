@@ -1,0 +1,180 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,600,500,400,300);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: linear-gradient(45deg, #ebbb6b, #cb7d4f);
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile {
+  width: 320px;
+  height: 300px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  border-radius: 4px;
+  display: flex;
+  color: #786450;
+}
+
+.profile-details {
+  width: 200px;
+  height: 300px;
+}
+
+.profile-stats {
+  width: 120px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1px;
+}
+
+.posts,
+.likes,
+.followers {
+  width: 120px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  background-color: #f5e8df;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.posts:hover,
+.likes:hover,
+.followers:hover {
+  background-color: #e1cfc2;
+}
+
+.stat-bold {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.user-img {
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+}
+
+.user-img:hover {
+  cursor: pointer;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 137px;
+  padding-top: 38px;
+}
+
+.title {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 300;
+}
+
+.title-bold {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 18px;
+  width: 200px;
+  height: 107px;
+}
+
+button {
+  width: 120px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 12px;
+  color: inherit;
+  border: none;
+  background-color: transparent;
+  border: 1px solid #786450;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #786450;
+  color: #fff;
+}
+
+.avatar {
+  position: relative;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.spin {
+  position: absolute;
+  box-sizing: border-box;
+  border: 1px solid #786450;
+  border-left-color: transparent;
+  border-radius: 50%;
+}
+
+.circle-one {
+  width: 80px;
+  height: 80px;
+  top: -4px;
+  left: -4px;
+}
+
+.circle-two {
+  width: 86px;
+  height: 86px;
+  top: -7px;
+  left: -7px;
+  transform: rotate(180deg);
+}
+
+.circle-one,
+.circle-two {
+  transition: transform 1.5s ease-in-out;
+}
+
+.avatar:hover .circle-one {
+  transform: rotate(360deg);
+}
+
+.avatar:hover .circle-two {
+  transform: rotate(-180deg);
+}

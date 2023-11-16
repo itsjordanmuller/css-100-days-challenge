@@ -103,7 +103,7 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 
 ## Day 6
 
-### [Challenge #6 - Profile](https://100dayscss.com/days/26/)
+### [Challenge #6 - Profile](https://100dayscss.com/days/6/)
 
 #### [My Submission - #6 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/tree/main/006-Profile)
 
@@ -120,6 +120,33 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/006-Profile/006-Goal-1.png"/><br/>
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/006-Profile/006-Goal-2.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/OMreoV">View Goal CodePen Demo</a>
+</details>
+
+## Day 7
+
+### [Challenge #7 - Profile](https://100dayscss.com/days/7/)
+
+#### [My Submission - #7 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/tree/main/007-Notifications-Search-Menu)
+
+![Challenge 7 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/007-Notifications-Search-Menu/007-Submission-1.png)
+
+![Challenge 7 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/007-Notifications-Search-Menu/007-Submission-2.png)
+
+![Challenge 7 Submission Image 3](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/007-Notifications-Search-Menu/007-Submission-3.png)
+
+![Challenge 7 Submission Image 4](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/007-Notifications-Search-Menu/007-Submission-4.png)
+
+> The three cornerstones of any application? Brought together in the smallest possible space.
+
+#### [My Submission - #7 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/PoVOgpx)
+
+<details>
+  <summary>Click/Open to See Goal Image</summary>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/007-Notifications-Search-Menu/007-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/007-Notifications-Search-Menu/007-Goal-2.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/007-Notifications-Search-Menu/007-Goal-3.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/007-Notifications-Search-Menu/007-Goal-4.png"/><br/>
+  <a href="https://codepen.io/roydigerhund/pen/ZQwJyj">View Goal CodePen Demo</a>
 </details>
 
 ## Sources & Credits

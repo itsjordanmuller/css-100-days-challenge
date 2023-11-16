@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Day 7/100 - 100 Days CSS Challenge - Jordan Muller</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="frame">
+      <div class="center">
+        <nav class="side-menu">
+          <ul>
+            <li class="list-item" tabindex="-1">
+              <span class="fa fa-dashboard"></span>Dashboard
+            </li>
+            <li class="list-item" tabindex="-1">
+              <span class="fa fa-user"></span>Profile
+            </li>
+            <li class="list-item" tabindex="-1">
+              <span class="fa fa-bell"></span>Notifications
+            </li>
+            <li class="list-item" tabindex="-1">
+              <span class="fa fa-comments"></span>Messages
+            </li>
+            <li class="list-item" tabindex="-1">
+              <span class="fa fa-gear"></span>Settings
+            </li>
+          </ul>
+        </nav>
+        <div class="card">
+          <div class="card-head">
+            <button class="menu-btn">
+              <div class="top">
+                <div class="top-line"></div>
+                <div class="top-circle"></div>
+              </div>
+              <div class="btm-line"></div>
+            </button>
+            <h1>Notifications</h1>
+            <button class="fa fa-search search-btn"></button>
+            <input type="text" class="search-input" placeholder="Search ..." />
+          </div>
+          <div class="card-body">
+            <div class="time-line"></div>
+            <div class="notification">
+              <div class="notif-circle"></div>
+              <span class="notif-time">9:24 AM</span>
+              <p><strong>John Walker</strong> posted a photo on your wall.</p>
+            </div>
+            <div class="notification">
+              <div class="notif-circle"></div>
+              <span class="notif-time">8:19 AM</span>
+              <p><strong>Alice Parker</strong> commented your last post.</p>
+            </div>
+            <div class="notification">
+              <div class="notif-circle"></div>
+              <span class="notif-time">Yesterday</span>
+              <p><strong>Luke Wayne</strong> added you as friend.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

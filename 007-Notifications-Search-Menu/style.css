@@ -1,0 +1,259 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,600,500,400,300);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #264057;
+  color: #888;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.side-menu {
+  z-index: -1;
+  position: absolute;
+  margin-top: 15px;
+  top: 0;
+  left: 30px;
+  width: 150px;
+  height: 270px;
+  background-color: #43627d;
+  transition: transform 0.5s ease-in-out;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+.card.slide-right {
+  transform: translateX(150px);
+}
+
+.side-menu.show-menu {
+  transform: translateX(-30px);
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 3px;
+  transition: transform 0.5s ease-in-out;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-head {
+  height: 60px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #5f98cd;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 3px 3px 0 0;
+}
+
+.card-body {
+  position: relative;
+  height: 240px;
+  font-size: 11px;
+}
+
+.card-body p {
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+h1 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.menu-btn {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btm-line,
+.top-circle,
+.top-line {
+  background-color: #b2daff;
+}
+
+.btm-line {
+  width: 29px;
+  height: 3px;
+  border-radius: 20px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.top-line {
+  width: 20px;
+  height: 3px;
+  border-radius: 10px;
+}
+
+.top-circle {
+  width: 7px;
+  height: 7px;
+  border-radius: 7px;
+}
+
+.search-btn {
+  background-color: transparent;
+  border: none;
+  color: #b2daff;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  width: 20px;
+  heigth: 20px;
+}
+
+.menu-btn:hover .btm-line,
+.menu-btn:hover .top-line,
+.menu-btn:hover .top-circle {
+  background-color: #fff;
+}
+
+.search-btn:hover {
+  color: #fff;
+}
+
+.search-input {
+  position: absolute;
+  border-radius: 20px;
+  border: none;
+  font-size: 13px;
+  color: #777;
+  padding: 0 16px;
+  width: 200px;
+  height: 34px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+  transform: translateX(15px);
+}
+
+.search-input.show {
+  transform: translateX(0px);
+  opacity: 1;
+  visibility: visible;
+}
+
+.search-input:active {
+  color: #fff;
+}
+
+.search-input:focus,
+.search-btn:focus,
+.menu-btn:focus {
+  outline: none;
+}
+
+.menu-btn:focus .top-line,
+.menu-btn:focus .top-circle,
+.menu-btn:focus .btm-line {
+  background-color: #264057;
+}
+
+.search-btn:focus {
+  color: #264057;
+}
+
+.time-line {
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background-color: #ebebeb;
+  left: 27px;
+  top: -25px;
+}
+
+.notification {
+  margin: 25px 18px 25px 43px;
+  cursor: pointer;
+}
+
+.notification:hover {
+  color: #5f98cd;
+}
+
+.notif-circle {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+  left: 23px;
+}
+
+.notif-circle::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+  border: 2px solid #5f98cd;
+  background-color: #fff;
+  left: 0px;
+  transform: translateY(4px);
+}
+
+.side-menu {
+  margin-top: 15px;
+}
+
+span.fa {
+  padding-right: 10px;
+  height: 14px;
+  width: 18px;
+  height: 14px;
+}
+
+.side-menu ul li {
+  display: block;
+  color: #93b2cd;
+  font-size: 14px;
+  padding: 17px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.side-menu ul li:hover {
+  color: #fff;
+  background-color: #385269;
+}
+
+.side-menu ul {
+  padding: 10px 0;
+  margin: 0;
+}

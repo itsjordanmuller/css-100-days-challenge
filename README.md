@@ -149,6 +149,24 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
   <a href="https://codepen.io/roydigerhund/pen/ZQwJyj">View Goal CodePen Demo</a>
 </details>
 
+## Day 8
+
+### [Challenge #8 - 100 Days CSS Logo](https://100dayscss.com/days/8/)
+
+#### [My Submission - #8 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/008-Metaballs)
+
+![Challenge 8 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/008-Metaballs/008-Submission.png)
+
+> At first glance impossible to implement with CSS, but filters make this possible too.
+
+#### [My Submission - #8 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/ExroQNQ)
+
+<details>
+  <summary>Click/Open to See Goal Image</summary>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/008-Metaballs/008-Goal.png"/><br/>
+  <a href="https://codepen.io/roydigerhund/pen/XXOqoG">View Goal CodePen Demo</a>
+</details>
+
 ## Sources & Credits
 
 100 Days CSS Challenges Provided by [Matthias Martin](https://www.stichwort-m.de/) on [100dayscss.com](https://100dayscss.com/)

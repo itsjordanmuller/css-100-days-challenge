@@ -1,0 +1,136 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 4px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #000;
+  filter: contrast(28);
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: blur(8px);
+}
+
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+
+.big-circle {
+  width: 90px;
+  height: 90px;
+}
+
+.med-circle-1 {
+  width: 72px;
+  height: 72px;
+  transform-origin: 24px 32px;
+  animation: orbit 3s ease-in-out infinite;
+}
+
+.med-circle-2 {
+  width: 64px;
+  height: 64px;
+  transform-origin: 36px 50px;
+  animation: orbit 4s ease-in-out infinite;
+}
+
+.med-circle-3 {
+  width: 60px;
+  height: 60px;
+  transform-origin: 40px 50px;
+  animation: orbit 6s ease-in-out infinite;
+}
+
+.sm-circle-1,
+.sm-circle-2,
+.sm-circle-3,
+.sm-circle-4,
+.sm-circle-5,
+.sm-circle-6,
+.sm-circle-7 {
+  animation: orbit ease-in-out infinite;
+}
+
+.sm-circle-1,
+.sm-circle-2 {
+  height: 26px;
+  width: 26px;
+}
+
+.sm-circle-4,
+.sm-circle-6 {
+  height: 24px;
+  width: 24px;
+}
+
+.sm-circle-3,
+.sm-circle-5,
+.sm-circle-7 {
+  height: 22px;
+  width: 22px;
+}
+
+.sm-circle-1 {
+  transform-origin: 45px 75px;
+  animation-duration: 5s;
+  animation-delay: 0.5s;
+}
+
+.sm-circle-2 {
+  transform-origin: -25px -50px;
+  animation-duration: 5.5s;
+  animation-delay: 1s;
+}
+
+.sm-circle-3 {
+  transform-origin: 80px 25px;
+  animation-duration: 6s;
+  animation-delay: 1.5s;
+}
+
+.sm-circle-4 {
+  transform-origin: 50px -25px;
+  animation-duration: 6.5s;
+  animation-delay: 2s;
+}
+
+.sm-circle-5 {
+  transform-origin: -25px 80px;
+  animation-duration: 7s;
+  animation-delay: 2.5s;
+}
+
+.sm-circle-6 {
+  transform-origin: -50px 0px;
+  animation-duration: 6.5s;
+  animation-delay: 3s;
+}
+
+.sm-circle-7 {
+  transform-origin: -50px 80px;
+  animation-duration: 5.5s;
+}
+
+@keyframes orbit {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

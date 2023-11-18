@@ -151,7 +151,7 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 
 ## Day 8
 
-### [Challenge #8 - 100 Days CSS Logo](https://100dayscss.com/days/8/)
+### [Challenge #8 - Metaballs](https://100dayscss.com/days/8/)
 
 #### [My Submission - #8 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/008-Metaballs)
 
@@ -165,6 +165,24 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
   <summary>Click/Open to See Goal Image</summary>
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/008-Metaballs/008-Goal.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/XXOqoG">View Goal CodePen Demo</a>
+</details>
+
+## Day 9
+
+### [Challenge #9 - Rainy Night](https://100dayscss.com/days/9/)
+
+#### [My Submission - #9 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/009-Rainy-Night)
+
+![Challenge 9 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/009-Rainy-Night/009-Submission.png)
+
+> The perfect time of day and the perfect weather to program in peace. The raindrops even shatter on the ground.
+
+#### [My Submission - #9 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/eYxVppK)
+
+<details>
+  <summary>Click/Open to See Goal Image</summary>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/009-Rainy-Night/009-Goal.png"/><br/>
+  <a href="https://codepen.io/roydigerhund/pen/MKxgWz">View Goal CodePen Demo</a>
 </details>
 
 ## Sources & Credits

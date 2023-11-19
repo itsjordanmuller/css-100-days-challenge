@@ -185,6 +185,24 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
   <a href="https://codepen.io/roydigerhund/pen/MKxgWz">View Goal CodePen Demo</a>
 </details>
 
+## Day 10
+
+### [Challenge #10 - Watch](https://100dayscss.com/days/10/)
+
+#### [My Submission - #10 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/010-Watch)
+
+![Challenge 10 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/010-Watch/010-Submission.png)
+
+> Classic, noble, modern or playful? What do you want your favorite watch to look like?
+
+#### [My Submission - #10 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/BaMYwoe)
+
+<details>
+  <summary>Click/Open to See Goal Image</summary>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/010-Watch/010-Goal.png"/><br/>
+  <a href="https://codepen.io/roydigerhund/pen/PZLjav">View Goal CodePen Demo</a>
+</details>
+
 ## Sources & Credits
 
 100 Days CSS Challenges Provided by [Matthias Martin](https://www.stichwort-m.de/) on [100dayscss.com](https://100dayscss.com/)

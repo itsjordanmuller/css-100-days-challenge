@@ -206,6 +206,27 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
   <a href="https://codepen.io/roydigerhund/pen/PZLjav">View Goal CodePen Demo</a>
 </details>
 
+## Day 11
+
+### [Challenge #11 - Watch](https://100dayscss.com/days/11/)
+
+#### [My Submission - #11 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/011-Walking-Boots)
+
+![Challenge 11 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/011-Walking-Boots/011-Submission-1.png)
+
+![Challenge 11 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/011-Walking-Boots/011-Submission-2.png)
+
+> These boots are made for walking. Where are they going and for how long?
+
+#### [My Submission - #11 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/wvNmvqg)
+
+<details>
+  <summary>Click/Open to See Goal Image</summary>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/011-Walking-Boots/011-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/011-Walking-Boots/011-Goal-2.png"/><br/>
+  <a href="https://codepen.io/roydigerhund/pen/VeNvby">View Goal CodePen Demo</a>
+</details>
+
 ## Sources & Credits
 
 100 Days CSS Challenges Provided by [Matthias Martin](https://www.stichwort-m.de/) on [100dayscss.com](https://100dayscss.com/)

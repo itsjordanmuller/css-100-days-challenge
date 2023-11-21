@@ -1,0 +1,143 @@
+:root {
+  --bg-color: #4cb6de;
+  --text-color: #fff;
+  --mark-color: #6ac2e3;
+  --highlight-color: #286f8a;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,400,300);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.quote {
+  position: relative;
+  z-index: 3;
+  width: 340px;
+  height: 258px;
+  font-size: 24px;
+  line-height: 35px;
+  margin: 90px 0 0 0;
+  padding: 0 30px 0 30px;
+}
+
+.highlight {
+  background-color: var(--highlight-color);
+}
+
+.author {
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 28px;
+  font-style: italic;
+}
+
+.quotation-mark {
+  z-index: 1;
+}
+
+.quotation-mark::after {
+  color: var(--mark-color);
+  position: absolute;
+  top: -10px;
+  left: 7px;
+  content: "„";
+  font-family: Arial;
+  font-size: 250px;
+  line-height: 35px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  background: var(--highlight-color);
+  padding: 0px 8px 5px 8px;
+  margin: -10px 0;
+  cursor: pointer;
+
+  &:hover .info,
+  &:focus .info {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+
+  .info {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 53px;
+    left: -85px;
+    display: block;
+    background: var(--highlight-color);
+    width: 300px;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: text;
+    visibility: hidden;
+    opacity: 0;
+    transform: translate(0, -20px);
+    transition: all 0.5s ease-out;
+
+    &:before {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 14px;
+      bottom: -14px;
+      left: 0;
+    }
+
+    &:after {
+      position: absolute;
+      content: "";
+      width: 10px;
+      height: 10px;
+      transform: rotate(45deg);
+      bottom: -5px;
+      left: 50%;
+      margin-left: -5px;
+      background: var(--highlight-color);
+    }
+
+    .pronounce {
+      display: block;
+      background: var(--text-color);
+      color: var(--highlight-color);
+      padding: 8px 17px 10px 17px;
+      line-height: 16px;
+
+      .fa {
+        position: relative;
+        margin-left: 14px;
+        top: 2px;
+        cursor: pointer;
+        transition: all 0.2s ease-out;
+
+        &:hover {
+          transform: scale(1.2) translate(0, 0);
+          backface-visibility: none;
+        }
+      }
+    }
+
+    .text {
+      display: block;
+      padding: 13px 17px;
+    }
+  }
+}

@@ -208,7 +208,7 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 
 ## Day 11
 
-### [Challenge #11 - Watch](https://100dayscss.com/days/11/)
+### [Challenge #11 - Walking Boots](https://100dayscss.com/days/11/)
 
 #### [My Submission - #11 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/011-Walking-Boots)
 
@@ -225,6 +225,27 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/011-Walking-Boots/011-Goal-1.png"/><br/>
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/011-Walking-Boots/011-Goal-2.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/VeNvby">View Goal CodePen Demo</a>
+</details>
+
+## Day 12
+
+### [Challenge #12 - Tooltip](https://100dayscss.com/days/12/)
+
+#### [My Submission - #12 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/012-Tooltip)
+
+![Challenge 12 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/012-Tooltip/012-Submission-1.png)
+
+![Challenge 12 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/012-Tooltip/012-Submission-2.png)
+
+> I'm quite sure, you already know what obsession means. But you can look it up anyways.
+
+#### [My Submission - #12 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/NWoYpQJ)
+
+<details>
+  <summary>Click/Open to See Goal Image</summary>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/012-Tooltip/012-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/012-Tooltip/012-Goal-2.png"/><br/>
+  <a href="https://codepen.io/roydigerhund/pen/gPyzEa">View Goal CodePen Demo</a>
 </details>
 
 ## Sources & Credits

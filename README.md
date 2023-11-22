@@ -38,7 +38,7 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 #### [My Submission - #2 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/QWYgNNx)
 
 <details>
-  <summary>Click/Open to See Goal Image</summary>
+  <summary>Click/Open to See Goal Images</summary>
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/002-Menu-Icon/002-Goal-1.png"/><br/>
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/002-Menu-Icon/002-Goal-2.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/ZQmbNm">View Goal CodePen Demo</a>
@@ -95,7 +95,7 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 #### [My Submission - #5 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/GRzMWJP)
 
 <details>
-  <summary>Click/Open to See Goal Image</summary>
+  <summary>Click/Open to See Goal Images</summary>
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/005-Statistic/005-Goal-1.png"/><br/>
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/005-Statistic/005-Goal-2.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/GoPvNN">View Goal CodePen Demo</a>
@@ -116,7 +116,7 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 #### [My Submission - #6 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/jOdabOK)
 
 <details>
-  <summary>Click/Open to See Goal Image</summary>
+  <summary>Click/Open to See Goal Images</summary>
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/006-Profile/006-Goal-1.png"/><br/>
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/006-Profile/006-Goal-2.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/OMreoV">View Goal CodePen Demo</a>
@@ -141,7 +141,7 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 #### [My Submission - #7 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/PoVOgpx)
 
 <details>
-  <summary>Click/Open to See Goal Image</summary>
+  <summary>Click/Open to See Goal Images</summary>
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/007-Notifications-Search-Menu/007-Goal-1.png"/><br/>
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/007-Notifications-Search-Menu/007-Goal-2.png"/><br/>
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/007-Notifications-Search-Menu/007-Goal-3.png"/><br/>
@@ -200,7 +200,7 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 #### [My Submission - #10 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/BaMYwoe)
 
 <details>
-  <summary>Click/Open to See Goal Image</summary>
+  <summary>Click/Open to See Goal Images</summary>
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/010-Watch/010-Goal-1.png"/><br/>
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/010-Watch/010-Goal-2.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/PZLjav">View Goal CodePen Demo</a>
@@ -221,7 +221,7 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 #### [My Submission - #11 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/wvNmvqg)
 
 <details>
-  <summary>Click/Open to See Goal Image</summary>
+  <summary>Click/Open to See Goal Images</summary>
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/011-Walking-Boots/011-Goal-1.png"/><br/>
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/011-Walking-Boots/011-Goal-2.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/VeNvby">View Goal CodePen Demo</a>
@@ -242,10 +242,37 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 #### [My Submission - #12 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/NWoYpQJ)
 
 <details>
-  <summary>Click/Open to See Goal Image</summary>
+  <summary>Click/Open to See Goal Images</summary>
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/012-Tooltip/012-Goal-1.png"/><br/>
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/012-Tooltip/012-Goal-2.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/gPyzEa">View Goal CodePen Demo</a>
+</details>
+
+## Day 13
+
+### [Challenge #13 - User Gallery](https://100dayscss.com/days/13/)
+
+#### [My Submission - #13 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/013-User-Gallery)
+
+![Challenge 13 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/013-User-Gallery/013-Submission-1.png)
+
+![Challenge 13 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/013-User-Gallery/013-Submission-2.png)
+
+![Challenge 13 Submission Image 3](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/013-User-Gallery/013-Submission-4.png)
+
+![Challenge 13 Submission Image 4](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/013-User-Gallery/013-Submission-4.png)
+
+> An idea for a transition between user overview and profile page.
+
+#### [My Submission - #13 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/abXGbBK)
+
+<details>
+  <summary>Click/Open to See Goal Images</summary>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/013-User-Gallery/013-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/013-User-Gallery/013-Goal-2.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/013-User-Gallery/013-Goal-3.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/013-User-Gallery/013-Goal-4.png"/><br/>
+  <a href="https://codepen.io/roydigerhund/pen/zrQorm">View Goal CodePen Demo</a>
 </details>
 
 ## Sources & Credits

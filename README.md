@@ -258,7 +258,7 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 
 ![Challenge 13 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/013-User-Gallery/013-Submission-2.png)
 
-![Challenge 13 Submission Image 3](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/013-User-Gallery/013-Submission-4.png)
+![Challenge 13 Submission Image 3](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/013-User-Gallery/013-Submission-3.png)
 
 ![Challenge 13 Submission Image 4](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/013-User-Gallery/013-Submission-4.png)
 

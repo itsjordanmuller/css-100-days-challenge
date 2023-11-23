@@ -296,6 +296,36 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
   <a href="https://codepen.io/roydigerhund/pen/BjegrP">View Goal CodePen Demo</a>
 </details>
 
+## Day 15
+
+### [Challenge #15 - Upload](https://100dayscss.com/days/15/)
+
+#### [My Submission - #15 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/015-Upload)
+
+![Challenge 15 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/015-Upload/015-Submission-1.png)
+
+![Challenge 15 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/015-Upload/015-Submission-2.png)
+
+![Challenge 15 Submission Image 3](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/015-Upload/015-Submission-3.png)
+
+![Challenge 15 Submission Image 4](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/015-Upload/015-Submission-4.png)
+
+![Challenge 15 Submission Image 5](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/015-Upload/015-Submission-5.png)
+
+> Yes, you can actually drag and drop a file in there. But don't worry, the upload process is faked.
+
+#### [My Submission - #15 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/VwgxxJp)
+
+<details>
+  <summary>Click/Open to See Goal Images</summary>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/015-Upload/015-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/015-Upload/015-Goal-2.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/015-Upload/015-Goal-3.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/015-Upload/015-Goal-4.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/015-Upload/015-Goal-5.png"/><br/>
+  <a href="https://codepen.io/roydigerhund/pen/ZQdbeN">View Goal CodePen Demo</a>
+</details>
+
 ## Sources & Credits
 
 100 Days CSS Challenges Provided by [Matthias Martin](https://www.stichwort-m.de/) on [100dayscss.com](https://100dayscss.com/)

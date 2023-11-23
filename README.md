@@ -326,6 +326,42 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
   <a href="https://codepen.io/roydigerhund/pen/ZQdbeN">View Goal CodePen Demo</a>
 </details>
 
+## Day 16
+
+### [Challenge #16 - Blobby](https://100dayscss.com/days/16/)
+
+#### [My Submission - #16 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby)
+
+![Challenge 16 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Submission-1.png)
+
+![Challenge 16 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Submission-2.png)
+
+![Challenge 16 Submission Image 3](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Submission-3.png)
+
+![Challenge 16 Submission Image 4](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Submission-4.png)
+
+![Challenge 16 Submission Image 5](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Submission-5.png)
+
+![Challenge 16 Submission Image 6](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Submission-6.png)
+
+![Challenge 16 Submission Image 7](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Submission-7.png)
+
+> It appears, wobbles, changes its shape and disappears again. Just like that.
+
+#### [My Submission - #16 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/abXGKyB)
+
+<details>
+  <summary>Click/Open to See Goal Images</summary>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Goal-2.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Goal-3.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Goal-4.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Goal-5.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Goal-6.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Goal-7.png"/><br/>
+  <a href="https://codepen.io/roydigerhund/pen/eJwbed">View Goal CodePen Demo</a>
+</details>
+
 ## Sources & Credits
 
 100 Days CSS Challenges Provided by [Matthias Martin](https://www.stichwort-m.de/) on [100dayscss.com](https://100dayscss.com/)

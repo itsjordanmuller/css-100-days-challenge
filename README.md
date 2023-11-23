@@ -275,6 +275,27 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
   <a href="https://codepen.io/roydigerhund/pen/zrQorm">View Goal CodePen Demo</a>
 </details>
 
+## Day 14
+
+### [Challenge #14 - Byciclopter](https://100dayscss.com/days/14/)
+
+#### [My Submission - #14 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/014-Byciclopter)
+
+![Challenge 14 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/014-Byciclopter/014-Submission-1.png)
+
+![Challenge 14 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/014-Byciclopter/014-Submission-2.png)
+
+> Which side of the card do you want to use? Either drive or fly to work in the morning?
+
+#### [My Submission - #14 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/abXGbBK)
+
+<details>
+  <summary>Click/Open to See Goal Images</summary>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/014-Byciclopter/014-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/014-Byciclopter/014-Goal-2.png"/><br/>
+  <a href="https://codepen.io/roydigerhund/pen/BjegrP">View Goal CodePen Demo</a>
+</details>
+
 ## Sources & Credits
 
 100 Days CSS Challenges Provided by [Matthias Martin](https://www.stichwort-m.de/) on [100dayscss.com](https://100dayscss.com/)

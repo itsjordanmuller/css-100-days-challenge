@@ -1,0 +1,166 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #4b4841;
+  color: #333;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 320px;
+  height: 180px;
+  perspective: 600px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: all 1s ease-in-out;
+  transform-style: preserve-3d;
+  box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.4);
+  perspective: 1000px;
+}
+
+.card__face {
+  border-radius: 3px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__face--front {
+  background: #ffce4e;
+
+  img {
+    position: relative;
+    animation: bike 0.6s ease-in-out infinite;
+    transform-origin: 50% 100%;
+  }
+
+  .road {
+    position: absolute;
+    top: 127px;
+    left: 80px;
+    width: 160px;
+    height: 3px;
+    overflow: hidden;
+
+    @for $i from 1 through 9 {
+      .line-#{$i} {
+        position: absolute;
+        right: -25px;
+        top: 0;
+        height: 3px;
+        width: (2 + $i * 2) + px;
+        background: #4b4841;
+        border-radius: 3px;
+        animation: road
+          (0.8 + random(2) / 10) +
+          s
+          linear
+          (random(10) / 10) +
+          s
+          infinite;
+      }
+    }
+  }
+}
+
+.card__face--back {
+  background: #ffce4e;
+  transform: rotateX(180deg);
+
+  img {
+    z-index: 1;
+    position: relative;
+    animation: heli 0.6s ease-in-out infinite;
+    transform-origin: 50% 100%;
+  }
+
+  .air {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    bottom: 0;
+    width: 160px;
+    overflow: hidden;
+
+    @for $i from 1 through 9 {
+      .wisp-#{$i} {
+        position: absolute;
+        right: -25px;
+        top: (20 + $i * 14) + px;
+        height: 3px;
+        width: (10 + random(150) / 10) + px;
+        background: #4b4841;
+        border-radius: 3px;
+        animation: cloud
+          (0.6 + random(2) / 10) +
+          s
+          linear
+          (random(10) / 10) +
+          s
+          infinite;
+      }
+    }
+  }
+}
+
+.card:hover {
+  transform: rotateX(180deg);
+  box-shadow: 10px -10px 15px 0 rgba(0, 0, 0, 0.4);
+}
+
+@keyframes bike {
+  0%,
+  100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.03);
+  }
+}
+
+@keyframes road {
+  from {
+    transform: translate3d(0, 0, 0) scaleX(1);
+  }
+  to {
+    transform: translate3d(-210px, 0, 0) scaleX(0.8);
+  }
+}
+
+@keyframes heli {
+  0%,
+  100% {
+    transform: translate3d(0, -5px, 0);
+  }
+  50% {
+    transform: translate3d(0, 5px, 0);
+  }
+}
+
+@keyframes cloud {
+  from {
+    transform: translate3d(0, 0, 0) scaleX(1);
+  }
+  to {
+    transform: translate3d(-210px, 0, 0) scaleX(0.8);
+  }
+}

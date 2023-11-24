@@ -362,6 +362,27 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
   <a href="https://codepen.io/roydigerhund/pen/eJwbed">View Goal CodePen Demo</a>
 </details>
 
+## Day 17
+
+### [Challenge #17 - Penrose Triangle](https://100dayscss.com/days/17/)
+
+#### [My Submission - #17 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/017-Penrose-Triangle)
+
+![Challenge 17 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/017-Penrose-Triangle/017-Submission-1.png)
+
+![Challenge 17 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/017-Penrose-Triangle/017-Submission-2.png)
+
+> CSS makes even the impossible possible. Can you find out how it was done?
+
+#### [My Submission - #17 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/PoVerEo)
+
+<details>
+  <summary>Click/Open to See Goal Images</summary>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/017-Penrose-Triangle/017-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/017-Penrose-Triangle/017-Goal-2.png"/><br/>
+  <a href="https://codepen.io/roydigerhund/pen/EPBvmm">View Goal CodePen Demo</a>
+</details>
+
 ## Sources & Credits
 
 100 Days CSS Challenges Provided by [Matthias Martin](https://www.stichwort-m.de/) on [100dayscss.com](https://100dayscss.com/)

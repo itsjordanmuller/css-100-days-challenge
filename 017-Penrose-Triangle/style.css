@@ -1,0 +1,132 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-image: linear-gradient(
+    45deg,
+    #ffffff 42.11%,
+    #000000 42.11%,
+    #000000 50%,
+    #ffffff 50%,
+    #ffffff 92.11%,
+    #000000 92.11%,
+    #000000 100%
+  );
+  background-size: 26.87px 26.87px;
+  background-position: 1px;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #353535;
+  width: 260px;
+  height: 260px;
+  border-radius: 3px;
+}
+
+$anim: 15s;
+
+$length: 114px;
+$thickness: 24px;
+$sqrt: 0.86602540378;
+
+.hover {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-79px, -50%);
+  width: 160px;
+  height: 140px;
+}
+
+.hover:hover ~ section .penrose:nth-child(1) > div {
+  background-color: #cccccc;
+}
+
+.hover:hover ~ section .penrose:nth-child(2) > div {
+  background-color: #aaaaaa;
+}
+
+.hover:hover ~ section .penrose:nth-child(3) > div {
+  background-color: #eeeeee;
+}
+
+section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 160px;
+  height: 140px;
+  transform: translate(62px, 39px);
+}
+
+.penrose {
+  position: absolute;
+
+  width: ($length + $thickness);
+  height: ($length + 3 * $thickness) * $sqrt;
+
+  box-sizing: content-box;
+
+  transform-origin: 50% 66.666666%;
+}
+
+.penrose > div {
+  position: absolute;
+  bottom: 0;
+}
+
+.penrose > div:nth-of-type(1),
+.penrose > div:nth-of-type(2),
+.penrose > div:nth-of-type(3) {
+  transition: all 0.5s ease-in-out;
+}
+
+.penrose > div:nth-of-type(1) {
+  width: $length - $thickness;
+  height: $thickness * $sqrt;
+
+  transform-origin: 0% 100%;
+  transform: translateX($thickness) rotate(-60deg) skewX(-30deg);
+}
+
+.penrose > div:nth-of-type(2) {
+  width: $length + $thickness;
+  height: $thickness * $sqrt;
+  background: rgba(0, 255, 0, 0.5);
+
+  transform-origin: 100% 100%;
+  transform: translate(0) skewX(-30deg);
+}
+
+.penrose:nth-child(1) {
+  transform: rotateZ(0deg);
+}
+.penrose:nth-child(1) > div {
+  background-color: #aaaaaa;
+}
+
+.penrose:nth-child(2) {
+  transform: rotateZ(120deg);
+}
+.penrose:nth-child(2) > div {
+  background-color: #eeeeee;
+}
+
+.penrose:nth-child(3) {
+  transform: rotateZ(240deg);
+}
+.penrose:nth-child(3) > div {
+  background-color: #cccccc;
+}

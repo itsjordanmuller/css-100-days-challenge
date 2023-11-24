@@ -1,0 +1,121 @@
+.frame {
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+}
+
+.frame,
+.oval,
+.front,
+.back {
+  height: 400px;
+}
+
+.frame,
+.oval {
+  position: absolute;
+  width: 400px;
+}
+
+.top,
+.bottom {
+  height: 50%;
+  width: 100%;
+}
+
+.top {
+  background-color: #444444;
+}
+
+.bottom {
+  background-color: #37d493;
+}
+
+.oval,
+.front,
+.back {
+  border-radius: 50%;
+}
+
+.oval {
+  top: 0;
+  transform-style: preserve-3d;
+  animation: flip 5s ease-in-out infinite;
+}
+
+.front,
+.back {
+  position: absolute;
+  width: 420px;
+  left: -10px;
+  backface-visibility: hidden;
+}
+
+.front {
+  background-color: #37d493;
+  transform: rotateX(0deg);
+}
+
+.back {
+  background-color: #444444;
+  transform: rotateX(180deg);
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateX(90deg);
+  }
+  15% {
+    transform: rotateX(150deg);
+  }
+  20% {
+    transform: rotateX(50deg);
+  }
+  25% {
+    transform: rotateX(120deg);
+  }
+  30% {
+    transform: rotateX(70deg);
+  }
+  35% {
+    transform: rotateX(100deg);
+  }
+  40% {
+    transform: rotateX(85deg);
+  }
+  45% {
+    transform: rotateX(95deg);
+  }
+  50% {
+    transform: rotateX(90deg);
+  }
+  65% {
+    transform: rotateX(30deg);
+  }
+  70% {
+    transform: rotateX(130deg);
+  }
+  75% {
+    transform: rotateX(60deg);
+  }
+  80% {
+    transform: rotateX(110deg);
+  }
+  85% {
+    transform: rotateX(80deg);
+  }
+  90% {
+    transform: rotateX(95deg);
+  }
+  95% {
+    transform: rotateX(85deg);
+  }
+  100% {
+    transform: rotateX(90deg);
+  }
+}

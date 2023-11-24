@@ -383,6 +383,30 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
   <a href="https://codepen.io/roydigerhund/pen/EPBvmm">View Goal CodePen Demo</a>
 </details>
 
+## Day 18
+
+### [Challenge #18 - Elastic](https://100dayscss.com/days/18/)
+
+#### [My Submission - #18 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/018-Elastic)
+
+![Challenge 18 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/018-Elastic/018-Submission-1.png)
+
+![Challenge 18 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/018-Elastic/018-Submission-2.png)
+
+![Challenge 18 Submission Image 3](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/018-Elastic/018-Submission-3.png)
+
+> I thought for a long time about the best way to achieve this effect. In the end, the solution was easier than expected.
+
+#### [My Submission - #18 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/rNPvXOZ)
+
+<details>
+  <summary>Click/Open to See Goal Images</summary>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/018-Elastic/018-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/018-Elastic/018-Goal-2.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/018-Elastic/018-Goal-3.png"/><br/>
+  <a href="https://codepen.io/roydigerhund/pen/yemzzX">View Goal CodePen Demo</a>
+</details>
+
 ## Sources & Credits
 
 100 Days CSS Challenges Provided by [Matthias Martin](https://www.stichwort-m.de/) on [100dayscss.com](https://100dayscss.com/)

@@ -407,6 +407,30 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
   <a href="https://codepen.io/roydigerhund/pen/yemzzX">View Goal CodePen Demo</a>
 </details>
 
+## Day 19
+
+### [Challenge #19 - Slider with Radio Buttons](https://100dayscss.com/days/19/)
+
+#### [My Submission - #19 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/019-Radio-Buttons-Slider)
+
+![Challenge 19 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/019-Radio-Buttons-Slider/019-Submission-1.png)
+
+![Challenge 19 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/019-Radio-Buttons-Slider/019-Submission-2.png)
+
+![Challenge 19 Submission Image 3](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/019-Radio-Buttons-Slider/019-Submission-3.png)
+
+> Why use CSS when you can use JavaScript? Selectors can be wildly combined with each other.
+
+#### [My Submission - #19 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/ExrLqbz)
+
+<details>
+  <summary>Click/Open to See Goal Images</summary>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/019-Radio-Buttons-Slider/019-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/019-Radio-Buttons-Slider/019-Goal-2.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/019-Radio-Buttons-Slider/019-Goal-3.png"/><br/>
+  <a href="https://codepen.io/roydigerhund/pen/xVKweb">View Goal CodePen Demo</a>
+</details>
+
 ## Sources & Credits
 
 100 Days CSS Challenges Provided by [Matthias Martin](https://www.stichwort-m.de/) on [100dayscss.com](https://100dayscss.com/)

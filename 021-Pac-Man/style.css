@@ -1,0 +1,113 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #2c2e2e;
+  color: #333;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+}
+
+.pacman {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.top {
+  width: 100px;
+  height: 50px;
+  background-color: #f4d146;
+  border-radius: 125px 125px 0 0;
+  transform-origin: 50px 50px;
+  animation: chomp-top 0.7s ease-in-out infinite;
+}
+
+.eye {
+  z-index: 2;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #2c2e2e;
+  top: 18px;
+  left: 54px;
+  animation: bounce 0.7s ease-in-out infinite;
+}
+
+.bottom {
+  width: 100px;
+  height: 50px;
+  background-color: #f4d146;
+  border-radius: 0 0 125px 125px;
+  transform: rotate(45deg);
+  transform-origin: 50px 0px;
+  animation: chomp-bottom 0.7s ease-in-out infinite;
+}
+
+.dots {
+  position: absolute;
+  height: 14px;
+  top: 45px;
+  left: 50%;
+  stroke: #f4d146;
+  stroke-width: 14px;
+  stroke-dasharray: 0px 50px;
+  stroke-dash-offset: 14;
+  stroke-linecap: round;
+  animation: move-dots 0.7s linear infinite;
+}
+
+@keyframes chomp-top {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes chomp-bottom {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(-6px, -3px, 0);
+  }
+}
+
+@keyframes move-dots {
+  0% {
+    stroke-dashoffset: 14;
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    stroke-dashoffset: 64;
+  }
+}

@@ -447,7 +447,7 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 
 ## Sources & Credits
 
-100 Days CSS Challenges Provided by [Matthias Martin](https://www.stichwort-m.de/) on [100dayscss.com](https://100dayscss.com/)
+[100 Days CSS Challenge](https://100dayscss.com/) provided by [Matthias Martin](https://www.stichwort-m.de/) on [100dayscss.com](https://100dayscss.com/)
 
 ## Contact Information
 
@@ -458,3 +458,11 @@ Be sure to view the setup guide in the README, as well as any specific README fi
 [![Email Address](https://custom-icon-badges.demolab.com/badge/e--mail%20me-itsjordanmuller@gmail.com-red?style=for-the-badge&logo=mention&logoColor=white)](mailto:itsjordanmuller@gmail.com)<br/>
 [![LinkedIn](https://img.shields.io/badge/connect%20on%20linkedin-@itsjordanmuller-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/itsjordanmuller)<br/>
 [![My Website](https://custom-icon-badges.demolab.com/badge/My%20Website-www.jordanmuller.com-210157?style=for-the-badge&logoColor=white&logo=globe)](https://www.linkedin.com/in/itsjordanmuller)
+
+## License Information
+
+The content within this repository was created as part of a personal educational project, following the [100 Days CSS Challenge](https://100dayscss.com/) provided by [Matthias Martin](https://www.stichwort-m.de/) on [100dayscss.com](https://100dayscss.com/). This repository is intended for personal use only and serves as a record of my learning progress. This repository & the content within it are not intended for commercial use, distribution, or replication. All rights to the original course content and methodologies belong to the respective copyright holders.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+Copyright © 2023 Jordan Muller. All Rights Reserved.

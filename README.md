@@ -12,6 +12,11 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 
 </div>
 
+## Section Overviews
+
+<details open>
+<summary>(Hide/Show) - Section Overviews 📑</summary>
+
 ## Day 1
 
 ### [Challenge #1 - 100 Days CSS Logo](https://100dayscss.com/days/1/)
@@ -436,6 +441,8 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/019-Radio-Buttons-Slider/019-Goal-2.png"/><br/>
   <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/019-Radio-Buttons-Slider/019-Goal-3.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/xVKweb">View Goal CodePen Demo</a>
+</details>
+
 </details>
 
 ## Sources & Credits

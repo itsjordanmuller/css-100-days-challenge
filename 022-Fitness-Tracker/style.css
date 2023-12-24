@@ -1,0 +1,173 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,600,400,300);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: linear-gradient(#273f4d, #1c2e38);
+  color: #fff;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 293px;
+  width: 400px;
+}
+
+.header {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.circle-big {
+  position: relative;
+  width: 114px;
+  height: 114px;
+  margin: 30px auto 25px auto;
+
+  svg {
+    width: 114px;
+    height: 114px;
+  }
+
+  .bg {
+    fill: none;
+    stroke-width: 10px;
+    stroke: #1b2a33;
+  }
+
+  .dial {
+    fill: none;
+    stroke-width: 10px;
+    stroke: #27e1ae;
+    stroke-linecap: round;
+    stroke-dasharray: (52 * 2 * 3.14);
+    stroke-dashoffset: 60;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    animation: big-dial 1.5s ease-out;
+  }
+
+  .value {
+    position: absolute;
+    width: 100%;
+    top: 37px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 22px;
+
+    .unit {
+      font-size: 14px;
+      color: #648192;
+    }
+  }
+}
+
+.small-circles {
+  margin: 0 auto;
+  width: 400px;
+  height: 80px;
+  text-align: center;
+}
+
+.small-circle {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 0 20px;
+
+  svg {
+    width: 80px;
+    height: 80px;
+  }
+
+  .bg {
+    fill: none;
+    stroke-width: 6px;
+    stroke: #1b2a33;
+  }
+
+  .dial {
+    fill: none;
+    stroke-width: 6px;
+    stroke: #5ce1ec;
+    stroke-linecap: round;
+    stroke-dasharray: (37 * 2 * 3.14);
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+
+    &.one {
+      stroke-dashoffset: 80;
+      animation: small-dial-1 1.5s ease-out;
+    }
+
+    &.two {
+      stroke-dashoffset: 140;
+      animation: small-dial-2 1.5s ease-out;
+    }
+  }
+
+  .value {
+    position: absolute;
+    width: 100%;
+    top: 26px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 16px;
+
+    .unit {
+      font-size: 12px;
+      color: #648192;
+    }
+  }
+}
+
+@keyframes big-dial {
+  from {
+    stroke-dashoffset: (52 * 2 * 3.14);
+  }
+  to {
+    stroke-dashoffset: 60;
+  }
+}
+
+@keyframes small-dial-1 {
+  from {
+    stroke-dashoffset: (37 * 2 * 3.14);
+  }
+  to {
+    stroke-dashoffset: 80;
+  }
+}
+
+@keyframes small-dial-2 {
+  from {
+    stroke-dashoffset: (37 * 2 * 3.14);
+  }
+  to {
+    stroke-dashoffset: 140;
+  }
+}

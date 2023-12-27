@@ -2,7 +2,7 @@
 
 # 100 Days CSS Challenge
 
-<img src="https://custom-icon-badges.demolab.com/badge/100%20Days%20CSS%20Challenge-282A36.svg?style=for-the-badge&logo=CSS3&logoColor=1572B6" width="100%"/>
+<a href="https://jordanmuller.com/portfolio/100-days-css-challenge/"><img src="https://custom-icon-badges.demolab.com/badge/100%20Days%20CSS%20Challenge-282A36.svg?style=for-the-badge&logo=CSS3&logoColor=1572B6" width="100%"/></a>
 
 CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100dayscss.com](https://100dayscss.com/) using CSS, HTML & JavaScript
 

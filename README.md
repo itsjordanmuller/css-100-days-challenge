@@ -6,9 +6,10 @@
 
 CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100dayscss.com](https://100dayscss.com/) using CSS, HTML & JavaScript
 
-![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)](https://jordanmuller.com/portfolio/tags/css/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)](https://jordanmuller.com/portfolio/tags/html/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)](https://jordanmuller.com/portfolio/tags/javascript/)
 
 <details>
 <summary>(Show/Hide) - Overview of Tools & Tech 💻</summary>

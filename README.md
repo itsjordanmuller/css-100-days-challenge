@@ -28,8 +28,10 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 [![Font Awesome](https://img.shields.io/badge/Font%20Awesome-528DD7.svg?style=for-the-badge&logo=Font-Awesome&logoColor=white)](https://jordanmuller.com/portfolio/tags/font-awesome/)
 [![Markdown](https://img.shields.io/badge/Markdown-000000.svg?style=for-the-badge&logo=Markdown&logoColor=white)](https://jordanmuller.com/portfolio/tags/markdown/)
 
+</details>
+
 <details>
-<summary>(Show/Hide) - Overview of Tools & Tech 💻</summary>
+<summary>Glossary - Overview of Tools & Tech 💻</summary>
 
 <div align="left">
 
@@ -64,7 +66,7 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 ## Section Overviews
 
 <details open>
-<summary>Glossary - Section Overviews 📑</summary>
+<summary>(Hide/Show) - Section Overviews 📑</summary>
 
 ## Day 1
 

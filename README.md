@@ -9,6 +9,8 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 [![CSS](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)](https://jordanmuller.com/portfolio/tags/css/)
 [![HTML](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)](https://jordanmuller.com/portfolio/tags/html/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)](https://jordanmuller.com/portfolio/tags/javascript/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://jordanmuller.com/portfolio/tags/github/)
+[![Git](https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=Git&logoColor=white)](https://jordanmuller.com/portfolio/tags/git/)
 [![CodePen](https://img.shields.io/badge/CodePen-000000.svg?style=for-the-badge&logo=CodePen&logoColor=white)](https://jordanmuller.com/portfolio/tags/codepen/)
 
 <details>
@@ -17,8 +19,6 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 [![Bash](https://img.shields.io/badge/Bash-4EAA25.svg?style=for-the-badge&logo=GNU-Bash&logoColor=white)](https://jordanmuller.com/portfolio/tags/bash/)
 [![ESLint](https://img.shields.io/badge/ESLint-4B32C3.svg?style=for-the-badge&logo=ESLint&logoColor=white)](https://jordanmuller.com/portfolio/tags/es-lint/)
 [![Prettier](https://img.shields.io/badge/Prettier-F7B93E.svg?style=for-the-badge&logo=Prettier&logoColor=black)](https://jordanmuller.com/portfolio/tags/prettier/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://jordanmuller.com/portfolio/tags/github/)
-[![Git](https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=Git&logoColor=white)](https://jordanmuller.com/portfolio/tags/git/)
 [![VS Code](https://img.shields.io/badge/VS%20Code-007ACC.svg?style=for-the-badge&logo=Visual-Studio-Code&logoColor=white)](https://jordanmuller.com/portfolio/tags/vs-code/)
 [![Kubuntu](https://img.shields.io/badge/Kubuntu-0079C1.svg?style=for-the-badge&logo=Kubuntu&logoColor=white)](https://jordanmuller.com/portfolio/tags/kubuntu/)
 [![KDE](https://img.shields.io/badge/KDE-1D99F3.svg?style=for-the-badge&logo=KDE&logoColor=white)](https://jordanmuller.com/portfolio/tags/kde/)

@@ -104,34 +104,34 @@
 <a id="about-section"></a>
 <details open>
 <summary><h2>📖 About The Project</h2></summary>
-</details>
-
 <div align="right"><a href="#top">(back to top)</a></div>
 <hr>
+
+</details>
 
 <a id="gallery-section"></a>
 <details open>
 <summary><h2>🖼️ Image Gallery</h2></summary>
-</details>
-
 <div align="right"><a href="#top">(back to top)</a></div>
 <hr>
+
+</details>
 
 <a id="setup-section"></a>
 <details>
 <summary><h2>🛠️ Setup Instructions</h2></summary>
-</details>
-
 <div align="right"><a href="#top">(back to top)</a></div>
 <hr>
+
+</details>
 
 <a id="usage-section"></a>
 <details>
 <summary><h2>💡 Usage, Tips & Notes</h2></summary>
-</details>
-
 <div align="right"><a href="#top">(back to top)</a></div>
 <hr>
+
+</details>
 
 <a id="overview-section"></a>
 <details open>
@@ -563,10 +563,10 @@
   <a href="https://codepen.io/roydigerhund/pen/xVKweb">View Goal CodePen Demo</a>
 </details>
 
-</details>
-
 <div align="right"><a href="#top">(back to top)</a></div>
 <hr>
+
+</details>
 
 <a id="acknowledgements-section"></a>
 <details>
@@ -585,10 +585,10 @@
 
 </div>
 
-</details>
-
 <div align="right"><a href="#top">(back to top)</a></div>
 <hr>
+
+</details>
 
 <a id="contact-section"></a>
 <details open>
@@ -614,10 +614,10 @@ I am always looking for feedback from other people! I'd be more than happy to an
 
 Be sure to view the <a href="#setup-section"><strong><em>Setup Instructions</em></strong></a> in the README, as well as any specific README files for that specific project as they contain more details and may already have the answer to your question(s)!
 
-</details>
-
 <div align="right"><a href="#top">(back to top)</a></div>
 <hr>
+
+</details>
 
 <a id="license-section"></a>
 <details open>
@@ -629,10 +629,10 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 Copyright © 2024 Jordan Muller. All Rights Reserved.
 
-</details>
-
 <div align="right"><a href="#top">(back to top)</a></div>
 <hr>
+
+</details>
 
 <a id="resources-section"></a>
 <details open>

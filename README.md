@@ -1,10 +1,11 @@
+<a id="top"></a>
 <div align="center">
 
-# 100 Days CSS Challenge
+<h1>100 Days CSS Challenge</h1>
 
 <a href="https://jordanmuller.com/portfolio/100-days-css-challenge/"><img src="https://custom-icon-badges.demolab.com/badge/100%20Days%20CSS%20Challenge-282A36.svg?style=for-the-badge&logo=CSS3&logoColor=1572B6" width="100%"/></a>
 
-CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100dayscss.com](https://100dayscss.com/) using CSS, HTML & JavaScript
+<p>CSS Self-Paced Practice Exercises based on CSS Challenges from the website: <a href="https://100dayscss.com/">100dayscss.com</a> using CSS, HTML & JavaScript</p>
 
 [![CSS](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)](https://jordanmuller.com/portfolio/tags/css/)
 [![HTML](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)](https://jordanmuller.com/portfolio/tags/html/)
@@ -35,7 +36,7 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 
 <div align="left">
 
-## Overview of Technologies
+<h2>Overview of Technologies</h2>
 
 | **Technology** | **Overview** | **Release Year** |
 |:---:|:---:|:---:|
@@ -61,12 +62,80 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 
 </details>
 
+<hr>
+
+<!-- <h2>Links - Days & Projects</h2>
+
+ ADD BADGES FOR 001-100 CSS PROJECTS -->
+
 </div>
 
-## Section Overviews
+<details open><summary><h2>Table of Contents 🗃️</h2></summary><blockquote>
+
+📖 <a href="#about-section"><strong>About The Project</strong></h3></a>
+
+🖼️ <a href="#gallery-section"><strong>Image Gallery</strong></a>
+
+🛠️ <a href="#setup-section"><strong>Setup Instructions</strong></a>
+
+💡 <a href="#usage-section"><strong>Usage, Tips & Notes</strong></a>
+
+🔍 <a href="#overview-section"><strong>Days & Projects</strong></a>
 
 <details open>
-<summary>(Hide/Show) - Section Overviews 📑</summary>
+<summary>🌟 <a href="#acknowledgements-section"><strong>Acknowledgements</strong></a></summary>
+<blockquote>
+
+- 💌 <a href="#special-thanks">Special Thanks</a>
+
+</blockquote>
+</details>
+
+📬 <a href="#contact-section"><strong>Contact Information</strong></a>
+
+📜 <a href="#license-section"><strong>License Information</strong></a>
+
+🔗 <a href="#resources-section"><strong>Resources & Citations</strong></a>
+
+</blockquote></details>
+
+<hr>
+
+<a id="about-section"></a>
+<details open>
+<summary><h2>📖 About The Project</h2></summary>
+</details>
+
+<div align="right"><a href="#top">(back to top)</a></div>
+<hr>
+
+<a id="gallery-section"></a>
+<details open>
+<summary><h2>🖼️ Image Gallery</h2></summary>
+</details>
+
+<div align="right"><a href="#top">(back to top)</a></div>
+<hr>
+
+<a id="setup-section"></a>
+<details>
+<summary><h2>🛠️ Setup Instructions</h2></summary>
+</details>
+
+<div align="right"><a href="#top">(back to top)</a></div>
+<hr>
+
+<a id="usage-section"></a>
+<details>
+<summary><h2>💡 Usage, Tips & Notes</h2></summary>
+</details>
+
+<div align="right"><a href="#top">(back to top)</a></div>
+<hr>
+
+<a id="overview-section"></a>
+<details open>
+<summary><h2>🔍 Days & Projects</h2></summary>
 
 ## Day 1
 
@@ -496,24 +565,81 @@ CSS Self-Paced Practice Exercises based on CSS Challenges from the website: [100
 
 </details>
 
-## Sources & Credits
+<div align="right"><a href="#top">(back to top)</a></div>
+<hr>
 
-[100 Days CSS Challenge](https://100dayscss.com/) provided by [Matthias Martin](https://www.stichwort-m.de/) on [100dayscss.com](https://100dayscss.com/)
+<a id="acknowledgements-section"></a>
+<details>
+<summary><h2>🌟 Acknowledgements</h2></summary>
 
-## Contact Information
+<a id="special-thanks"></a>
 
-Please feel free to reach out if you have any suggestions or run into any issues with viewing this project. I'm always looking for feedback from other people! I'd be more than happy to answer any questions you may have as well as assist with getting the project working on your machine.<br/>
+<div align="left">
 
-Be sure to view the setup guide in the README, as well as any specific README files for that specific project as they contain more details and may already have the answer to your question(s)!
+<h3>💌 Special Thanks</h3>
 
-[![Email Address](https://custom-icon-badges.demolab.com/badge/e--mail%20me-itsjordanmuller@gmail.com-red?style=for-the-badge&logo=mention&logoColor=white)](mailto:itsjordanmuller@gmail.com)<br/>
-[![LinkedIn](https://img.shields.io/badge/connect%20on%20linkedin-@itsjordanmuller-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/itsjordanmuller)<br/>
-[![My Website](https://custom-icon-badges.demolab.com/badge/My%20Website-www.jordanmuller.com-210157?style=for-the-badge&logoColor=white&logo=globe)](https://www.linkedin.com/in/itsjordanmuller)
+<!-- <blockquote>
 
-## License Information
+<p>Sincerely,<br><strong><em>Jordan Muller</em></strong></p>
+</blockquote> -->
+
+</div>
+
+</details>
+
+<div align="right"><a href="#top">(back to top)</a></div>
+<hr>
+
+<a id="contact-section"></a>
+<details open>
+<summary><h2>📬 Contact Information</h2></summary>
+
+<div align="center">
+
+<blockquote>
+<img src="https://github.com/itsjordanmuller.png" width="160px"/><br>
+<em>If you have questions/feedback, I would love to hear from you. Thanks for stopping by! - <strong>Jordan Muller</strong></em>
+
+</blockquote>
+
+[![LinkedIn](https://img.shields.io/badge/connect%20on%20linkedin-@itsjordanmuller-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/itsjordanmuller)
+[![Email Address](https://custom-icon-badges.demolab.com/badge/e--mail%20me-itsjordanmuller@gmail.com-red?style=for-the-badge&logo=mention&logoColor=white)](mailto:itsjordanmuller@gmail.com)
+[![Portfolio Website](https://custom-icon-badges.demolab.com/badge/Portfolio%20Website-www.jordanmuller.com-a61168?style=for-the-badge&logoColor=white&logo=globe)](https://jordanmuller.com/)
+
+</div>
+
+Please feel free to reach out if you have any suggestions or run into any issues with viewing this project.<br>
+
+I am always looking for feedback from other people! I'd be more than happy to answer any questions you may have as well as assist with getting the project working on your machine.<br>
+
+Be sure to view the <a href="#setup-section"><strong><em>Setup Instructions</em></strong></a> in the README, as well as any specific README files for that specific project as they contain more details and may already have the answer to your question(s)!
+
+</details>
+
+<div align="right"><a href="#top">(back to top)</a></div>
+<hr>
+
+<a id="license-section"></a>
+<details open>
+<summary><h2>📜 License Information</h2></summary>
 
 The content within this repository was created as part of a personal educational project, following the [100 Days CSS Challenge](https://100dayscss.com/) provided by [Matthias Martin](https://www.stichwort-m.de/) on [100dayscss.com](https://100dayscss.com/). This repository is intended for personal use only and serves as a record of my learning progress. This repository & the content within it are not intended for commercial use, distribution, or replication. All rights to the original course content and methodologies belong to the respective copyright holders.
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
-Copyright © 2023 Jordan Muller. All Rights Reserved.
+Copyright © 2024 Jordan Muller. All Rights Reserved.
+
+</details>
+
+<div align="right"><a href="#top">(back to top)</a></div>
+<hr>
+
+<a id="resources-section"></a>
+<details open>
+<summary><h2>🔗 Resources & Citations</h2></summary>
+
+[100 Days CSS Challenge](https://100dayscss.com/) provided by [Matthias Martin](https://www.stichwort-m.de/) on [100dayscss.com](https://100dayscss.com/)
+
+</details>
+
+<div align="right"><a href="#top">(back to top)</a></div>

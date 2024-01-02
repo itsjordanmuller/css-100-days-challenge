@@ -15,7 +15,7 @@
 [![CodePen](https://img.shields.io/badge/CodePen-000000.svg?style=for-the-badge&logo=CodePen&logoColor=white)](https://jordanmuller.com/portfolio/tags/codepen/)
 
 <details>
-<summary>More Technologies 📀</summary>
+<summary>More Technologies 📀</summary><br>
 
 [![Bash](https://img.shields.io/badge/Bash-8edf6a.svg?style=for-the-badge&logo=GNU-Bash&logoColor=black)](https://jordanmuller.com/portfolio/tags/bash/)
 [![ESLint](https://img.shields.io/badge/ESLint-4B32C3.svg?style=for-the-badge&logo=ESLint&logoColor=white)](https://jordanmuller.com/portfolio/tags/es-lint/)

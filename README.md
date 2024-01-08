@@ -102,6 +102,20 @@
 <a id="about-section"></a>
 <details open>
 <summary align="center"><h2>📖 About The Project</h2></summary>
+
+<h3>📂 Project Introduction</h3>
+<blockquote>
+<p>I've been participating in the <strong>100 DAYS CSS CHALLENGE</strong>, a creative and skill-enhancing endeavor initiated by Matthias Martin. This challenge involves crafting HTML and CSS snippets daily for 100 consecutive days. It's a self-paced, practical learning process, utilizing CodePen for code development and sharing. The unique aspect of this challenge is its blend of creativity and technical skill, pushing me to explore and expand my CSS capabilities in various ways.</p>
+</blockquote>
+<h3>⛳ Learning Objectives & Goals</h3>
+<blockquote>
+<p>My primary objective with this challenge is to refine and deepen my HTML and CSS skills. Each day presents a new opportunity to experiment with different styles and layouts, enhancing my understanding of CSS intricacies. The goal is not just to replicate the given examples but to add my own creative twist, thereby fostering a more intuitive grasp of web design principles. Completing this challenge will mark a significant milestone in my journey towards becoming a more skilled and versatile web developer.</p>
+</blockquote>
+<h3>🗓️ Project Timeline</h3>
+<blockquote>
+<p>Engaging in this challenge means dedicating time each day to develop a new CSS snippet. It's a commitment to daily practice and learning, allowing me to steadily build a portfolio of diverse and creative CSS works. While the challenge is structured for 100 days, it offers flexibility. If I miss a day, I can easily catch up. This structure keeps me motivated and ensures a consistent learning curve, with the end goal of not only completing the 100 challenges but also showcasing significant improvement in my CSS skills.</p>
+</blockquote>
+
 <div align="right"><a href="#top">(back to top)</a></div>
 <hr>
 

@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:600");
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin: -200px 0 0 -200px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background: #57d895;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.invisible {
+  display: none;
+}
+
+.toggle-btn {
+  box-sizing: border-box;
+  position: absolute;
+  top: 170px;
+  left: 70px;
+  width: 260px;
+  height: 60px;
+  border: 2px solid white;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 56px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.toggle-btn:hover {
+  background: #37be77;
+}
+
+.toggle-btn img {
+  position: absolute;
+  top: 16px;
+  left: 15px;
+  opacity: 0;
+  transition: opacity 0.5s ease-out 1.5s;
+}
+
+.progress-ring {
+  position: absolute;
+  top: 170px;
+  left: 170px;
+  width: 60px;
+  height: 60px;
+  fill: none;
+  stroke: white;
+  stroke-width: 2px;
+  stroke-linecap: round;
+  stroke-dasharray: 183 183;
+  stroke-dashoffset: 183;
+  transform: rotate(-90deg);
+  pointer-events: none;
+}
+
+#action-toggle:checked ~ .toggle-btn {
+  animation: toggle-btn-animate 0.5s ease both,
+    fill-animate 0.5s ease-out 1.5s forwards;
+}
+
+#action-toggle:checked ~ .progress-ring {
+  animation: ring-animate 2s ease-out 0.5s both;
+}
+
+@keyframes toggle-btn-animate {
+  0% {
+    width: 260px;
+    left: 70px;
+    border-color: white;
+    color: white;
+  }
+  50% {
+    color: transparent;
+  }
+  100% {
+    width: 60px;
+    left: 170px;
+    border-color: #45b078;
+    background: transparent;
+    color: transparent;
+  }
+}
+
+@keyframes ring-animate {
+  0% {
+    stroke-dashoffset: 183;
+  }
+  50% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 183;
+    transform: rotate(-90deg) scale(1);
+    opacity: 1;
+  }
+  90%,
+  100% {
+    stroke-dasharray: 500 500;
+    transform: rotate(-90deg) scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes fill-animate {
+  0% {
+    background: transparent;
+    border-color: white;
+  }
+  100% {
+    background: white;
+  }
+}
+
+#action-toggle:checked ~ .toggle-btn img {
+  opacity: 1;
+  animation: check-animate 0.5s ease-out 1.5s both;
+}

@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+
+:root {
+  --container-width: 400px;
+  --container-height: 400px;
+  --container-bg-color: #c7d6e1;
+  --container-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.15);
+  --info-card-width: 240px;
+  --info-card-height: 150px;
+  --info-card-bg-color: #fff;
+  --info-card-shadow: 4px 8px 12px 0px rgba(0, 0, 0, 0.1);
+  --badge-bg-color: #8391a1;
+  --serial-font-size: 13px;
+  --serial-line-height: 13px;
+  --description-text-color: #8391a1;
+  --confirm-btn-bg-color: #3ca7fb;
+  --confirm-btn-hover-bg-color: #2196f3;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: var(--container-width);
+  height: var(--container-height);
+  margin-top: calc(-1 * var(--container-height) / 2);
+  margin-left: calc(-1 * var(--container-width) / 2);
+  border-radius: 2px;
+  box-shadow: var(--container-shadow);
+  overflow: hidden;
+  background: var(--container-bg-color);
+  color: #fff;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.info-card {
+  position: absolute;
+  z-index: 0;
+  width: var(--info-card-width);
+  height: var(--info-card-height);
+  top: 125px;
+  left: 80px;
+  background: var(--info-card-bg-color);
+  box-shadow: var(--info-card-shadow);
+  border-radius: 3px;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: 0;
+  transform: scale(0.5);
+}
+
+.info-card.current {
+  pointer-events: auto;
+  z-index: 1;
+  animation: fadeIn 0.6s ease-in-out both 0.5s;
+}
+
+.info-card.not-active {
+  z-index: 2;
+  animation: fadeOut 0.5s ease-in-out both;
+}
+
+.info-card .badge {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: -31px;
+  right: -31px;
+  background: var(--badge-bg-color);
+  transform: rotate(45deg);
+}
+
+.info-card .serial {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  font-size: var(--serial-font-size);
+  line-height: var(--serial-line-height);
+  font-weight: 600;
+  color: #fff;
+}
+
+.info-card .description {
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.info-card .description .title {
+  display: block;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #616e7d;
+  margin-bottom: 8px;
+}
+
+.info-card .description p {
+  font-size: var(--serial-font-size);
+  line-height: 17px;
+  color: var(--description-text-color);
+  margin: 0;
+}
+
+.info-card .confirm-btn {
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  bottom: 0;
+  background: var(--confirm-btn-bg-color);
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 38px;
+  font-size: var(--serial-font-size);
+  transition: all 0.3s ease-in-out;
+}
+
+.info-card .confirm-btn:hover {
+  background: var(--confirm-btn-hover-bg-color);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(1.15);
+  }
+}

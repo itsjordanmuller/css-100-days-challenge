@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:600,400");
+
+:root {
+  --primary-color: #fda231;
+  --secondary-color: #fdca31;
+  --text-color: #497081;
+  --border-color: #d4dce0;
+  --hover-text-color: #c8d4d9;
+}
+
+.custom-frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
+  background: var(--primary-color);
+  background: linear-gradient(
+    to top right,
+    var(--primary-color) 0%,
+    var(--secondary-color) 100%
+  );
+  color: var(--text-color);
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.task-list {
+  position: absolute;
+  width: 240px;
+  height: 280px;
+  top: 60px;
+  left: 80px;
+  background: #ffffff;
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.list-header {
+  padding: 20px 0;
+  margin: 0 30px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.list-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.list-subtitle {
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.task-list ul {
+  list-style: none;
+  padding: 4px 0;
+  margin: 0 30px;
+}
+
+.task-list li {
+  position: relative;
+  margin: 24px 0;
+  height: 14px;
+}
+
+.task-text {
+  float: left;
+  font-size: 13px;
+  line-height: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.task-button {
+  position: relative;
+  z-index: 2;
+  float: right;
+  width: 14px;
+  height: 14px;
+  border: 1px solid var(--text-color);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.4s ease-out 0.5s;
+}
+
+.task-checkmark {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  stroke: var(--hover-text-color);
+  fill: none;
+  stroke-width: 1.5;
+  stroke-dasharray: 30 30;
+  stroke-dashoffset: 30;
+  transition: all 0.5s ease-out;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  opacity: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+input[type="checkbox"]:checked ~ .task-text {
+  color: var(--hover-text-color);
+}
+
+input[type="checkbox"]:checked ~ .task-button {
+  transform: scale(1.5);
+  opacity: 0;
+  transition: all 0.4s ease-in;
+}
+
+input[type="checkbox"]:checked ~ .task-checkmark {
+  stroke-dashoffset: 0;
+  transition: all 0.5s ease-out 0.4s;
+}

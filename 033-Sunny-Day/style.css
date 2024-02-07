@@ -1,0 +1,76 @@
+:root {
+  --bg-color: #75c1e8;
+  --sun-color: #ffd93c;
+  --cloud-color: #fff;
+  --frame-size: 400px;
+  --frame-border-radius: 2px;
+  --frame-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  --sun-size: 64px;
+  --move-left-animation: moveLeft 60s linear infinite alternate both;
+  --move-right-animation: moveRight 60s linear infinite alternate both;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: var(--frame-size);
+  height: var(--frame-size);
+  margin-top: calc(var(--frame-size) / -2);
+  margin-left: calc(var(--frame-size) / -2);
+  border-radius: var(--frame-border-radius);
+  box-shadow: var(--frame-shadow);
+  overflow: hidden;
+  background: var(--bg-color);
+}
+
+.sunshine {
+  position: absolute;
+  height: var(--sun-size);
+  width: var(--sun-size);
+  top: 40px;
+  left: 52px;
+  background: var(--sun-color);
+  border-radius: 50%;
+  animation: var(--move-right-animation);
+}
+
+.cloud {
+  position: absolute;
+  fill: var(--cloud-color);
+  animation: var(--move-left-animation);
+}
+
+.large {
+  z-index: 5;
+  top: 118px;
+  left: 280px;
+}
+
+.medium {
+  top: 89px;
+  left: 50px;
+}
+
+.small {
+  top: 74px;
+  left: 195px;
+}
+
+@keyframes moveLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-300%);
+  }
+}
+
+@keyframes moveRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}

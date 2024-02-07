@@ -1,0 +1,68 @@
+:root {
+  --circle-length: 288;
+  --container-dimensions: 400px;
+  --container-margin: -200px;
+  --container-background: #1bbe9e;
+  --circle-background-stroke: #12836d;
+  --progress-stroke: #ffffff;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: var(--container-dimensions);
+  height: var(--container-dimensions);
+  margin-top: var(--container-margin);
+  margin-left: var(--container-margin);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  background: var(--container-background);
+  color: #fff;
+}
+
+.svg-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.background,
+.progress {
+  fill: none;
+  stroke-width: 4;
+}
+
+.background {
+  stroke: var(--circle-background-stroke);
+}
+
+.progress {
+  stroke: var(--progress-stroke);
+  stroke-linecap: round;
+  stroke-dasharray: var(--circle-length);
+  stroke-dashoffset: var(--circle-length);
+  animation: progress-animation 4s linear infinite,
+    rotate-animation 3s linear infinite;
+  transform-origin: center;
+}
+
+@keyframes progress-animation {
+  0% {
+    stroke-dashoffset: var(--circle-length);
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes rotate-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

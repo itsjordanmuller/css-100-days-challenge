@@ -1,0 +1,55 @@
+:root {
+  --frame-bg-color: #9b59b6;
+  --icon-color-white: #ffffff;
+  --icon-color-purple: #9b59b6;
+  --frame-width: 400px;
+  --frame-height: 400px;
+  --icon-width: 70px;
+  --icon-height: 80px;
+}
+
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: var(--frame-width);
+  height: var(--frame-height);
+  margin-top: calc(var(--frame-height) / -2);
+  margin-left: calc(var(--frame-width) / -2);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  background: var(--frame-bg-color);
+  color: var(--icon-color-white);
+  cursor: pointer;
+}
+
+.icon {
+  position: absolute;
+  top: 160px;
+  left: 165px;
+  width: var(--icon-width);
+  height: var(--icon-height);
+  transition: transform 0.5s ease-out, opacity 0.5s ease;
+}
+
+.white {
+  fill: var(--icon-color-white);
+  transform: scale(1);
+}
+
+.purple {
+  fill: var(--icon-color-purple);
+  transform: scale(0);
+}
+
+.big {
+  transform: scale(10);
+  transition: transform 0.5s ease-in;
+}
+
+.normal {
+  transform: scale(1);
+  transition: transform 0.5s ease-in;
+  transition-delay: 0.2s;
+}

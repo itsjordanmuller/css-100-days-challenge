@@ -1,0 +1,63 @@
+:root {
+  --bg-color: #404556;
+  --icon-color: #fff35c;
+  --icon-hover-color: #8c8f99;
+  --base-color: #e5e5e5;
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --glow-effect-color: #fff35c;
+  --frame-width: 400px;
+  --frame-border-radius: 2px;
+  --frame-shadow: 1px 2px 10px 0px var(--shadow-color);
+  --icon-transition: all 0.5s ease-in-out;
+}
+
+.light-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: var(--frame-width);
+  height: var(--frame-width);
+  margin: calc(var(--frame-width) / -2);
+  border-radius: var(--frame-border-radius);
+  box-shadow: var(--frame-shadow);
+  background: var(--bg-color);
+  overflow: hidden;
+}
+
+.light-icon,
+.light-glow {
+  position: absolute;
+  top: 134px;
+  left: 162px;
+  transition: var(--icon-transition);
+  cursor: pointer;
+}
+
+.light-icon {
+  z-index: 2;
+  fill: var(--icon-color);
+}
+
+.light-icon:hover {
+  fill: var(--icon-hover-color);
+}
+
+.light-glow {
+  width: 76px;
+  height: 76px;
+  background: var(--glow-effect-color);
+  border-radius: 50%;
+  box-shadow: 0 0 50px 10px var(--glow-effect-color);
+  opacity: 1;
+}
+
+.light-icon:hover + .light-glow {
+  opacity: 0;
+}
+
+.light-base {
+  position: absolute;
+  top: 233px;
+  left: 184px;
+  fill: var(--base-color);
+}

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+
+:root {
+  --main-bg-color: #5ca4ea;
+  --hover-bg-color: #4f95da;
+  --line-color: #91c9ff;
+  --highlight-color: #fff;
+  --font-stack: "Open Sans", Helvetica, sans-serif;
+}
+
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
+  background: var(--main-bg-color);
+  color: var(--highlight-color);
+  font-family: var(--font-stack);
+  text-align: center;
+  overflow: hidden;
+}
+
+#interactive-area {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#action-button {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+
+#action-button span {
+  position: absolute;
+  width: 100%;
+  line-height: 60px;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#svg-frame {
+  fill: none;
+}
+
+.background-line,
+.highlight-line {
+  stroke-width: 1;
+  transition: all 0.8s ease-in-out;
+}
+
+.background-line {
+  stroke: var(--line-color);
+}
+
+.highlight-line {
+  stroke: var(--highlight-color);
+  stroke-dasharray: 40 480;
+  stroke-dashoffset: 40;
+}
+
+#action-button:hover .background-line {
+  fill: var(--hover-bg-color);
+}
+
+#action-button:hover .highlight-line {
+  stroke-dashoffset: -480;
+}

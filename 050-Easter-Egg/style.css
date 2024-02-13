@@ -1,0 +1,76 @@
+:root {
+  --container-size: 400px;
+  --container-bg-color: #8e44ad;
+  --shell-width: 100px;
+  --shell-height: 130px;
+  --shell-top: 135px;
+  --shell-left: 150px;
+  --shell-border-radius: 50px 50px 50px 50px / 80px 80px 50px 50px;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: var(--container-size);
+  height: var(--container-size);
+  margin-top: calc(var(--container-size) / -2);
+  margin-left: calc(var(--container-size) / -2);
+  border-radius: var(--container-border-radius);
+  box-shadow: var(--container-shadow);
+  overflow: hidden;
+  background-color: var(--container-bg-color);
+}
+
+.shell {
+  position: absolute;
+  width: var(--shell-width);
+  height: var(--shell-height);
+  top: var(--shell-top);
+  left: var(--shell-left);
+  background-color: #ffffff;
+  border-radius: var(--shell-border-radius);
+  animation: bounce 3s ease-in-out infinite;
+  transform-origin: 50% 80%;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-350px) scale(0.85, 1.25);
+  }
+  25% {
+    transform: translateY(40px) scale(1, 0.95);
+  }
+  30% {
+    transform: translateY(-20px) scale(0.95, 1.05);
+  }
+  35% {
+    transform: translateY(10px) scale(1.05, 0.95);
+  }
+  40%,
+  45% {
+    transform: translateY(0) scale(1) rotate(0);
+  }
+  50% {
+    transform: translateY(0) scale(1) rotate(5deg);
+  }
+  55% {
+    transform: translateY(0) scale(1) rotate(-5deg);
+  }
+  60% {
+    transform: translateY(0) scale(1) rotate(5deg);
+  }
+  65%,
+  70% {
+    transform: translateY(0) scale(1) rotate(0deg);
+  }
+  75% {
+    transform: translateY(10px) scale(1.05, 0.95);
+  }
+  80% {
+    transform: translateY(-20px) scale(1.05, 0.95);
+  }
+  100% {
+    transform: translateY(350px) scale(0.95, 1.15);
+  }
+}

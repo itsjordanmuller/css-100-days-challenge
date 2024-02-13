@@ -1,0 +1,83 @@
+:root {
+  --box-size: 200px;
+  --frame-bg-color: #e47512;
+  --face-front-back-color: #fff;
+  --face-side-color: #ddd;
+  --face-top-bottom-color: #eee;
+}
+
+.box-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
+  background: var(--frame-bg-color);
+  color: #fff;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.box-alignment {
+  position: absolute;
+  width: var(--box-size);
+  height: var(--box-size);
+  top: 100px;
+  left: 100px;
+  perspective: 1000px;
+}
+
+.box {
+  width: var(--box-size);
+  height: var(--box-size);
+  position: absolute;
+  transform-style: preserve-3d;
+  transform: translateZ(-100px) rotateX(70deg) rotateZ(-45deg);
+  transition: transform 1s ease-in-out;
+  cursor: pointer;
+}
+
+.box:hover {
+  transform: translateZ(-100px) rotateX(-120deg) rotateZ(135deg);
+}
+
+.face {
+  position: absolute;
+  width: var(--box-size);
+  height: var(--box-size);
+}
+
+.front-face {
+  transform: rotateY(0deg) translateZ(100px);
+  background: var(--face-front-back-color);
+}
+
+.back-face {
+  transform: rotateX(180deg) translateZ(100px);
+  background: #ccc;
+}
+
+.right-face {
+  transform: rotateY(90deg) translateZ(100px);
+  background: var(--face-side-color);
+}
+
+.left-face {
+  transform: rotateY(-90deg) translateZ(100px);
+  background: var(--face-top-bottom-color);
+}
+
+.top-face {
+  transform: rotateX(90deg) translateZ(100px);
+  background: var(--face-top-bottom-color);
+}
+
+.bottom-face {
+  transform: rotateX(-90deg) translateZ(100px);
+  background: var(--face-side-color);
+}

@@ -1,0 +1,187 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  background: #d33526;
+  color: #ffffff;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  perspective: 350px;
+}
+
+.shape {
+  width: 200 + px;
+  height: 200 + px;
+  transform-style: preserve-3d;
+  transform: rotateX(-25deg);
+  transition: all 1s ease-in-out;
+
+  &:hover {
+    transform: rotateX(25deg);
+  }
+
+  .section {
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 2px solid #d33526;
+    opacity: 1;
+    transition: all 1s ease-in-out;
+  }
+
+  .section-19 {
+    width: 200 + px;
+    height: 200 + px;
+    left: 0;
+    top: 0;
+    transform: rotateX(90deg);
+    animation: section-21 6s ease-in-out infinite;
+  }
+
+  @for $i from 1 through 9 {
+    $size: 200 - (2 * ($i * $i));
+    $offset: ($i * 15) - (($i * $i) / 2);
+    .section-#{$i} {
+      width: $size + px;
+      height: $size + px;
+      left: ((200 - $size) / 2) + px;
+      top: ((200 - $size) / 2) + px;
+      transform: translateY(($offset) + px) rotateX(90deg);
+      animation: section-#{$i} 6s ease-in-out infinite;
+    }
+
+    $id: $i + 9;
+    .section-#{$id} {
+      width: $size + px;
+      height: $size + px;
+      left: ((200 - $size) / 2) + px;
+      top: ((200 - $size) / 2) + px;
+      transform: translateY((-1 * $offset) + px) rotateX(90deg);
+      animation: section-#{$id} 6s ease-in-out infinite;
+    }
+
+    @keyframes section-#{$i} {
+      0%,
+      19% {
+        transform: translateY(0) rotateX(90deg);
+        opacity: 0;
+      }
+      20% {
+        transform: translateY(0) rotateX(90deg);
+        opacity: 1;
+        border: 2px solid #ffffff;
+      }
+      30% {
+        transform: translateY(($offset + ($i * 4)) + px) rotateX(90deg);
+        border: 2px solid #d33526;
+      }
+      35% {
+        transform: translateY(($offset - ($i * 2)) + px) rotateX(90deg);
+      }
+      40% {
+        transform: translateY(($offset + ($i * 1)) + px) rotateX(90deg);
+      }
+      45% {
+        transform: translateY(($offset - ($i * 0.5)) + px) rotateX(90deg);
+      }
+      50%,
+      65% {
+        transform: translateY(($offset) + px) rotateX(90deg);
+      }
+      70% {
+        transform: translateY(($offset + ($i * 4)) + px) rotateX(90deg);
+        border: 2px solid #d33526;
+      }
+      80% {
+        transform: translateY(0) rotateX(90deg);
+        opacity: 1;
+        border: 2px solid #ffffff;
+      }
+      81%,
+      100% {
+        transform: translateY(0) rotateX(90deg);
+        opacity: 0;
+      }
+    }
+
+    @keyframes section-#{$id} {
+      0%,
+      19% {
+        transform: translateY(0) rotateX(90deg);
+        opacity: 0;
+      }
+      20% {
+        transform: translateY(0) rotateX(90deg);
+        opacity: 1;
+        border: 2px solid #ffffff;
+      }
+      30% {
+        transform: translateY((-1 * $offset - ($i * 4)) + px) rotateX(90deg);
+        border: 2px solid #d33526;
+      }
+      35% {
+        transform: translateY((-1 * $offset + ($i * 2)) + px) rotateX(90deg);
+      }
+      40% {
+        transform: translateY((-1 * $offset - ($i * 1)) + px) rotateX(90deg);
+      }
+      45% {
+        transform: translateY((-1 * $offset + ($i * 0.5)) + px) rotateX(90deg);
+      }
+      50%,
+      65% {
+        transform: translateY((-1 * $offset) + px) rotateX(90deg);
+      }
+      70% {
+        transform: translateY((-1 * $offset - ($i * 4)) + px) rotateX(90deg);
+        border: 2px solid #d33526;
+      }
+      80% {
+        transform: translateY(0) rotateX(90deg);
+        opacity: 1;
+        border: 2px solid #ffffff;
+      }
+      81%,
+      100% {
+        transform: translateY(0) rotateX(90deg);
+        opacity: 0;
+      }
+    }
+  }
+}
+
+@keyframes section-21 {
+  0% {
+    transform: rotateX(90deg) scale(0);
+  }
+  10% {
+    transform: rotateX(90deg) scale(1.2);
+  }
+  15% {
+    transform: rotateX(90deg) scale(0.9);
+  }
+  20%,
+  75% {
+    transform: rotateX(90deg) scale(1);
+  }
+  80% {
+    transform: rotateX(90deg) scale(1.2);
+  }
+  90%,
+  100% {
+    transform: rotateX(90deg) scale(0);
+  }
+}

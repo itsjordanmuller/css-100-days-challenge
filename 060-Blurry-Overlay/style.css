@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700");
+
+:root {
+  --triggers: 200;
+  --width: 400px;
+  --height: 400px;
+  --color-background: #34495e;
+  --color-accent: #e67e22;
+  --color-text: #ffffff;
+  --text-shadow-color: rgba(255, 255, 255, 0.7);
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: var(--width);
+  height: var(--height);
+  margin: -200px 0 0 -200px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#hoverEffectArea {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.surface {
+  position: absolute;
+  z-index: 5;
+  pointer-events: none;
+  width: var(--width);
+  height: 200px;
+  top: 0;
+  left: 0;
+  background: var(--color-accent);
+  overflow: hidden;
+  transform-origin: 50% 0%;
+  transition: all 0.4s ease-in-out;
+}
+
+.label {
+  position: absolute;
+  pointer-events: none;
+  width: var(--width);
+  top: 169px;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-text);
+}
+
+.front {
+  z-index: 10;
+  color: transparent;
+  text-shadow: 0 0 10px var(--text-shadow-color);
+  transition: all 0.4s ease-in-out;
+}
+
+.back {
+  z-index: 2;
+}

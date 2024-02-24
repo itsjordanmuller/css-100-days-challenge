@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+:root {
+  --bg-color: #bdcedb;
+  --primary-color: #ffffff;
+  --btn-accent-color: #64c760;
+  --btn-radius: 25px;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  perspective: 150px;
+}
+
+.check {
+  display: none;
+}
+
+.btn {
+  position: absolute;
+  display: block;
+  width: 100px;
+  height: 50px;
+  top: 175px;
+  left: 150px;
+  border-radius: var(--btn-radius);
+  text-align: center;
+  line-height: 46px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  box-shadow: 4px 8px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.btn .send,
+.btn .reset {
+  box-sizing: border-box;
+  position: absolute;
+  display: block;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid var(--primary-color);
+  border-radius: var(--btn-radius);
+  backface-visibility: hidden;
+  transform: rotateX(0);
+}
+
+.btn .send {
+  color: #34495e;
+  background-color: var(--primary-color);
+}
+
+.btn .reset {
+  z-index: 1;
+  color: #ffffff;
+  background-color: var(--btn-accent-color);
+  transform: rotateX(180deg);
+}
+
+.check:checked ~ .btn {
+  transform: rotateX(180deg);
+  box-shadow: 4px -8px 12px 0 rgba(0, 0, 0, 0.1);
+}

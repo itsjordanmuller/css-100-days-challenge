@@ -1,0 +1,130 @@
+:root {
+  --ball-size: 40px;
+  --bg-color: #9b59b6;
+  --ground-color: #49627c;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  background-color: var(--bg-color);
+}
+
+.ground {
+  position: absolute;
+  width: 400px;
+  height: 130px;
+  left: 0;
+  bottom: 0;
+  background-color: var(--ground-color);
+}
+
+.across {
+  position: absolute;
+  width: var(--ball-size);
+  height: var(--ball-size);
+  top: 230px;
+  left: 400px;
+  animation: across 3s ease-out infinite;
+}
+
+.bounce,
+.fall,
+.ball {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.bounce {
+  animation-name: bounce;
+  animation-timing-function: cubic-bezier(0, 0, 0.38, 1);
+}
+
+.fall {
+  animation-name: fall;
+  animation-timing-function: cubic-bezier(0.38, 0, 1, 1);
+}
+
+.ball {
+  width: var(--ball-size);
+  height: var(--ball-size);
+  border-radius: 50%;
+  background-color: #ffffff;
+  animation-name: grow;
+  animation-timing-function: cubic-bezier(0.38, 0, 1, 1);
+}
+
+@keyframes across {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-460px);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20% {
+    transform: translateY(0);
+  }
+  35%,
+  50% {
+    transform: translateY(-105px);
+  }
+  65%,
+  80% {
+    transform: translateY(-168px);
+  }
+  90%,
+  100% {
+    transform: translateY(-190px);
+  }
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-200px);
+  }
+  20%,
+  35% {
+    transform: translateY(0);
+  }
+  50%,
+  65% {
+    transform: translateY(105px);
+  }
+  80%,
+  95% {
+    transform: translateY(168px);
+  }
+  100% {
+    transform: translateY(190px);
+  }
+}
+
+@keyframes grow {
+  0%,
+  19%,
+  25%,
+  49%,
+  55%,
+  79%,
+  85%,
+  100% {
+    transform: scale(1);
+  }
+  20%,
+  80%,
+  50%,
+  80% {
+    transform: scale(1.1, 0.9);
+  }
+}

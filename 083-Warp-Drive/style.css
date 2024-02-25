@@ -1,0 +1,48 @@
+:root {
+  --bg-color: #1e3242;
+  --star-color: #c3dcec;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  background-color: var(--bg-color);
+}
+
+.warp .path {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+.warp .path .star {
+  position: absolute;
+  width: 2px;
+  height: 20px;
+  top: 100px;
+  left: 100px;
+  background-color: var(--star-color);
+}
+
+@keyframes warp {
+  0% {
+    transform: scale(0);
+    opacity: 0.1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,107 @@
+:root {
+  --bg-color: #2980b9;
+  --primary-color: #ffffff;
+}
+
+$x: 1;
+$y: 1;
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  background-color: var(--bg-color);
+}
+
+.area {
+  height: 10px;
+}
+
+.trap {
+  position: relative;
+  z-index: 10;
+  box-sizing: border-box;
+  float: left;
+  width: 20px;
+  height: 20px;
+}
+
+.cage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.cage .bar {
+  margin: 19px 0px;
+  height: 1px;
+  width: 400px;
+}
+
+.cage .bar .left,
+.cage .bar .right {
+  float: left;
+  height: 1px;
+  width: 200px;
+  background-color: var(--primary-color);
+  transform-origin: 0 50%;
+  transition: all 0.3s linear;
+  transform: scaleX(0);
+}
+
+.cage .bar .right {
+  transform-origin: 100% 50%;
+}
+
+@for $i from 1 through (380) {
+  @if ($x * 20) < $i {
+    $x: $x + 1;
+  }
+
+  $y: $i - (($x - 1) * 20);
+
+  .trap-#{$i}:hover {
+    & ~ .cage .bar-#{$x} {
+      $scale: ($y - 3) / 10;
+      .left {
+        transform: scaleX($scale);
+      }
+      $scale: (20 - ($y + 2)) / 10;
+      .right {
+        transform: scaleX($scale);
+      }
+    }
+
+    & ~ .cage .bar-#{$x - 1},
+    & ~ .cage .bar-#{$x + 1} {
+      $scale: ($y - 2) / 10;
+      .left {
+        transform: scaleX($scale);
+      }
+      $scale: (20 - ($y + 1)) / 10;
+      .right {
+        transform: scaleX($scale);
+      }
+    }
+
+    & ~ .cage .bar-#{$x - 2},
+    & ~ .cage .bar-#{$x + 2} {
+      $scale: ($y - 1) / 10;
+      .left {
+        transform: scaleX($scale);
+      }
+      $scale: (20 - $y) / 10;
+      .right {
+        transform: scaleX($scale);
+      }
+    }
+  }
+}

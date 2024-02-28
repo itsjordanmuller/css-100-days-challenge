@@ -1,0 +1,157 @@
+:root {
+  --pig: #f7949a;
+  --light-pink: #ffb7bc;
+  --nostril-color: #ce666d;
+  --bg-color: #ffdcb5;
+  --eye-color: #ffffff;
+  --pupil-color: #333333;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: var(--bg-color);
+}
+
+.pig {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.face {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  background-color: var(--pig);
+  border-radius: 50%;
+}
+
+.left-ear,
+.right-ear {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: -1;
+  width: 60px;
+  height: 60px;
+  top: -5px;
+  background-color: var(--light-pink);
+  border: 7px solid var(--pig);
+}
+
+.left-ear {
+  border-radius: 15px 0 0 0;
+  left: 10px;
+  transform: rotate(-12deg) skewY(25deg);
+}
+
+.right-ear {
+  border-radius: 0 15px 0 0;
+  right: 10px;
+  transform: rotate(12deg) skewY(-25deg);
+}
+
+.left-eye,
+.right-eye {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 42%;
+  background-color: var(--eye-color);
+  border-radius: 50%;
+  animation: blink 12s ease-in-out infinite;
+}
+
+.left-eye:before,
+.right-eye:before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: var(--pupil-color);
+  border-radius: 50%;
+  top: 9px;
+  left: 9px;
+  animation: pupils 12s ease-in-out infinite;
+}
+
+.left-eye {
+  left: 25%;
+}
+
+.right-eye {
+  right: 25%;
+}
+
+.snout {
+  position: absolute;
+  height: 50px;
+  width: 60px;
+  top: 55%;
+  left: 50px;
+  background-color: var(--light-pink);
+  border-radius: 100px / 80px;
+}
+
+.left-nostril,
+.right-nostril {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 15px;
+  background-color: var(--nostril-color);
+  border-radius: 50%;
+}
+
+.left-nostril {
+  left: 15px;
+}
+
+.right-nostril {
+  right: 15px;
+}
+
+@keyframes blink {
+  0%,
+  24%,
+  26%,
+  49%,
+  51%,
+  74%,
+  76%,
+  100% {
+    transform: scaleY(1);
+  }
+  25%,
+  50%,
+  75% {
+    transform: scaleY(0);
+  }
+}
+
+@keyframes pupils {
+  0%,
+  24%,
+  26%,
+  49%,
+  51%,
+  74%,
+  76%,
+  100% {
+    transform: scaleY(1);
+  }
+  25%,
+  50%,
+  75% {
+    transform: scaleY(2);
+  }
+}

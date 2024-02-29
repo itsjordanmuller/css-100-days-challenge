@@ -1,0 +1,177 @@
+:root {
+  --bg-color: #27ae60;
+  --light-bg-color: #2ecc71;
+  --primary-color: #ffffff;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background-color: var(--bg-color);
+}
+
+#checkbox {
+  display: none;
+}
+
+#checkbox:checked ~ .background {
+  transform: scale(1);
+}
+
+#checkbox:checked ~ .circle,
+#checkbox:checked ~ .lines {
+  opacity: 0;
+  transform: scale(1);
+  transition: transform 0.6s ease-out, opacity 0.3s ease-out 0.3s;
+}
+
+#checkbox:checked ~ .button {
+  border-radius: 0;
+  transform: rotate(180deg) scale(1.1);
+  box-shadow: -4px -8px 16px var(--box-shadow-color);
+}
+
+.label {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.background {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: -100px;
+  left: -100px;
+  background-color: var(--light-bg-color);
+  border-radius: 50%;
+  transform: scale(0);
+  transition: all 0.6s ease-in-out;
+}
+
+.button {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 184px;
+  left: 184px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  transition: all 0.6s ease-in-out;
+  box-shadow: 1px 2px 4px var(--box-shadow-color);
+}
+
+.circle {
+  box-sizing: border-box;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 125px;
+  left: 125px;
+  border: 5px solid var(--primary-color);
+  border-radius: 50%;
+  transform: scale(0);
+  transition: transform 0.6s ease-in, opacity 0.3s ease-in;
+}
+
+.lines {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 50px;
+  left: 50px;
+  transform: scale(0);
+  transition: transform 0.6s ease-in, opacity 0.3s ease-in;
+}
+
+.lines .line {
+  position: absolute;
+  height: 26px;
+  width: 4px;
+  background-color: var(--primary-color);
+  top: 137px;
+  left: 148px;
+}
+
+#line-1 {
+  transform: rotate(20deg) translateY(-120px);
+}
+
+#line-2 {
+  transform: rotate(40deg) translateY(-120px);
+}
+
+#line-3 {
+  transform: rotate(60deg) translateY(-120px);
+}
+
+#line-4 {
+  transform: rotate(80deg) translateY(-120px);
+}
+
+#line-5 {
+  transform: rotate(100deg) translateY(-120px);
+}
+
+#line-6 {
+  transform: rotate(120deg) translateY(-120px);
+}
+
+#line-7 {
+  transform: rotate(140deg) translateY(-120px);
+}
+
+#line-8 {
+  transform: rotate(160deg) translateY(-120px);
+}
+
+#line-9 {
+  transform: rotate(180deg) translateY(-120px);
+}
+
+#line-10 {
+  transform: rotate(200deg) translateY(-120px);
+}
+
+#line-11 {
+  transform: rotate(220deg) translateY(-120px);
+}
+
+#line-12 {
+  transform: rotate(240deg) translateY(-120px);
+}
+
+#line-13 {
+  transform: rotate(260deg) translateY(-120px);
+}
+
+#line-14 {
+  transform: rotate(280deg) translateY(-120px);
+}
+
+#line-15 {
+  transform: rotate(300deg) translateY(-120px);
+}
+
+#line-16 {
+  transform: rotate(320deg) translateY(-120px);
+}
+
+#line-17 {
+  transform: rotate(340deg) translateY(-120px);
+}
+
+#line-18 {
+  transform: rotate(360deg) translateY(-120px);
+}

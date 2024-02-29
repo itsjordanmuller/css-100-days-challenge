@@ -1,0 +1,148 @@
+:root {
+  --bg-color: #8e44ad;
+  --person-color: #ffffff;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  background-color: var(--bg-color);
+}
+
+.person {
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.face {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 10px auto;
+  background-color: var(--person-color);
+  border-radius: 50%;
+}
+
+.body {
+  position: relative;
+  height: 100px;
+  width: 50px;
+  background-color: var(--person-color);
+}
+
+.arm-left,
+.arm-right {
+  position: absolute;
+  top: 0;
+}
+
+.arm-left {
+  left: -10px;
+}
+
+.arm-right {
+  right: -10px;
+}
+
+.arm-left .inner,
+.arm-right .inner {
+  position: relative;
+  height: 50px;
+  width: 16px;
+  background-color: var(--person-color);
+  border-radius: 8px;
+  transform-origin: 8px 8px;
+}
+
+.arm-left .inner .outer,
+.arm-right .inner .outer {
+  position: absolute;
+  height: 52px;
+  width: 16px;
+  bottom: -36px;
+  left: 0;
+  background-color: var(--person-color);
+  border-radius: 8px;
+  transform-origin: 8px 8px;
+}
+
+.arm-right .inner {
+  transform: rotate(-75deg);
+  animation: swing 1s ease-in-out infinite alternate;
+}
+
+.arm-right .outer {
+  transform: rotate(-75deg);
+  animation: wave 1s ease-in-out infinite alternate;
+}
+
+.arm-left .inner {
+  transform: rotate(10deg);
+}
+
+.arm-left .inner .outer {
+  transform: rotate(-5deg);
+}
+
+.leg-left,
+.leg-right {
+  position: absolute;
+  top: 78px;
+}
+
+.leg-left {
+  left: 0px;
+}
+
+.leg-right {
+  right: 0px;
+}
+
+.leg-left .inner,
+.leg-right .inner {
+  position: relative;
+  height: 70px;
+  width: 24px;
+  background-color: var(--person-color);
+  border-radius: 12px;
+  transform-origin: 12px 12px;
+}
+
+.leg-left .inner .outer,
+.leg-right .inner .outer {
+  position: absolute;
+  height: 70px;
+  width: 24px;
+  bottom: -46px;
+  left: 0;
+  background-color: var(--person-color);
+  border-radius: 12px;
+  transform-origin: 12px 12px;
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(-70deg);
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(-70deg);
+  }
+  100% {
+    transform: rotate(-110deg);
+  }
+}

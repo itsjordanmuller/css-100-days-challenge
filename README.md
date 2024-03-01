@@ -480,9 +480,9 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ### [Challenge #1 - 100 Days CSS Logo](https://100dayscss.com/days/1/)
 
-#### [My Submission - #1 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/001-Challenge-Logo)
+#### [My Submission - #1 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/001-Challenge-Logo)
 
-![Challenge 1 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/001-Challenge-Logo/001-Submission.png)
+![Challenge 1 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/001-Challenge-Logo/001-Submission.png)
 
 > An easy start into the challenge with a custom build number with gradient.
 
@@ -490,7 +490,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <details>
   <summary>Click/Open to See Goal Image</summary>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/001-Challenge-Logo/001-Goal.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/001-Challenge-Logo/001-Goal.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/JGmvaE">View Goal CodePen Demo</a>
 </details>
 
@@ -500,9 +500,9 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 #### [My Submission - #2 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/tree/main/002-Menu-Icon)
 
-![Challenge 2 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/002-Menu-Icon/002-Submission-1.png)
+![Challenge 2 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/002-Menu-Icon/002-Submission-1.png)
 
-![Challenge 2 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/002-Menu-Icon/002-Submission-2.png)
+![Challenge 2 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/002-Menu-Icon/002-Submission-2.png)
 
 > Used on almost every website by now, simple but impressively animated it becomes a real eye-catcher.
 
@@ -510,8 +510,8 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/002-Menu-Icon/002-Goal-1.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/002-Menu-Icon/002-Goal-2.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/002-Menu-Icon/002-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/002-Menu-Icon/002-Goal-2.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/ZQmbNm">View Goal CodePen Demo</a>
 </details>
 
@@ -519,9 +519,9 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ### [Challenge #3 - Pyramide](https://100dayscss.com/days/3/)
 
-#### [My Submission - #3 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/003-Pyramide)
+#### [My Submission - #3 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/003-Pyramide)
 
-![Challenge 3 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/003-Pyramide/003-Submission.png)
+![Challenge 3 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/003-Pyramide/003-Submission.png)
 
 > Not as challenging as the real pyramids in Egypt, but the shadow path is not easy.
 
@@ -529,7 +529,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <details>
   <summary>Click/Open to See Goal Image</summary>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/003-Pyramide/003-Goal.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/003-Pyramide/003-Goal.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/PZxpKO">View Goal CodePen Demo</a>
 </details>
 
@@ -537,9 +537,9 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ### [Challenge #4 - Loading](https://100dayscss.com/days/4/)
 
-#### [My Submission - #4 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/004-Loading)
+#### [My Submission - #4 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/004-Loading)
 
-![Challenge 4 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/004-Loading/004-Submission.png)
+![Challenge 4 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/004-Loading/004-Submission.png)
 
 > The best are always websites that do not need a loading status. If they do, here would be a calming one.
 
@@ -547,7 +547,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <details>
   <summary>Click/Open to See Goal Image</summary>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/004-Loading/004-Goal.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/004-Loading/004-Goal.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/yeQZLm">View Goal CodePen Demo</a>
 </details>
 
@@ -557,9 +557,9 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 #### [My Submission - #5 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/tree/main/005-Statistic)
 
-![Challenge 5 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/005-Statistic/005-Submission-1.png)
+![Challenge 5 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/005-Statistic/005-Submission-1.png)
 
-![Challenge 5 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/005-Statistic/005-Submission-2.png)
+![Challenge 5 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/005-Statistic/005-Submission-2.png)
 
 > In a world of numbers, it is important to be able to interpret them correctly. Beautiful statistics help to capture these data.
 
@@ -567,8 +567,8 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/005-Statistic/005-Goal-1.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/005-Statistic/005-Goal-2.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/005-Statistic/005-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/005-Statistic/005-Goal-2.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/GoPvNN">View Goal CodePen Demo</a>
 </details>
 
@@ -578,9 +578,9 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 #### [My Submission - #6 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/tree/main/006-Profile)
 
-![Challenge 6 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/006-Profile/006-Submission-1.png)
+![Challenge 6 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/006-Profile/006-Submission-1.png)
 
-![Challenge 6 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/006-Profile/006-Submission-2.png)
+![Challenge 6 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/006-Profile/006-Submission-2.png)
 
 > Who of you knows how many social media profiles you have already created? For a refreshing twist, you can also create one yourself.
 
@@ -588,8 +588,8 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/006-Profile/006-Goal-1.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/006-Profile/006-Goal-2.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/006-Profile/006-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/006-Profile/006-Goal-2.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/OMreoV">View Goal CodePen Demo</a>
 </details>
 
@@ -599,13 +599,13 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 #### [My Submission - #7 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/tree/main/007-Notifications-Search-Menu)
 
-![Challenge 7 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/007-Notifications-Search-Menu/007-Submission-1.png)
+![Challenge 7 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/007-Notifications-Search-Menu/007-Submission-1.png)
 
-![Challenge 7 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/007-Notifications-Search-Menu/007-Submission-2.png)
+![Challenge 7 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/007-Notifications-Search-Menu/007-Submission-2.png)
 
-![Challenge 7 Submission Image 3](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/007-Notifications-Search-Menu/007-Submission-3.png)
+![Challenge 7 Submission Image 3](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/007-Notifications-Search-Menu/007-Submission-3.png)
 
-![Challenge 7 Submission Image 4](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/007-Notifications-Search-Menu/007-Submission-4.png)
+![Challenge 7 Submission Image 4](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/007-Notifications-Search-Menu/007-Submission-4.png)
 
 > The three cornerstones of any application? Brought together in the smallest possible space.
 
@@ -613,10 +613,10 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/007-Notifications-Search-Menu/007-Goal-1.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/007-Notifications-Search-Menu/007-Goal-2.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/007-Notifications-Search-Menu/007-Goal-3.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/007-Notifications-Search-Menu/007-Goal-4.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/007-Notifications-Search-Menu/007-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/007-Notifications-Search-Menu/007-Goal-2.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/007-Notifications-Search-Menu/007-Goal-3.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/007-Notifications-Search-Menu/007-Goal-4.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/ZQwJyj">View Goal CodePen Demo</a>
 </details>
 
@@ -624,9 +624,9 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ### [Challenge #8 - Metaballs](https://100dayscss.com/days/8/)
 
-#### [My Submission - #8 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/008-Metaballs)
+#### [My Submission - #8 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/008-Metaballs)
 
-![Challenge 8 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/008-Metaballs/008-Submission.png)
+![Challenge 8 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/008-Metaballs/008-Submission.png)
 
 > At first glance impossible to implement with CSS, but filters make this possible too.
 
@@ -634,7 +634,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <details>
   <summary>Click/Open to See Goal Image</summary>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/008-Metaballs/008-Goal.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/008-Metaballs/008-Goal.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/XXOqoG">View Goal CodePen Demo</a>
 </details>
 
@@ -642,9 +642,9 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ### [Challenge #9 - Rainy Night](https://100dayscss.com/days/9/)
 
-#### [My Submission - #9 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/009-Rainy-Night)
+#### [My Submission - #9 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/009-Rainy-Night)
 
-![Challenge 9 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/009-Rainy-Night/009-Submission.png)
+![Challenge 9 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/009-Rainy-Night/009-Submission.png)
 
 > The perfect time of day and the perfect weather to program in peace. The raindrops even shatter on the ground.
 
@@ -652,7 +652,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <details>
   <summary>Click/Open to See Goal Image</summary>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/009-Rainy-Night/009-Goal.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/009-Rainy-Night/009-Goal.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/MKxgWz">View Goal CodePen Demo</a>
 </details>
 
@@ -660,11 +660,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ### [Challenge #10 - Watch](https://100dayscss.com/days/10/)
 
-#### [My Submission - #10 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/010-Watch)
+#### [My Submission - #10 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/010-Watch)
 
-![Challenge 10 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/010-Watch/010-Submission-1.png)
+![Challenge 10 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/010-Watch/010-Submission-1.png)
 
-![Challenge 10 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/010-Watch/010-Submission-2.png)
+![Challenge 10 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/010-Watch/010-Submission-2.png)
 
 > Classic, noble, modern or playful? What do you want your favorite watch to look like?
 
@@ -672,8 +672,8 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/010-Watch/010-Goal-1.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/010-Watch/010-Goal-2.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/010-Watch/010-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/010-Watch/010-Goal-2.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/PZLjav">View Goal CodePen Demo</a>
 </details>
 
@@ -681,11 +681,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ### [Challenge #11 - Walking Boots](https://100dayscss.com/days/11/)
 
-#### [My Submission - #11 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/011-Walking-Boots)
+#### [My Submission - #11 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/011-Walking-Boots)
 
-![Challenge 11 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/011-Walking-Boots/011-Submission-1.png)
+![Challenge 11 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/011-Walking-Boots/011-Submission-1.png)
 
-![Challenge 11 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/011-Walking-Boots/011-Submission-2.png)
+![Challenge 11 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/011-Walking-Boots/011-Submission-2.png)
 
 > These boots are made for walking. Where are they going and for how long?
 
@@ -693,8 +693,8 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/011-Walking-Boots/011-Goal-1.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/011-Walking-Boots/011-Goal-2.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/011-Walking-Boots/011-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/011-Walking-Boots/011-Goal-2.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/VeNvby">View Goal CodePen Demo</a>
 </details>
 
@@ -702,11 +702,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ### [Challenge #12 - Tooltip](https://100dayscss.com/days/12/)
 
-#### [My Submission - #12 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/012-Tooltip)
+#### [My Submission - #12 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/012-Tooltip)
 
-![Challenge 12 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/012-Tooltip/012-Submission-1.png)
+![Challenge 12 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/012-Tooltip/012-Submission-1.png)
 
-![Challenge 12 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/012-Tooltip/012-Submission-2.png)
+![Challenge 12 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/012-Tooltip/012-Submission-2.png)
 
 > I'm quite sure, you already know what obsession means. But you can look it up anyways.
 
@@ -714,8 +714,8 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/012-Tooltip/012-Goal-1.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/012-Tooltip/012-Goal-2.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/012-Tooltip/012-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/012-Tooltip/012-Goal-2.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/gPyzEa">View Goal CodePen Demo</a>
 </details>
 
@@ -723,15 +723,15 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ### [Challenge #13 - User Gallery](https://100dayscss.com/days/13/)
 
-#### [My Submission - #13 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/013-User-Gallery)
+#### [My Submission - #13 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/013-User-Gallery)
 
-![Challenge 13 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/013-User-Gallery/013-Submission-1.png)
+![Challenge 13 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/013-User-Gallery/013-Submission-1.png)
 
-![Challenge 13 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/013-User-Gallery/013-Submission-2.png)
+![Challenge 13 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/013-User-Gallery/013-Submission-2.png)
 
-![Challenge 13 Submission Image 3](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/013-User-Gallery/013-Submission-3.png)
+![Challenge 13 Submission Image 3](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/013-User-Gallery/013-Submission-3.png)
 
-![Challenge 13 Submission Image 4](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/013-User-Gallery/013-Submission-4.png)
+![Challenge 13 Submission Image 4](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/013-User-Gallery/013-Submission-4.png)
 
 > An idea for a transition between user overview and profile page.
 
@@ -739,10 +739,10 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/013-User-Gallery/013-Goal-1.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/013-User-Gallery/013-Goal-2.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/013-User-Gallery/013-Goal-3.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/013-User-Gallery/013-Goal-4.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/013-User-Gallery/013-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/013-User-Gallery/013-Goal-2.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/013-User-Gallery/013-Goal-3.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/013-User-Gallery/013-Goal-4.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/zrQorm">View Goal CodePen Demo</a>
 </details>
 
@@ -750,11 +750,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ### [Challenge #14 - Byciclopter](https://100dayscss.com/days/14/)
 
-#### [My Submission - #14 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/014-Byciclopter)
+#### [My Submission - #14 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/014-Byciclopter)
 
-![Challenge 14 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/014-Byciclopter/014-Submission-1.png)
+![Challenge 14 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/014-Byciclopter/014-Submission-1.png)
 
-![Challenge 14 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/014-Byciclopter/014-Submission-2.png)
+![Challenge 14 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/014-Byciclopter/014-Submission-2.png)
 
 > Which side of the card do you want to use? Either drive or fly to work in the morning?
 
@@ -762,8 +762,8 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/014-Byciclopter/014-Goal-1.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/014-Byciclopter/014-Goal-2.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/014-Byciclopter/014-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/014-Byciclopter/014-Goal-2.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/BjegrP">View Goal CodePen Demo</a>
 </details>
 
@@ -771,17 +771,17 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ### [Challenge #15 - Upload](https://100dayscss.com/days/15/)
 
-#### [My Submission - #15 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/015-Upload)
+#### [My Submission - #15 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/015-Upload)
 
-![Challenge 15 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/015-Upload/015-Submission-1.png)
+![Challenge 15 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/015-Upload/015-Submission-1.png)
 
-![Challenge 15 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/015-Upload/015-Submission-2.png)
+![Challenge 15 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/015-Upload/015-Submission-2.png)
 
-![Challenge 15 Submission Image 3](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/015-Upload/015-Submission-3.png)
+![Challenge 15 Submission Image 3](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/015-Upload/015-Submission-3.png)
 
-![Challenge 15 Submission Image 4](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/015-Upload/015-Submission-4.png)
+![Challenge 15 Submission Image 4](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/015-Upload/015-Submission-4.png)
 
-![Challenge 15 Submission Image 5](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/015-Upload/015-Submission-5.png)
+![Challenge 15 Submission Image 5](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/015-Upload/015-Submission-5.png)
 
 > Yes, you can actually drag and drop a file in there. But don't worry, the upload process is faked.
 
@@ -789,11 +789,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/015-Upload/015-Goal-1.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/015-Upload/015-Goal-2.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/015-Upload/015-Goal-3.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/015-Upload/015-Goal-4.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/015-Upload/015-Goal-5.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/015-Upload/015-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/015-Upload/015-Goal-2.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/015-Upload/015-Goal-3.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/015-Upload/015-Goal-4.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/015-Upload/015-Goal-5.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/ZQdbeN">View Goal CodePen Demo</a>
 </details>
 
@@ -801,21 +801,21 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ### [Challenge #16 - Blobby](https://100dayscss.com/days/16/)
 
-#### [My Submission - #16 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby)
+#### [My Submission - #16 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/016-Blobby)
 
-![Challenge 16 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Submission-1.png)
+![Challenge 16 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/016-Blobby/016-Submission-1.png)
 
-![Challenge 16 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Submission-2.png)
+![Challenge 16 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/016-Blobby/016-Submission-2.png)
 
-![Challenge 16 Submission Image 3](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Submission-3.png)
+![Challenge 16 Submission Image 3](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/016-Blobby/016-Submission-3.png)
 
-![Challenge 16 Submission Image 4](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Submission-4.png)
+![Challenge 16 Submission Image 4](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/016-Blobby/016-Submission-4.png)
 
-![Challenge 16 Submission Image 5](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Submission-5.png)
+![Challenge 16 Submission Image 5](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/016-Blobby/016-Submission-5.png)
 
-![Challenge 16 Submission Image 6](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Submission-6.png)
+![Challenge 16 Submission Image 6](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/016-Blobby/016-Submission-6.png)
 
-![Challenge 16 Submission Image 7](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Submission-7.png)
+![Challenge 16 Submission Image 7](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/016-Blobby/016-Submission-7.png)
 
 > It appears, wobbles, changes its shape and disappears again. Just like that.
 
@@ -823,13 +823,13 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Goal-1.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Goal-2.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Goal-3.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Goal-4.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Goal-5.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Goal-6.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/016-Blobby/016-Goal-7.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/016-Blobby/016-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/016-Blobby/016-Goal-2.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/016-Blobby/016-Goal-3.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/016-Blobby/016-Goal-4.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/016-Blobby/016-Goal-5.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/016-Blobby/016-Goal-6.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/016-Blobby/016-Goal-7.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/eJwbed">View Goal CodePen Demo</a>
 </details>
 
@@ -837,11 +837,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ### [Challenge #17 - Penrose Triangle](https://100dayscss.com/days/17/)
 
-#### [My Submission - #17 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/017-Penrose-Triangle)
+#### [My Submission - #17 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/017-Penrose-Triangle)
 
-![Challenge 17 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/017-Penrose-Triangle/017-Submission-1.png)
+![Challenge 17 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/017-Penrose-Triangle/017-Submission-1.png)
 
-![Challenge 17 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/017-Penrose-Triangle/017-Submission-2.png)
+![Challenge 17 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/017-Penrose-Triangle/017-Submission-2.png)
 
 > CSS makes even the impossible possible. Can you find out how it was done?
 
@@ -849,8 +849,8 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/017-Penrose-Triangle/017-Goal-1.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/017-Penrose-Triangle/017-Goal-2.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/017-Penrose-Triangle/017-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/017-Penrose-Triangle/017-Goal-2.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/EPBvmm">View Goal CodePen Demo</a>
 </details>
 
@@ -858,13 +858,13 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ### [Challenge #18 - Elastic](https://100dayscss.com/days/18/)
 
-#### [My Submission - #18 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/018-Elastic)
+#### [My Submission - #18 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/018-Elastic)
 
-![Challenge 18 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/018-Elastic/018-Submission-1.png)
+![Challenge 18 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/018-Elastic/018-Submission-1.png)
 
-![Challenge 18 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/018-Elastic/018-Submission-2.png)
+![Challenge 18 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/018-Elastic/018-Submission-2.png)
 
-![Challenge 18 Submission Image 3](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/018-Elastic/018-Submission-3.png)
+![Challenge 18 Submission Image 3](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/018-Elastic/018-Submission-3.png)
 
 > I thought for a long time about the best way to achieve this effect. In the end, the solution was easier than expected.
 
@@ -872,9 +872,9 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/018-Elastic/018-Goal-1.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/018-Elastic/018-Goal-2.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/018-Elastic/018-Goal-3.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/018-Elastic/018-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/018-Elastic/018-Goal-2.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/018-Elastic/018-Goal-3.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/yemzzX">View Goal CodePen Demo</a>
 </details>
 
@@ -882,13 +882,13 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ### [Challenge #19 - Slider with Radio Buttons](https://100dayscss.com/days/19/)
 
-#### [My Submission - #19 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/019-Radio-Buttons-Slider)
+#### [My Submission - #19 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/019-Radio-Buttons-Slider)
 
-![Challenge 19 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/019-Radio-Buttons-Slider/019-Submission-1.png)
+![Challenge 19 Submission Image 1](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/019-Radio-Buttons-Slider/019-Submission-1.png)
 
-![Challenge 19 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/019-Radio-Buttons-Slider/019-Submission-2.png)
+![Challenge 19 Submission Image 2](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/019-Radio-Buttons-Slider/019-Submission-2.png)
 
-![Challenge 19 Submission Image 3](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/019-Radio-Buttons-Slider/019-Submission-3.png)
+![Challenge 19 Submission Image 3](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/019-Radio-Buttons-Slider/019-Submission-3.png)
 
 > Why use CSS when you can use JavaScript? Selectors can be wildly combined with each other.
 
@@ -896,9 +896,9 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/019-Radio-Buttons-Slider/019-Goal-1.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/019-Radio-Buttons-Slider/019-Goal-2.png"/><br/>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/019-Radio-Buttons-Slider/019-Goal-3.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/019-Radio-Buttons-Slider/019-Goal-1.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/019-Radio-Buttons-Slider/019-Goal-2.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/019-Radio-Buttons-Slider/019-Goal-3.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/xVKweb">View Goal CodePen Demo</a>
 </details>
 

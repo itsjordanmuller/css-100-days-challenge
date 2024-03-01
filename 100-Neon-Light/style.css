@@ -1,0 +1,258 @@
+:root {
+  --bg-color: #272c34;
+  --neon-light-color: #f1f4f5;
+}
+
+@mixin neon-flicker() {
+  animation: neon-flicker 6s ease-in-out ((random(400) / 100) * 1s) infinite
+    alternate both;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  background-color: var(--bg-color);
+}
+
+.neon-sign {
+  position: absolute;
+  height: 120px;
+  width: 400px;
+  top: 140px;
+  left: 0;
+
+  .tube {
+    position: absolute;
+    background-color: #1a1e24;
+    box-shadow: 0px 0px 6px 0px #1a1e24;
+    border-radius: 3px;
+  }
+
+  .letter-e {
+    position: absolute;
+    width: 69px;
+    height: 120px;
+    top: 0;
+    left: 68px;
+
+    .left {
+      top: 0;
+      left: 0;
+      height: 120px;
+      width: 6px;
+      @include neon-flicker();
+    }
+
+    .upper {
+      top: 0;
+      right: 0;
+      height: 6px;
+      width: 60px;
+      @include neon-flicker();
+    }
+
+    .middle {
+      top: 56px;
+      left: 9px;
+      height: 6px;
+      width: 50px;
+      @include neon-flicker();
+    }
+
+    .lower {
+      bottom: 0;
+      right: 0;
+      height: 6px;
+      width: 60px;
+      @include neon-flicker();
+    }
+  }
+
+  .letter-n {
+    position: absolute;
+    width: 85px;
+    height: 120px;
+    top: 0;
+    left: 162px;
+
+    .left {
+      top: 0;
+      left: 0;
+      height: 120px;
+      width: 6px;
+      @include neon-flicker();
+    }
+
+    .middle {
+      top: 0;
+      left: 9px;
+      height: 6px;
+      width: 135px;
+      transform-origin: 3px 3px;
+      transform: rotate(62deg);
+      @include neon-flicker();
+    }
+
+    .right {
+      top: 0;
+      right: 0;
+      height: 120px;
+      width: 6px;
+      @include neon-flicker();
+    }
+  }
+
+  .letter-d {
+    position: absolute;
+    width: 72px;
+    height: 120px;
+    top: 0;
+    left: 274px;
+
+    .left {
+      top: 0;
+      left: 0;
+      height: 120px;
+      width: 6px;
+      @include neon-flicker();
+    }
+
+    .right {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      height: 120px;
+      width: 70px;
+
+      $delay: (random(400) / 100) * 1s;
+
+      .circular-box .circle {
+        animation: circular-flicker 6s ease-in-out $delay infinite alternate
+          both;
+      }
+      .point {
+        animation: point-flicker 6s ease-in-out $delay infinite alternate both;
+      }
+
+      .circular-box {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        bottom: -10px;
+        width: 70px;
+        overflow: hidden;
+
+        .circle {
+          box-sizing: border-box;
+          position: absolute;
+          width: 120px;
+          height: 120px;
+          top: 10px;
+          right: 10px;
+          border-style: solid;
+          border-width: 6px;
+          border-color: #1a1e24 #1a1e24 transparent transparent;
+          border-radius: 50%;
+          box-shadow: 0px 0px 10px 0px #1a1e24,
+            inset 0px 0px 10px 0px var(--neon-light-color);
+          transform: rotate(45deg);
+        }
+      }
+
+      .upper-box {
+        position: absolute;
+        top: -10px;
+        right: 60px;
+        width: 26px;
+        height: 26px;
+        overflow: hidden;
+      }
+
+      .lower-box {
+        position: absolute;
+        bottom: -10px;
+        right: 60px;
+        width: 26px;
+        height: 26px;
+        overflow: hidden;
+      }
+
+      .point {
+        top: 10px;
+        right: -12px;
+        width: 15px;
+        height: 6px;
+      }
+    }
+  }
+}
+
+@keyframes neon-flicker {
+  35%,
+  37%,
+  39%,
+  41%,
+  100% {
+    background-color: var(--neon-light-color);
+    box-shadow: 0px 0px 10px 0px var(--neon-light-color);
+  }
+  0%,
+  34%,
+  36%,
+  36%,
+  38%,
+  40% {
+    background-color: #1a1e24;
+    box-shadow: 0px 0px 6px 0px #1a1e24;
+  }
+}
+
+@keyframes circular-flicker {
+  35%,
+  37%,
+  39%,
+  41%,
+  100% {
+    border-color: var(--neon-light-color) var(--neon-light-color) transparent
+      transparent;
+    box-shadow: 0px 0px 10px 0px var(--neon-light-color),
+      inset 0px 0px 10px 0px var(--neon-light-color);
+  }
+  0%,
+  34%,
+  36%,
+  36%,
+  38%,
+  40% {
+    border-color: #1a1e24 #1a1e24 transparent transparent;
+    box-shadow: 0px 0px 6px 0px #1a1e24, inset 0px 0px 6px 0px #1a1e24;
+  }
+}
+
+@keyframes point-flicker {
+  35%,
+  37%,
+  39%,
+  41%,
+  100% {
+    background-color: var(--neon-light-color);
+    box-shadow: 0px 0px 9px 1px var(--neon-light-color);
+  }
+  0%,
+  34%,
+  36%,
+  36%,
+  38%,
+  40% {
+    background-color: #1a1e24;
+    box-shadow: 0px 0px 5px 1px #1a1e24;
+  }
+}

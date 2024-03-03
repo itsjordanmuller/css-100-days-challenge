@@ -1,18 +1,28 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,500,400,300);
 
+:root {
+  --bg-color: #1a2238;
+  --text-color: #394568;
+  --card-color: #ffffff;
+  --moon-color: #f6edbd;
+  --crater-color: #ece1a8;
+  --near-cloud: #303c5d;
+  --far-cloud: #26314f;
+  --drop-color: #7fc1f9;
+}
+
 .frame {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  background-color: #1a2238;
-  color: #394568;
+  background-color: var(--bg-color);
+  color: var(--text-color);
   font-family: "Open Sans", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -43,7 +53,7 @@
   position: absolute;
   height: 90px;
   width: 100%;
-  background-color: #fff;
+  background-color: var(--card-color);
   display: flex;
   font-weight: 300;
   bottom: 0;
@@ -102,7 +112,7 @@
 }
 
 .near-cloud {
-  background-color: #303c5d;
+  background-color: var(--near-cloud);
 }
 
 .nc-2 {
@@ -116,7 +126,7 @@
 }
 
 .far-cloud {
-  background-color: #26314f;
+  background-color: var(--far-cloud);
 }
 
 .fc-1 {
@@ -131,19 +141,19 @@
 
 .moon {
   position: absolute;
-  background-color: #f6edbd;
+  background-color: var(--moon-color);
   width: 68px;
   height: 68px;
   border-radius: 50%;
   top: 45px;
   left: 55px;
-  box-shadow: 0 0 13px #f6edbd;
+  box-shadow: 0 0 13px var(--moon-color);
   overflow: hidden;
 }
 
 .crater {
   position: absolute;
-  background-color: #ece1a8;
+  background-color: var(--crater-color);
   border-radius: 50%;
   top: 50%;
   left: 50%;
@@ -240,7 +250,7 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: #7fc1f9;
+    background-color: var(--drop-color);
     animation: rain
       (0.6 + random(3) / 10) +
       s
@@ -259,7 +269,7 @@
       left: 1px;
       width: 6px;
       height: 6px;
-      background-color: #7fc1f9;
+      background-color: var(--drop-color);
       border-radius: 3px;
     }
 
@@ -271,7 +281,7 @@
       left: 2px;
       width: 4px;
       height: 10px;
-      background-color: #7fc1f9;
+      background-color: var(--drop-color);
       border-radius: 50%;
     }
   }

@@ -1,16 +1,19 @@
+:root {
+  --bg-color: #46a6da;
+  --primary-color: #ffffff;
+}
+
 .frame {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  background-color: #46a6da;
-  color: #333;
+  background-color: var(--bg-color);
 }
 
 .center {
@@ -28,7 +31,7 @@
   width: 90px;
   height: 90px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: var(--primary-color);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -43,7 +46,7 @@
   height: 110px;
   top: 50%;
   left: 50%;
-  border: 3px solid #fff;
+  border: 3px solid var(--primary-color);
   border-radius: 50%;
   animation: circle-flourish 5s ease-in-out infinite;
 }
@@ -53,7 +56,7 @@
   position: absolute;
   width: 100px;
   height: 100px;
-  fill: #fff;
+  fill: var(--primary-color);
   transform: translate(-50%, -50%) rotate(22.5deg);
   top: 50%;
   left: 50%;
@@ -86,7 +89,7 @@
       top: 0;
       left: 0;
       border-radius: 2px;
-      background-color: #fff;
+      background-color: var(--primary-color);
     }
 
     &:after {
@@ -111,7 +114,7 @@
   position: absolute;
   width: 106px;
   height: 90px;
-  fill: #fff;
+  fill: var(--primary-color);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -145,7 +148,7 @@
       top: 0;
       left: 0;
       border-radius: 2px;
-      background-color: #fff;
+      background-color: var(--primary-color);
     }
   }
 

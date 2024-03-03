@@ -1,21 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
 
+:root {
+  --bg-color: #3faf82;
+  --primary-color: #ffffff;
+}
+
 .frame {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  background: #3faf82;
-  color: #333;
-  font-family: "Open Sans", Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color);
 }
 
 .center {
@@ -39,24 +39,33 @@
 .bar-three {
   border-radius: 3px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
-}
-
-.bar-one {
   width: 80px;
   height: 8px;
-  background-color: #fff;
+  background-color: var(--primary-color);
 }
 
-.bar-two {
-  width: 80px;
-  height: 8px;
-  background-color: #fff;
+.bars.active .bar-one {
+  animation: rotateToXBarOne 0.5s forwards;
 }
 
-.bar-three {
-  width: 80px;
-  height: 8px;
-  background-color: #fff;
+.bars.active .bar-two {
+  animation: scaleDownFadeOutBarTwo 0.2s forwards;
+}
+
+.bars.active .bar-three {
+  animation: rotateToXBarThree 0.5s forwards;
+}
+
+.bars:not(.active) .bar-one {
+  animation: rotateFromXBarOne 0.5s forwards;
+}
+
+.bars:not(.active) .bar-two {
+  animation: scaleUpFadeInBarTwo 0.2s forwards;
+}
+
+.bars:not(.active) .bar-three {
+  animation: rotateFromXBarThree 0.5s forwards;
 }
 
 @keyframes rotateToXBarOne {
@@ -127,28 +136,4 @@
   100% {
     transform: translateY(0);
   }
-}
-
-.bars.active .bar-one {
-  animation: rotateToXBarOne 0.5s forwards;
-}
-
-.bars.active .bar-two {
-  animation: scaleDownFadeOutBarTwo 0.2s forwards;
-}
-
-.bars.active .bar-three {
-  animation: rotateToXBarThree 0.5s forwards;
-}
-
-.bars:not(.active) .bar-one {
-  animation: rotateFromXBarOne 0.5s forwards;
-}
-
-.bars:not(.active) .bar-two {
-  animation: scaleUpFadeInBarTwo 0.2s forwards;
-}
-
-.bars:not(.active) .bar-three {
-  animation: rotateFromXBarThree 0.5s forwards;
 }

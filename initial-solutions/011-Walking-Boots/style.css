@@ -1,4 +1,6 @@
 :root {
+  --bg-color: #e0c6a7;
+  --floor-color: #232323;
   --ground-height: 155px;
   --leg-width: 150px;
   --leg-height: 247px;
@@ -11,12 +13,11 @@
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  background: #e0c6a7;
+  background-color: var(--bg-color);
 }
 
 .center {
@@ -29,7 +30,7 @@
 .ground {
   height: var(--ground-height);
   width: 400px;
-  background-color: #232323;
+  background-color: var(--floor-color);
   margin-top: calc(400px - var(--ground-height));
 }
 

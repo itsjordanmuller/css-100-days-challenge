@@ -1,4 +1,8 @@
-$curve: cubic-bezier(0.25, 1, 0.55, 1);
+:root {
+  --curve: cubic-bezier(0.25, 1, 0.55, 1);
+  --bg-color: #e56262;
+  --primary-color: #ffffff;
+}
 
 .frame {
   position: absolute;
@@ -6,12 +10,11 @@ $curve: cubic-bezier(0.25, 1, 0.55, 1);
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  background: #e56262;
+  background-color: var(--bg-color);
 }
 
 .center {
@@ -23,7 +26,7 @@ $curve: cubic-bezier(0.25, 1, 0.55, 1);
 
 .circle {
   position: absolute;
-  background-color: #fff;
+  background-color: var(--primary-color);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -35,21 +38,21 @@ $curve: cubic-bezier(0.25, 1, 0.55, 1);
   z-index: 1;
   height: 90px;
   width: 90px;
-  animation: growLCircle 2s $curve infinite alternate;
+  animation: growLCircle 2s var(--curve) infinite alternate;
 }
 
 .m-circle {
   z-index: 2;
   width: 60px;
   height: 60px;
-  animation: growMCircle 2s $curve infinite alternate;
+  animation: growMCircle 2s var(--curve) infinite alternate;
 }
 
 .s-circle {
   z-index: 3;
   width: 30px;
   height: 30px;
-  animation: growSCircle 2s $curve infinite alternate;
+  animation: growSCircle 2s var(--curve) infinite alternate;
 }
 
 @keyframes growSCircle {

@@ -1,16 +1,19 @@
+:root {
+  --card-bg-color: #ffce4e;
+  --bg-color: #4b4841;
+}
+
 .frame {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  background: #4b4841;
-  color: #333;
+  background-color: var(--bg-color);
 }
 
 .center {
@@ -46,7 +49,7 @@
 }
 
 .card__face--front {
-  background: #ffce4e;
+  background-color: var(--card-bg-color);
 
   img {
     position: relative;
@@ -69,7 +72,7 @@
         top: 0;
         height: 3px;
         width: (2 + $i * 2) + px;
-        background: #4b4841;
+        background-color: var(--bg-color);
         border-radius: 3px;
         animation: road
           (0.8 + random(2) / 10) +
@@ -84,7 +87,7 @@
 }
 
 .card__face--back {
-  background: #ffce4e;
+  background-color: var(--card-bg-color);
   transform: rotateX(180deg);
 
   img {
@@ -109,7 +112,7 @@
         top: (20 + $i * 14) + px;
         height: 3px;
         width: (10 + random(150) / 10) + px;
-        background: #4b4841;
+        background-color: var(--bg-color);
         border-radius: 3px;
         animation: cloud
           (0.6 + random(2) / 10) +

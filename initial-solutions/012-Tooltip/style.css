@@ -1,11 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,400,300);
+
 :root {
   --bg-color: #4cb6de;
-  --text-color: #fff;
-  --mark-color: #6ac2e3;
+  --text-color: #ffffff;
   --highlight-color: #286f8a;
+  --quotation-mark-color: #6ac2e3;
 }
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,400,300);
 
 .frame {
   position: absolute;
@@ -13,12 +13,11 @@
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  background: var(--bg-color);
+  background-color: var(--bg-color);
   color: var(--text-color);
   font-family: "Open Sans", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -52,7 +51,7 @@
 }
 
 .quotation-mark::after {
-  color: var(--mark-color);
+  color: var(--quotation-mark-color);
   position: absolute;
   top: -10px;
   left: 7px;
@@ -65,7 +64,7 @@
 .tooltip {
   position: relative;
   display: inline-block;
-  background: var(--highlight-color);
+  background-color: var(--highlight-color);
   padding: 0px 8px 5px 8px;
   margin: -10px 0;
   cursor: pointer;
@@ -83,7 +82,7 @@
     bottom: 53px;
     left: -85px;
     display: block;
-    background: var(--highlight-color);
+    background-color: var(--highlight-color);
     width: 300px;
     font-size: 16px;
     line-height: 24px;
@@ -111,12 +110,12 @@
       bottom: -5px;
       left: 50%;
       margin-left: -5px;
-      background: var(--highlight-color);
+      background-color: var(--highlight-color);
     }
 
     .pronounce {
       display: block;
-      background: var(--text-color);
+      background-color: var(--text-color);
       color: var(--highlight-color);
       padding: 8px 17px 10px 17px;
       line-height: 16px;

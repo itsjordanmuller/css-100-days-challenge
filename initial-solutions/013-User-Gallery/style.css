@@ -1,18 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,600,500,400);
 
+:root {
+  --bg-color: #ffffff;
+  --primary-color: #ec6565;
+}
+
 .frame {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
   box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  background: #fff;
-  color: #fff;
+  background-color: var(--bg-color);
+  color: var(--bg-color);
   font-family: "Open Sans", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -38,7 +42,7 @@
 .exit-btn {
   z-index: 4;
   position: absolute;
-  background-color: #ec6565;
+  background-color: var(--primary-color);
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -48,12 +52,12 @@
 }
 
 .exit-btn:hover {
-  background-color: #fff;
+  background-color: var(--bg-color);
 }
 
 .exit-btn:hover.exit-btn:before,
 .exit-btn:hover.exit-btn:after {
-  background-color: #ec6565;
+  background-color: var(--primary-color);
 }
 
 .exit-btn:before {
@@ -63,7 +67,7 @@
   height: 2px;
   top: 24px;
   left: 18px;
-  background-color: #fff;
+  background-color: var(--bg-color);
   transform: rotate(45deg);
 }
 
@@ -74,13 +78,13 @@
   height: 14px;
   top: 18px;
   left: 24px;
-  background-color: #fff;
+  background-color: var(--bg-color);
   transform: rotate(45deg);
 }
 
 .info {
   z-index: 2;
-  background-color: #ec6565;
+  background-color: var(--primary-color);
   width: 400px;
   height: 170px;
   transform: translateY(220px);
@@ -110,7 +114,7 @@
   border-radius: 50%;
   width: 96px;
   height: 96px;
-  border: 2px solid #fff;
+  border: 2px solid var(--bg-color);
   box-shadow: 4px 6px 15px 0 rgba(0, 0, 0, 0.2);
   top: -200px;
   left: 50%;
@@ -119,7 +123,7 @@
 }
 
 .name {
-  color: #fff;
+  color: var(--bg-color);
   font-weight: 600;
   width: 100%;
   text-align: center;
@@ -137,14 +141,14 @@
   width: 43px;
   height: 43px;
   border-radius: 50%;
-  border: 1px solid #fff;
+  border: 1px solid var(--bg-color);
   text-align: center;
   cursor: pointer;
 }
 
 .social-btn:hover {
-  background-color: #fff;
-  color: #ec6565;
+  background-color: var(--bg-color);
+  color: var(--primary-color);
 }
 
 .social-btn span {
@@ -214,11 +218,11 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   border: none;
-  background-color: #ec6565;
+  background-color: var(--primary-color);
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  color: #fff;
+  color: var(--bg-color);
   font-family: inherit;
   font-weight: 300;
   font-size: 30px;

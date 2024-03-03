@@ -1,18 +1,27 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,500);
 
+:root {
+  --bg-color: #4c4c4c;
+  --text-color: #ffffff;
+  --dial-color: #242424;
+  --border-color: #3a3a3a;
+  --tick-color: #d3d3d3;
+  --heart-color: #f85b5b;
+  --ring-color: #ec5858;
+}
+
 .frame {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  background: #4c4c4c;
-  color: #fff;
+  background-color: var(--bg-color);
+  color: var(--text-color);
   font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 12px;
   -webkit-font-smoothing: antialiased;
@@ -29,9 +38,11 @@
 .dial {
   width: 212px;
   height: 212px;
-  background-color: #242424;
+  background-color: var(--dial-color);
   border-radius: 50%;
-  border: 7px solid #3a3a3a;
+  border-color: var(--border-color);
+  border-style: solid;
+  border-width: 7px;
   position: relative;
 }
 
@@ -39,7 +50,7 @@
   position: absolute;
   height: 2px;
   width: 2px;
-  background-color: #d3d3d3;
+  background-color: var(--tick-color);
   top: 50%;
   left: 50%;
   transform-origin: top left;
@@ -70,7 +81,7 @@
 }
 
 span.fa-heart {
-  color: #f85b5b;
+  color: var(--heart-color);
   margin-right: 4px;
   animation: beat 1s ease-in-out infinite;
 }
@@ -96,7 +107,7 @@ span.fa-heart {
   cy: 106px;
   r: 100px;
   fill: transparent;
-  stroke: #ec5858;
+  stroke: var(--ring-color);
   stroke-width: 3px;
   stroke-dasharray: 720;
   animation: ring-fill-empty 5s linear infinite;

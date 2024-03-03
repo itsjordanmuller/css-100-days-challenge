@@ -1,17 +1,29 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,600,500,400,300);
 
+:root {
+  --profile-bg-color: #ffffff;
+  --profile-text-color: #786450;
+  --gradient-start-color: #ebbb6b;
+  --gradient-end-color: #cb7d4f;
+  --button-color: #f5e8df;
+  --hover-button-color: #e1cfc2;
+}
+
 .frame {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  background: linear-gradient(45deg, #ebbb6b, #cb7d4f);
+  background: linear-gradient(
+    45deg,
+    var(--gradient-start-color),
+    var(--gradient-end-color)
+  );
   font-family: "Open Sans", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -28,10 +40,10 @@
   width: 320px;
   height: 300px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
-  background-color: #fff;
+  background-color: var(--profile-bg-color);
   border-radius: 4px;
   display: flex;
-  color: #786450;
+  color: var(--profile-text-color);
 }
 
 .profile-details {
@@ -58,7 +70,7 @@
   align-items: center;
   justify-content: center;
   font-size: 11px;
-  background-color: #f5e8df;
+  background-color: var(--button-color);
   font-weight: 300;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
@@ -67,7 +79,7 @@
 .posts:hover,
 .likes:hover,
 .followers:hover {
-  background-color: #e1cfc2;
+  background-color: var(--hover-button-color);
 }
 
 .stat-bold {
@@ -125,7 +137,7 @@ button {
   color: inherit;
   border: none;
   background-color: transparent;
-  border: 1px solid #786450;
+  border: 1px solid var(--profile-text-color);
   border-radius: 15px;
   margin-bottom: 10px;
   cursor: pointer;
@@ -133,8 +145,8 @@ button {
 }
 
 button:hover {
-  background-color: #786450;
-  color: #fff;
+  background-color: var(--profile-text-color);
+  color: var(--profile-bg-color);
 }
 
 .avatar {
@@ -146,7 +158,7 @@ button:hover {
 .spin {
   position: absolute;
   box-sizing: border-box;
-  border: 1px solid #786450;
+  border: 1px solid var(--profile-text-color);
   border-left-color: transparent;
   border-radius: 50%;
 }

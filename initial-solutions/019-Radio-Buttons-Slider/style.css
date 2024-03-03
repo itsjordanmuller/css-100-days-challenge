@@ -1,15 +1,20 @@
+:root {
+  --color-one: #9b59b6;
+  --color-two: #3498db;
+  --color-three: #1abc9c;
+  --indicator-color: #ffffff;
+}
+
 .frame {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  background: #fff;
 }
 
 .center {
@@ -54,15 +59,15 @@
 }
 
 .slide-one {
-  background-color: #9b59b6;
+  background-color: var(--color-one);
 }
 
 .slide-two {
-  background-color: #3498db;
+  background-color: var(--color-two);
 }
 
 .slide-three {
-  background-color: #1abc9c;
+  background-color: var(--color-three);
 }
 
 .buttons,
@@ -86,7 +91,7 @@
 }
 
 .buttons button {
-  border: 2px solid #fff;
+  border: 2px solid var(--indicator-color);
   width: 50px;
   height: 50px;
   background-color: transparent;
@@ -96,7 +101,7 @@
 #indicator {
   width: 40px;
   height: 40px;
-  background-color: #fff;
+  background-color: var(--indicator-color);
 }
 
 .one {

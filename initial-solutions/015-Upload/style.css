@@ -1,18 +1,33 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,400,300);
 
+:root {
+  --gradient-start-color: #3a92ad;
+  --gradient-end-color: #5ca05c;
+  --button-bg-color: #6ece3b;
+  --button-border-color: #498c25;
+  --text-color: #676767;
+  --dropzone-border-color: #a4a4a4;
+  --ui-border-color: #d8d8d8;
+  --dragover-color: #eeeeee;
+  --ui-bg-color: #ffffff;
+}
+
 .frame {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  background: linear-gradient(45deg, #3a92ad, #5ca05c);
-  color: #676767;
+  background: linear-gradient(
+    45deg,
+    var(--gradient-start-color),
+    var(--gradient-end-color)
+  );
+  color: var(--text-color);
   font-family: "Open Sans", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -25,7 +40,7 @@
   transform: translate(-50%, -50%);
   width: 300px;
   height: 260px;
-  background-color: #fff;
+  background-color: var(--ui-bg-color);
   box-shadow: 8px 10px 15px 0 rgba(0, 0, 0, 0.2);
   border-radius: 3px;
 }
@@ -33,7 +48,7 @@
 .upload-header {
   width: 100%;
   height: 50px;
-  border-bottom: 1px solid #d8d8d8;
+  border-bottom: 1px solid var(--ui-border-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,11 +64,11 @@
 .upload-btn {
   position: absolute;
   border: none;
-  color: #fff;
+  color: var(--ui-bg-color);
   line-height: 40px;
   font-size: 14px;
-  background-color: #6ece3b;
-  box-shadow: 0 2px 0 0 #498c25;
+  background-color: var(--button-bg-color);
+  box-shadow: 0 2px 0 0 var(--button-border-color);
   width: 140px;
   height: 40px;
   border-radius: 3px;
@@ -64,7 +79,8 @@
 }
 
 .upload-btn:hover {
-  box-shadow: 0 2px 0 0 #498c25, 0 2px 10px 0 #6ece3b;
+  box-shadow: 0 2px 0 0 var(--button-border-color),
+    0 2px 10px 0 var(--button-bg-color);
 }
 
 .dropzone {
@@ -77,14 +93,14 @@
   height: 80px;
   top: 40px;
   left: 100px;
-  border: 1px dashed #a4a4a4;
+  border: 1px dashed var(--dropzone-border-color);
   border-radius: 3px;
   text-align: center;
   overflow: hidden;
 
   &.is-dragover {
-    border-color: #666;
-    background: #eee;
+    border-color: var(--text-color);
+    background-color: var(--dragover-color);
   }
 
   .content {
@@ -98,7 +114,7 @@
 
   .filename {
     display: block;
-    color: #676767;
+    color: var(--text-color);
     font-size: 14px;
     line-height: 18px;
   }
@@ -120,7 +136,7 @@
   height: 3px;
   top: 49px;
   left: 0;
-  background: #6ece3b;
+  background-color: var(--button-bg-color);
   transition: all 3s ease-out;
   transform: scaleX(0);
   transform-origin: 0 0;

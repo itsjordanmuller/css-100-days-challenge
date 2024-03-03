@@ -1,12 +1,18 @@
+:root {
+  --top-color: #444444;
+  --bottom-color: #37d493;
+}
+
 .frame {
+  position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -200px;
-  margin-left: -200px;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  background: #fff;
 }
 
 .frame,
@@ -29,11 +35,11 @@
 }
 
 .top {
-  background-color: #444444;
+  background-color: var(--top-color);
 }
 
 .bottom {
-  background-color: #37d493;
+  background-color: var(--bottom-color);
 }
 
 .oval,
@@ -57,12 +63,12 @@
 }
 
 .front {
-  background-color: #37d493;
+  background-color: var(--bottom-color);
   transform: rotateX(0deg);
 }
 
 .back {
-  background-color: #444444;
+  background-color: var(--top-color);
   transform: rotateX(180deg);
 }
 

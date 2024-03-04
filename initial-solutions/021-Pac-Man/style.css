@@ -1,16 +1,19 @@
+:root {
+  --bg-color: #2c2e2e;
+  --primary-color: #f4d146;
+}
+
 .frame {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  background-color: #2c2e2e;
-  color: #333;
+  background-color: var(--bg-color);
 }
 
 .center {
@@ -31,7 +34,7 @@
 .top {
   width: 100px;
   height: 50px;
-  background-color: #f4d146;
+  background-color: var(--primary-color);
   border-radius: 125px 125px 0 0;
   transform-origin: 50px 50px;
   animation: chomp-top 0.7s ease-in-out infinite;
@@ -43,7 +46,7 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #2c2e2e;
+  background-color: var(--bg-color);
   top: 18px;
   left: 54px;
   animation: bounce 0.7s ease-in-out infinite;
@@ -52,7 +55,7 @@
 .bottom {
   width: 100px;
   height: 50px;
-  background-color: #f4d146;
+  background-color: var(--primary-color);
   border-radius: 0 0 125px 125px;
   transform: rotate(45deg);
   transform-origin: 50px 0px;
@@ -64,10 +67,10 @@
   height: 14px;
   top: 45px;
   left: 50%;
-  stroke: #f4d146;
+  stroke: var(--primary-color);
   stroke-width: 14px;
   stroke-dasharray: 0px 50px;
-  stroke-dash-offset: 14;
+  stroke-dashoffset: 14px;
   stroke-linecap: round;
   animation: move-dots 0.7s linear infinite;
 }
@@ -104,10 +107,10 @@
 
 @keyframes move-dots {
   0% {
-    stroke-dashoffset: 14;
+    stroke-dashoffset: 14px;
     transform: translate3d(0, 0, 0);
   }
   100% {
-    stroke-dashoffset: 64;
+    stroke-dashoffset: 64px;
   }
 }

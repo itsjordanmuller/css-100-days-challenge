@@ -1,35 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
 
 :root {
-  --container-width: 400px;
-  --container-height: 400px;
-  --container-bg-color: #c7d6e1;
-  --container-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.15);
-  --info-card-width: 240px;
-  --info-card-height: 150px;
-  --info-card-bg-color: #fff;
-  --info-card-shadow: 4px 8px 12px 0px rgba(0, 0, 0, 0.1);
+  --shadow: rgba(0, 0, 0, 0.3);
+  --bg-color: #c7d6e1;
+  --card-bg-color: #ffffff;
+  --card-text-color: #616e7d;
   --badge-bg-color: #8391a1;
-  --serial-font-size: 13px;
-  --serial-line-height: 13px;
-  --description-text-color: #8391a1;
-  --confirm-btn-bg-color: #3ca7fb;
-  --confirm-btn-hover-bg-color: #2196f3;
+  --btn-bg-color: #3ca7fb;
+  --btn-hover-color: #2196f3;
 }
 
-.container {
+.frame {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: var(--container-width);
-  height: var(--container-height);
-  margin-top: calc(-1 * var(--container-height) / 2);
-  margin-left: calc(-1 * var(--container-width) / 2);
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
-  box-shadow: var(--container-shadow);
+  box-shadow: 1px 2px 10px 0px var(--shadow);
   overflow: hidden;
-  background: var(--container-bg-color);
-  color: #fff;
+  background-color: var(--bg-color);
+  color: var(--card-bg-color);
   font-family: "Open Sans", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -38,12 +30,12 @@
 .info-card {
   position: absolute;
   z-index: 0;
-  width: var(--info-card-width);
-  height: var(--info-card-height);
+  width: 240px;
+  height: 150px;
   top: 125px;
   left: 80px;
-  background: var(--info-card-bg-color);
-  box-shadow: var(--info-card-shadow);
+  background: var(--card-bg-color);
+  box-shadow: 4px 8px 12px 0px rgba(0, 0, 0, 0.1);
   border-radius: 3px;
   overflow: hidden;
   pointer-events: none;
@@ -76,10 +68,10 @@
   position: absolute;
   top: 6px;
   right: 8px;
-  font-size: var(--serial-font-size);
-  line-height: var(--serial-line-height);
+  font-size: 13px;
+  line-height: 13px;
   font-weight: 600;
-  color: #fff;
+  color: var(--card-bg-color);
 }
 
 .info-card .description {
@@ -92,14 +84,14 @@
   font-size: 14px;
   line-height: 22px;
   font-weight: 600;
-  color: #616e7d;
+  color: var(--card-text-color);
   margin-bottom: 8px;
 }
 
 .info-card .description p {
-  font-size: var(--serial-font-size);
+  font-size: 13px;
   line-height: 17px;
-  color: var(--description-text-color);
+  color: var(--badge-bg-color);
   margin: 0;
 }
 
@@ -108,17 +100,17 @@
   width: 100%;
   height: 40px;
   bottom: 0;
-  background: var(--confirm-btn-bg-color);
+  background: var(--btn-bg-color);
   cursor: pointer;
   text-align: center;
   text-transform: uppercase;
   line-height: 38px;
-  font-size: var(--serial-font-size);
+  font-size: 13px;
   transition: all 0.3s ease-in-out;
 }
 
 .info-card .confirm-btn:hover {
-  background: var(--confirm-btn-hover-bg-color);
+  background: var(--btn-hover-color);
 }
 
 @keyframes fadeIn {

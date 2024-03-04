@@ -1,18 +1,30 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,600,400,300);
 
+:root {
+  --gradient-start-color: #273f4d;
+  --gradient-end-color: #1c2e38;
+  --text-color: #ffffff;
+  --unit-text-color: #648192;
+  --primary-dial-color: #27e1ae;
+  --secondary-dial-color: #5ce1ec;
+  --empty-dial-color: #1b2a33;
+}
+
 .frame {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  background: linear-gradient(#273f4d, #1c2e38);
-  color: #fff;
+  background: linear-gradient(
+    var(--gradient-start-color),
+    var(--gradient-end-color)
+  );
+  color: var(--text-color);
   font-family: "Open Sans", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -53,13 +65,13 @@
   .bg {
     fill: none;
     stroke-width: 10px;
-    stroke: #1b2a33;
+    stroke: var(--empty-dial-color);
   }
 
   .dial {
     fill: none;
     stroke-width: 10px;
-    stroke: #27e1ae;
+    stroke: var(--primary-dial-color);
     stroke-linecap: round;
     stroke-dasharray: (52 * 2 * 3.14);
     stroke-dashoffset: 60;
@@ -79,7 +91,7 @@
 
     .unit {
       font-size: 14px;
-      color: #648192;
+      color: var(--unit-text-color);
     }
   }
 }
@@ -106,13 +118,13 @@
   .bg {
     fill: none;
     stroke-width: 6px;
-    stroke: #1b2a33;
+    stroke: var(--empty-dial-color);
   }
 
   .dial {
     fill: none;
     stroke-width: 6px;
-    stroke: #5ce1ec;
+    stroke: var(--secondary-dial-color);
     stroke-linecap: round;
     stroke-dasharray: (37 * 2 * 3.14);
     transform: rotate(-90deg);
@@ -140,7 +152,7 @@
 
     .unit {
       font-size: 12px;
-      color: #648192;
+      color: var(--unit-text-color);
     }
   }
 }

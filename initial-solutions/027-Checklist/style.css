@@ -1,27 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:600,400");
 
 :root {
-  --primary-color: #fda231;
-  --secondary-color: #fdca31;
+  --gradient-start-color: #fda231;
+  --gradient-end-color: #fdca31;
   --text-color: #497081;
   --border-color: #d4dce0;
   --hover-text-color: #c8d4d9;
+  --card-bg-color: #ffffff;
 }
 
-.custom-frame {
+.frame {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   width: 400px;
   height: 400px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
-  background: var(--primary-color);
   background: linear-gradient(
     to top right,
-    var(--primary-color) 0%,
-    var(--secondary-color) 100%
+    var(--gradient-start-color) 0%,
+    var(--gradient-end-color) 100%
   );
   color: var(--text-color);
   font-family: "Open Sans", Helvetica, sans-serif;
@@ -35,7 +35,7 @@
   height: 280px;
   top: 60px;
   left: 80px;
-  background: #ffffff;
+  background-color: var(--card-bg-color);
   box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.1);
   border-radius: 3px;
 }

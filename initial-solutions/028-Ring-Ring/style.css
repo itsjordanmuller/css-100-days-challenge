@@ -1,28 +1,33 @@
+:root {
+  --bg-color: #dd3c54;
+  --primary-color: #ffffff;
+}
+
 .frame {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   height: 400px;
-  margin: -200px 0 0 -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  background: #dd3c54;
+  background-color: var(--bg-color);
 }
 
 .bell {
   position: absolute;
   top: 173px;
   left: 175px;
-  fill: #fff;
+  fill: var(--primary-color);
   transform-origin: 50% 0;
   animation: shake 2.5s ease infinite;
 }
 
 .line {
   fill: none;
-  stroke: #fff;
+  stroke: var(--primary-color);
   stroke-width: 2;
   stroke-linecap: round;
   position: absolute;

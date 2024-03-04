@@ -1,16 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 
 :root {
-  --primary-bg-color: #2c3e50;
+  --bg-color: #2c3e50;
   --circle-bg-color: #354a5f;
   --button-bg-color: #ecf0f1;
   --button-hover-bg-color: #1abc9c;
-  --text-color: #2c3e50;
   --text-hover-color: #ffffff;
-  --icon-stroke-color: #ecf0f1;
 }
 
-.container {
+.frame {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -19,7 +17,7 @@
   transform: translate(-50%, -50%);
   border-radius: 2px;
   box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.3);
-  background-color: var(--primary-bg-color);
+  background-color: var(--bg-color);
   font-family: "Open Sans", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -51,7 +49,7 @@
   transform: translate3d(0, 0, 0);
   fill: none;
   stroke-width: 2px;
-  stroke: var(--icon-stroke-color);
+  stroke: var(--button-bg-color);
   stroke-linecap: square;
   stroke-dasharray: 325 325;
 }
@@ -80,7 +78,7 @@
   top: 290px;
   left: 100px;
   background-color: var(--button-bg-color);
-  color: var(--text-color);
+  color: var(--bg-color);
   text-align: center;
   line-height: 40px;
   border-radius: 20px;
@@ -101,22 +99,22 @@
 }
 
 #toggle:checked ~ .action-btn {
-  animation: tap 1.5s ease-in-out 1.7s;
+  animation: tap 1s ease-in-out 0.5s;
   animation-fill-mode: both;
 }
 
 #toggle:checked ~ .reset-action {
-  animation: redo 1s ease-in-out 3.7s;
+  animation: redo 0.5s ease-in-out 1.5s;
   animation-fill-mode: both;
 }
 
 #toggle:checked ~ .shape-circle {
-  animation: shrink 1s ease-in-out;
+  animation: shrink 0.5s ease-in-out;
   animation-fill-mode: both;
 }
 
 #toggle:checked ~ .shape-outer-circle {
-  animation: circle 0.8s ease-in-out 0.2s;
+  animation: shrink 0.8s ease-in-out 0.4s;
   animation-fill-mode: both;
 }
 
@@ -128,7 +126,7 @@
 #toggle:checked ~ .icon-airplane {
   stroke-dashoffset: 0;
   transition: stroke-dashoffset 1s ease-in-out 0.6s;
-  animation: flight 2.4s ease-in-out;
+  animation: flight 2s ease-in-out;
   animation-fill-mode: both;
 }
 

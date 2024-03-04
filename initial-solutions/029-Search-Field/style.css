@@ -1,27 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:600,400");
 
 :root {
-  --main-bg-color: #5ca4ea;
-  --text-color: #fff;
-  --input-bg-color: #fff;
+  --bg-color: #5ca4ea;
+  --input-color: #ffffff;
   --input-text-color: #4d8dcb;
-  --suggestion-text-color: #6e6e6e;
+  --input-text-color: #6e6e6e;
   --placeholder-color: #a4b9ce;
-  --search-btn-color: #5ca4ea;
-  --search-btn-hover-color: #4d8dcb;
 }
 
-.container {
+.frame {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   width: 400px;
   height: 400px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
   box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
-  background: var(--main-bg-color);
-  color: var(--text-color);
+  background-color: var(--bg-color);
   font-family: "Open Sans", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -32,7 +28,7 @@
   width: 260px;
   top: 180px;
   left: 70px;
-  background: var(--input-bg-color);
+  background-color: var(--input-color);
   box-shadow: 4px 8px 12px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -41,7 +37,7 @@
   height: 40px;
   border: none;
   padding-left: 15px;
-  background: var(--input-bg-color);
+  background-color: var(--input-color);
   color: var(--input-text-color);
   font-size: 13px;
   font-weight: 600;
@@ -53,18 +49,18 @@
   width: 40px;
   height: 40px;
   border: none;
-  background: var(--input-bg-color);
-  color: var(--search-btn-color);
+  background-color: var(--input-color);
+  color: var(--bg-color);
   font-size: 20px;
 }
 
 .search-btn span {
   position: relative;
-  top: -1px;
+  top: 3px;
 }
 
 .suggestions-list {
-  background: var(--input-bg-color);
+  background-color: var(--input-color);
   font-size: 13px;
   font-weight: 400;
   line-height: 20px;
@@ -73,11 +69,11 @@
   padding-bottom: 2px;
   margin: 0;
   list-style: none;
-  color: var(--suggestion-text-color);
+  color: var(--input-text-color);
 }
 
 .suggestions-list.active {
-  border-top: 1px solid var(--search-btn-color);
+  border-top: 1px solid var(--bg-color);
 }
 
 .suggestions-list li {
@@ -87,7 +83,7 @@
 }
 
 .suggestions-list li:hover {
-  color: var(--search-btn-hover-color);
+  color: var(--input-text-color);
 }
 
 .suggestions-list li b {

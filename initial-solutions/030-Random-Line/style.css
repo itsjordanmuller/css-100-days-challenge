@@ -2,21 +2,20 @@
 
 :root {
   --bg-color: #16a085;
-  --element-color: #fff;
-  --container-size: 400px;
+  --primary-color: #ffffff;
   --dot-size: 30px;
 }
 
-.container {
+.frame {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: var(--container-size);
-  height: var(--container-size);
-  margin: calc(var(--container-size) / -2);
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
-  background: var(--bg-color);
+  background-color: var(--bg-color);
   font-size: 0;
   font-family: "Open Sans", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -32,7 +31,7 @@
 
 .curve {
   fill: none;
-  stroke: var(--element-color);
+  stroke: var(--primary-color);
   stroke-width: 3px;
   stroke-linecap: round;
   animation: drawLine 2.5s linear infinite;
@@ -45,7 +44,7 @@
   top: calc(50% - var(--dot-size) / 2 + 15px);
   left: calc(50% - var(--dot-size) / 2 + 15px);
   border-radius: 50%;
-  border: 4px solid var(--element-color);
+  border: 4px solid var(--primary-color);
   animation: expandDot 2.5s ease-out infinite both;
 }
 

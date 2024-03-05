@@ -1,74 +1,90 @@
 :root {
-	--frame-bg-color: #fff;
-	--pic-bg-color: #000;
-	--pic-size: 128px;
-	--space: 4px;
-	--transition-time: .5s;
-	--scale-factor: 3.0625;
+  --shadow: rgba(0, 0, 0, 0.3);
+  --bg-color: #ffffff;
+  --pic-bg-color: #000000;
+  --pic-size: 128px;
+  --space: 4px;
+  --transition-time: 0.5s;
 }
 
-.container {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 400px;
-	height: 400px;
-	margin: 2px;
-	border-radius: 2px;
-	box-shadow: 1px 2px 10px rgba(0,0,0,0.2);
-	overflow: hidden;
-	background: var(--frame-bg-color);
-	font-family: 'Open Sans', sans-serif;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px var(--shadow);
+  overflow: hidden;
+  background-color: var(--bg-color);
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .gallery {
-	display: flex;
-	flex-wrap: wrap;
-	padding: var(--space);
-	gap: var(--space);
-	justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: var(--space);
+  gap: var(--space);
+  justify-content: center;
 }
 
 .pic {
-	width: var(--pic-size);
-	height: var(--pic-size);
-	background: var(--pic-bg-color);
-	cursor: pointer;
-	transition: all var(--transition-time) ease-in-out, z-index 0.5s linear var(--transition-time);
-	position: relative;
+  width: var(--pic-size);
+  height: var(--pic-size);
+  background-color: var(--pic-bg-color);
+  cursor: pointer;
+  transition: all var(--transition-time) ease-in-out,
+    z-index 0.5s linear var(--transition-time);
+  position: relative;
 }
 
-.pic.top { transform-origin: center top; }
+.pic.top {
+  transform-origin: center top;
+}
 
-.pic.bottom { transform-origin: center bottom; }
+.pic.bottom {
+  transform-origin: center bottom;
+}
 
-.pic.left { transform-origin: left center; }
+.pic.left {
+  transform-origin: left center;
+}
 
-.pic.right { transform-origin: right center; }
+.pic.right {
+  transform-origin: right center;
+}
 
-.pic.top.left { transform-origin: top left; }
+.pic.top.left {
+  transform-origin: top left;
+}
 
-.pic.top.right { transform-origin: top right; }
+.pic.top.right {
+  transform-origin: top right;
+}
 
-.pic.bottom.left { transform-origin: bottom left; }
+.pic.bottom.left {
+  transform-origin: bottom left;
+}
 
-.pic.bottom.right { transform-origin: bottom right; }
+.pic.bottom.right {
+  transform-origin: bottom right;
+}
 
 .pic img {
-	width: 100%;
-	height: auto;
-	transition: opacity var(--transition-time) ease-in-out;
+  width: 100%;
+  height: auto;
+  transition: opacity var(--transition-time) ease-in-out;
 }
 
 .pic.active {
-	transform: scale(var(--scale-factor));
-	z-index: 20;
+  transform: scale(3.0625);
+  z-index: 20;
 }
 
 .pic.away img {
-	opacity: 0;
+  opacity: 0;
 }

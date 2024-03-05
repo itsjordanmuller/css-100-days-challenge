@@ -2,28 +2,27 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
 
 :root {
-  --main-bg-color: #2b3642;
-  --content-bg-color: #fff;
-  --nav-active-bg-color: #5cb3fa;
-  --nav-inactive-bg-color: #3c4f61;
-  --nav-text-color: #8293a4;
-  --nav-hover-text-color: #fff;
-  --panel-text-color: #3f586e;
-  --panel-content-bg-color: #ededed;
+  --shadow: rgba(0, 0, 0, 0.3);
+  --bg-color: #2b3642;
+  --nav-body-color: #ffffff;
+  --nav-header-color: #3c4f61;
+  --active-tab-color: #5cb3fa;
+  --tab-icon-color: #8293a4;
+  --tab-title-color: #3f586e;
+  --placeholder-color: #ededed;
 }
 
-.viewport {
+.frame {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
-  box-shadow: 2px 3px 12px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 2px 10px var(--shadow);
   overflow: hidden;
-  background: var(--main-bg-color);
+  background-color: var(--bg-color);
   font-family: "Open Sans", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -35,7 +34,7 @@
   height: 260px;
   top: 70px;
   left: 40px;
-  background: var(--content-bg-color);
+  background-color: var(--nav-body-color);
   box-shadow: 5px 9px 15px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -46,7 +45,7 @@
   left: 0;
   right: 0;
   height: 40px;
-  background: var(--nav-inactive-bg-color);
+  background-color: var(--nav-header-color);
 }
 
 input[type="radio"] {
@@ -61,7 +60,7 @@ input[type="radio"] {
   height: 40px;
   text-align: center;
   line-height: 38px;
-  color: var(--nav-text-color);
+  color: var(--tab-icon-color);
   cursor: pointer;
   font-size: 14px;
   transition: background 0.5s ease-in-out;
@@ -72,12 +71,12 @@ input[type="radio"] {
 }
 
 .nav-link:hover {
-  color: var(--nav-hover-text-color);
+  color: var(--nav-body-color);
 }
 
 input[type="radio"]:checked + .nav-link {
-  background: var(--nav-active-bg-color);
-  color: var(--nav-hover-text-color);
+  background-color: var(--active-tab-color);
+  color: var(--nav-body-color);
 }
 
 .panels {
@@ -106,7 +105,7 @@ input[type="radio"]:checked + .nav-link {
 .panel h1 {
   font-weight: 400;
   font-size: 16px;
-  color: var(--panel-text-color);
+  color: var(--tab-title-color);
   margin: 0 0 17px 0;
   padding: 0;
 }
@@ -118,7 +117,7 @@ input[type="radio"]:checked + .nav-link {
 .panel p span {
   display: block;
   height: 4px;
-  background: var(--panel-content-bg-color);
+  background-color: var(--placeholder-color);
   margin: 6px 0;
 }
 

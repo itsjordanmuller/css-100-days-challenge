@@ -1,27 +1,22 @@
 :root {
+  --shadow: rgba(0, 0, 0, 0.3);
   --bg-color: #75c1e8;
   --sun-color: #ffd93c;
-  --cloud-color: #fff;
-  --frame-size: 400px;
-  --frame-border-radius: 2px;
-  --frame-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  --cloud-color: #ffffff;
   --sun-size: 64px;
-  --move-left-animation: moveLeft 60s linear infinite alternate both;
-  --move-right-animation: moveRight 60s linear infinite alternate both;
 }
 
-.container {
+.frame {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: var(--frame-size);
-  height: var(--frame-size);
-  margin-top: calc(var(--frame-size) / -2);
-  margin-left: calc(var(--frame-size) / -2);
-  border-radius: var(--frame-border-radius);
-  box-shadow: var(--frame-shadow);
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px var(--shadow);
   overflow: hidden;
-  background: var(--bg-color);
+  background-color: var(--bg-color);
 }
 
 .sunshine {
@@ -30,15 +25,15 @@
   width: var(--sun-size);
   top: 40px;
   left: 52px;
-  background: var(--sun-color);
+  background-color: var(--sun-color);
   border-radius: 50%;
-  animation: var(--move-right-animation);
+  animation: moveRight 60s linear infinite alternate both;
 }
 
 .cloud {
   position: absolute;
   fill: var(--cloud-color);
-  animation: var(--move-left-animation);
+  animation: moveLeft 60s linear infinite alternate both;
 }
 
 .large {

@@ -1,20 +1,19 @@
 :root {
-  --main-bg-color: #ea4c89;
-  --main-text-color: #fff;
-  --divider-color: #fff;
-  --shadow-color: rgba(0, 0, 0, 0.3);
+  --shadow: rgba(0, 0, 0, 0.3);
+  --bg-color: #ea4c89;
+  --text-color: #ffffff;
 }
 
-.container {
+.frame {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   height: 400px;
-  margin: -200px 0 0 -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
-  box-shadow: 1px 2px 10px 0px var(--shadow-color);
-  background: var(--main-bg-color);
+  box-shadow: 1px 2px 10px var(--shadow);
+  background-color: var(--bg-color);
 }
 
 .content {
@@ -27,19 +26,20 @@
 .divider {
   width: 225px;
   height: 2px;
-  background: var(--divider-color);
+  background-color: var(--text-color);
   margin: 15px 0;
   animation: scaleUp 0.6s ease-out both;
 }
 
 .word {
-  stroke: var(--main-bg-color);
+  stroke: var(--bg-color);
   stroke-dasharray: 270;
 }
 
 .word path {
   stroke-width: 6;
   animation: strokeOffset 1.2s ease-in-out both;
+  fill: var(--text-color);
 }
 
 .word path:nth-child(2) {

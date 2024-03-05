@@ -1,13 +1,13 @@
-document.getElementById("container").addEventListener("click", function () {
-  const whiteIcon = document.querySelector(".icon.white");
-  const purpleIcon = document.querySelector(".icon.purple");
+document.querySelector(".frame").addEventListener("click", function () {
+  const secondaryIcon = document.querySelector(".icon.secondary");
+  const primaryIcon = document.querySelector(".icon.primary");
 
-  if (whiteIcon.classList.contains("big")) {
-    whiteIcon.classList.remove("big");
-    whiteIcon.classList.add("normal");
+  if (secondaryIcon.classList.contains("big")) {
+    secondaryIcon.classList.remove("big");
+    secondaryIcon.classList.add("normal");
   } else {
-    whiteIcon.classList.add("big");
-    whiteIcon.classList.remove("normal");
+    secondaryIcon.classList.add("big");
+    secondaryIcon.classList.remove("normal");
   }
-  purpleIcon.classList.toggle("normal");
+  primaryIcon.classList.toggle("normal");
 });

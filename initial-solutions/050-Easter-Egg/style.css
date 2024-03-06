@@ -1,34 +1,30 @@
 :root {
-  --container-size: 400px;
-  --container-bg-color: #8e44ad;
-  --shell-width: 100px;
-  --shell-height: 130px;
-  --shell-top: 135px;
-  --shell-left: 150px;
+  --shadow: rgba(0, 0, 0, 0.3);
+  --bg-color: #8e44ad;
+  --shell-color: #ffffff;
   --shell-border-radius: 50px 50px 50px 50px / 80px 80px 50px 50px;
 }
 
-.container {
+.frame {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: var(--container-size);
-  height: var(--container-size);
-  margin-top: calc(var(--container-size) / -2);
-  margin-left: calc(var(--container-size) / -2);
-  border-radius: var(--container-border-radius);
-  box-shadow: var(--container-shadow);
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px var(--shadow);
   overflow: hidden;
-  background-color: var(--container-bg-color);
+  background-color: var(--bg-color);
 }
 
 .shell {
   position: absolute;
-  width: var(--shell-width);
-  height: var(--shell-height);
-  top: var(--shell-top);
-  left: var(--shell-left);
-  background-color: #ffffff;
+  width: 100px;
+  height: 130px;
+  top: 135px;
+  left: 150px;
+  background-color: var(--shell-color);
   border-radius: var(--shell-border-radius);
   animation: bounce 3s ease-in-out infinite;
   transform-origin: 50% 80%;

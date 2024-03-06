@@ -1,8 +1,8 @@
 function createCube() {
-  const container = document.getElementById("container");
+  const frame = document.getElementById("frame");
 
-  const boxContainer = document.createElement("div");
-  boxContainer.className = "box-container";
+  const boxFrame = document.createElement("div");
+  boxFrame.className = "box-frame";
 
   const boxAlignment = document.createElement("div");
   boxAlignment.className = "box-alignment";
@@ -12,12 +12,12 @@ function createCube() {
   box.setAttribute("onclick", "void(0);");
 
   const faces = [
-    "front-face",
-    "back-face",
-    "right-face",
-    "left-face",
-    "top-face",
-    "bottom-face",
+    "front-top",
+    "back-top",
+    "front-left",
+    "hidden-left",
+    "front-right",
+    "hidden-right",
   ];
 
   faces.forEach((faceClass) => {
@@ -27,8 +27,8 @@ function createCube() {
   });
 
   boxAlignment.appendChild(box);
-  boxContainer.appendChild(boxAlignment);
-  container.appendChild(boxContainer);
+  boxFrame.appendChild(boxAlignment);
+  frame.appendChild(boxFrame);
 }
 
 document.addEventListener("DOMContentLoaded", createCube);

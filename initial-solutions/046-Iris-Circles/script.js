@@ -1,4 +1,4 @@
-const container = document.getElementById("container");
+const frame = document.getElementById("frame");
 
 const fragment = document.createDocumentFragment();
 
@@ -15,4 +15,4 @@ for (let i = 1; i <= 6; i++) {
   fragment.appendChild(ringElement);
 }
 
-container.appendChild(fragment);
+frame.appendChild(fragment);

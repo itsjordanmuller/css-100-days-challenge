@@ -1,26 +1,22 @@
 :root {
-  --container-bg-color: #fff;
-  --sky-bg-start: #1d4253;
-  --sky-bg-end: #6bb5c4;
-  --star-color: #fff;
+  --shadow: rgba(0, 0, 0, 0.3);
+  --bg-color: #ffffff;
+  --sky-start-color: #1d4253;
+  --sky-end-color: #6bb5c4;
+  --star-color: #ffffff;
 }
 
-.container {
+.frame {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
-  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 2px 10px 0px var(--shadow);
   overflow: hidden;
-  background: var(--container-bg-color);
-  color: var(--star-color);
-  font-family: "Open Sans", Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color);
 }
 
 .sky {
@@ -31,8 +27,8 @@
   left: 60px;
   background: linear-gradient(
     to bottom,
-    var(--sky-bg-start) 0%,
-    var(--sky-bg-end) 100%
+    var(--sky-start-color) 0%,
+    var(--sky-end-color) 100%
   );
   border-radius: 50%;
   overflow: hidden;
@@ -43,7 +39,7 @@
   width: 1px;
   height: 1px;
   border-radius: 1px;
-  background: var(--star-color);
+  background-color: var(--star-color);
 }
 
 .shooting-star {
@@ -52,13 +48,13 @@
   left: -120px;
   width: 120px;
   height: 2px;
-  background: url(https://100dayscss.com/codepen/shooting-star.png) center
+  background-color: url(https://100dayscss.com/codepen/shooting-star.png) center
     center no-repeat;
   background-size: 100% 100%;
   transform: rotate(20deg);
 }
 
-@keyframes flickr {
+@keyframes twinkle {
   0%,
   100% {
     opacity: 1;

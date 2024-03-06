@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     star.className = "star";
     star.style.top = `${Math.random() * 100}%`;
     star.style.left = `${Math.random() * 100}%`;
-    star.style.animation = `${Math.random() * 2 + 1}s flickr infinite ${
+    star.style.animation = `${Math.random() * 2 + 1}s twinkle infinite ${
       Math.random() * 2
     }s`;
     sky.appendChild(star);

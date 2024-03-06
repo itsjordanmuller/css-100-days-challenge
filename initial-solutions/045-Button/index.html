@@ -1,17 +1,28 @@
-<div id="container">
-  <div id="interactive-area">
-    <div id="action-button" onclick="triggerAnimation()">
-      <span>Hover me</span>
-      <svg height="60" width="180" id="svg-frame">
-        <polyline
-          points="179,1 179,59 1,59 1,1 179,1"
-          class="background-line"
-        ></polyline>
-        <polyline
-          points="179,1 179,59 1,59 1,1 179,1"
-          class="highlight-line"
-        ></polyline>
-      </svg>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Day 045/100 - Button - 100 Days CSS Challenge</title>
+  </head>
+  <body>
+    <div class="frame">
+      <div class="interactive-area">
+        <div class="action-button" onclick="triggerAnimation()">
+          <span>Hover me</span>
+          <svg height="60" width="180" class="svg-frame">
+            <polyline
+              points="179,1 179,59 1,59 1,1 179,1"
+              class="background-line"
+            ></polyline>
+            <polyline
+              points="179,1 179,59 1,59 1,1 179,1"
+              class="highlight-line"
+            ></polyline>
+          </svg>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+  </body>
+</html>

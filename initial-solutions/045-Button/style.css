@@ -1,42 +1,42 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
 
 :root {
-  --main-bg-color: #5ca4ea;
-  --hover-bg-color: #4f95da;
-  --line-color: #91c9ff;
-  --highlight-color: #fff;
-  --font-stack: "Open Sans", Helvetica, sans-serif;
+  --shadow: rgba(0, 0, 0, 0.3);
+  --bg-color: #5ca4ea;
+  --btn-hover-color: #4f95da;
+  --btn-border-color: #91c9ff;
+  --text-color: #ffffff;
 }
 
-#container {
+.frame {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   width: 400px;
   height: 400px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
-  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
-  background: var(--main-bg-color);
-  color: var(--highlight-color);
-  font-family: var(--font-stack);
+  box-shadow: 1px 2px 10px var(--shadow);
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Open Sans", Helvetica, sans-serif;
   text-align: center;
   overflow: hidden;
 }
 
-#interactive-area {
+.interactive-area {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 
-#action-button {
+.action-button {
   cursor: pointer;
   position: relative;
   display: inline-block;
 }
 
-#action-button span {
+.action-button span {
   position: absolute;
   width: 100%;
   line-height: 60px;
@@ -46,7 +46,7 @@
   text-transform: uppercase;
 }
 
-#svg-frame {
+.svg-frame {
   fill: none;
 }
 
@@ -57,19 +57,19 @@
 }
 
 .background-line {
-  stroke: var(--line-color);
+  stroke: var(--btn-border-color);
 }
 
 .highlight-line {
-  stroke: var(--highlight-color);
+  stroke: var(--text-color);
   stroke-dasharray: 40 480;
   stroke-dashoffset: 40;
 }
 
-#action-button:hover .background-line {
-  fill: var(--hover-bg-color);
+.action-button:hover .background-line {
+  fill: var(--btn-hover-color);
 }
 
-#action-button:hover .highlight-line {
+.action-button:hover .highlight-line {
   stroke-dashoffset: -480;
 }

@@ -1,28 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300");
 
 :root {
-  --frame-bg-color: #3f3f3f;
-  --modal-bg-color: #fff;
-  --button-bg-color: #f65656;
-  --button-hover-bg-color: #ec3434;
-  --text-color-primary: #415868;
-  --alert-icon-margin: 20px auto; /* Changed to set margin auto for horizontal centering */
-  --alert-icon-size: 40px; /* New variable for icon size */
+  --shadow: rgba(0, 0, 0, 0.3);
+  --bg-color: #3f3f3f;
+  --modal-bg-color: #ffffff;
+  --text-color: #415868;
+  --btn-color: #f65656;
+  --btn-hover-color: #ec3434;
 }
 
-.container {
+.frame {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   width: 400px;
   height: 400px;
-  background: var(--frame-bg-color);
-  color: var(--text-color-primary);
-  font-family: "Open Sans", Helvetica, sans-serif;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
-  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
   overflow: hidden;
+  box-shadow: 1px 2px 10px var(--shadow);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Open Sans", Helvetica, sans-serif;
 }
 
 .alert-box {
@@ -30,7 +29,7 @@
   height: 210px;
   position: relative;
   margin: 95px auto 0;
-  background: var(--modal-bg-color);
+  background-color: var(--modal-bg-color);
   border-radius: 3px;
   box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.4);
   text-align: center;
@@ -39,10 +38,10 @@
 }
 
 .alert-icon {
-  width: var(--alert-icon-size); /* Width controlled by CSS variable */
-  height: var(--alert-icon-size); /* Height controlled by CSS variable */
-  margin: var(--alert-icon-margin);
-  display: block; /* Ensure the image is block level to respect margin */
+  width: 40px;
+  height: 40px;
+  margin: 20px auto;
+  display: block;
 }
 
 .alert-title {
@@ -64,15 +63,15 @@
   left: 0;
   right: 0;
   height: 40px;
-  background: var(--button-bg-color);
-  color: #fff;
+  background-color: var(--btn-color);
+  color: var(--modal-bg-color);
   line-height: 40px;
   cursor: pointer;
   transition: background 0.3s ease;
 }
 
 .close-button:hover {
-  background: var(--button-hover-bg-color);
+  background-color: var(--btn-hover-color);
 }
 
 @keyframes showModal {

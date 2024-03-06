@@ -1,29 +1,23 @@
 :root {
-  --main-bg-color: #de4738;
-  --main-color: #fff;
-  --box-border-radius: 2px;
-  --box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  --shadow: rgba(0, 0, 0, 0.3);
+  --bg-color: #de4738;
   --border-color: #e24e3f;
   --hover-bg-color: #ec5142;
-  --font-family: "Open Sans", Helvetica, sans-serif;
+  --primary-color: #ffffff;
 }
 
-.container {
+.frame {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
-  border-radius: var(--box-border-radius);
-  box-shadow: var(--box-shadow);
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px var(--shadow);
   overflow: hidden;
-  background: var(--main-bg-color);
-  color: var(--main-color);
-  font-family: var(--font-family);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color);
+  color: var(--primary-color);
 }
 
 .square {
@@ -44,11 +38,11 @@
 }
 
 .square label:hover {
-  background: var(--hover-bg-color);
+  background-color: var(--hover-bg-color);
   border-color: var(--border-color);
 }
 
 .square input:checked ~ label {
-  background: var(--main-color);
-  border-color: var(--main-color);
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
 }

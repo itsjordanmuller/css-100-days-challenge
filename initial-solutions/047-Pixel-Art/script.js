@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const container = document.getElementById("container");
+  const frame = document.getElementById("frame");
 
   for (let i = 1; i <= 400; i++) {
     const square = document.createElement("div");
@@ -26,6 +26,6 @@ document.addEventListener("DOMContentLoaded", function () {
     square.appendChild(input);
     square.appendChild(label);
 
-    container.appendChild(square);
+    frame.appendChild(square);
   }
 });

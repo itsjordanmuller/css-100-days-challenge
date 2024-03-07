@@ -1,16 +1,21 @@
+:root {
+  --shadow: rgba(0, 0, 0, 0.3);
+  --bg-color: #d33526;
+  --primary-color: #ffffff;
+}
+
 .container {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
-  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 2px 10px var(--shadow);
   overflow: hidden;
-  background: #d33526;
-  color: #ffffff;
+  background: var(--bg-color);
+  color: var(--primary-color);
 }
 
 .center {
@@ -36,8 +41,8 @@
     box-sizing: border-box;
     position: absolute;
     border-radius: 50%;
-    background: #ffffff;
-    border: 2px solid #d33526;
+    background: var(--primary-color);
+    border: 2px solid var(--bg-color);
     opacity: 1;
     transition: all 1s ease-in-out;
   }
@@ -82,11 +87,11 @@
       20% {
         transform: translateY(0) rotateX(90deg);
         opacity: 1;
-        border: 2px solid #ffffff;
+        border: 2px solid var(--primary-color);
       }
       30% {
         transform: translateY(($offset + ($i * 4)) + px) rotateX(90deg);
-        border: 2px solid #d33526;
+        border: 2px solid var(--bg-color);
       }
       35% {
         transform: translateY(($offset - ($i * 2)) + px) rotateX(90deg);
@@ -103,12 +108,12 @@
       }
       70% {
         transform: translateY(($offset + ($i * 4)) + px) rotateX(90deg);
-        border: 2px solid #d33526;
+        border: 2px solid var(--bg-color);
       }
       80% {
         transform: translateY(0) rotateX(90deg);
         opacity: 1;
-        border: 2px solid #ffffff;
+        border: 2px solid var(--primary-color);
       }
       81%,
       100% {
@@ -126,11 +131,11 @@
       20% {
         transform: translateY(0) rotateX(90deg);
         opacity: 1;
-        border: 2px solid #ffffff;
+        border: 2px solid var(--primary-color);
       }
       30% {
         transform: translateY((-1 * $offset - ($i * 4)) + px) rotateX(90deg);
-        border: 2px solid #d33526;
+        border: 2px solid var(--bg-color);
       }
       35% {
         transform: translateY((-1 * $offset + ($i * 2)) + px) rotateX(90deg);
@@ -147,12 +152,12 @@
       }
       70% {
         transform: translateY((-1 * $offset - ($i * 4)) + px) rotateX(90deg);
-        border: 2px solid #d33526;
+        border: 2px solid var(--bg-color);
       }
       80% {
         transform: translateY(0) rotateX(90deg);
         opacity: 1;
-        border: 2px solid #ffffff;
+        border: 2px solid var(--primary-color);
       }
       81%,
       100% {

@@ -1,25 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
 
 :root {
-  --positioning: 50%;
-  --container-size: 400px;
-  --margin-size: -200px;
-  --border-color: transparent transparent transparent #ffffff;
+  --shadow: rgba(0, 0, 0, 0.3);
+  --bg-color: #313c46;
+  --primary-color: #ffffff;
+  --text-color: #478bb8;
 }
 
 .container {
   position: absolute;
-  top: var(--positioning);
-  left: var(--positioning);
-  width: var(--container-size);
-  height: var(--container-size);
-  margin-top: var(--margin-size);
-  margin-left: var(--margin-size);
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
-  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 2px 10px var(--shadow);
   overflow: hidden;
-  background-color: #313c46;
-  color: #ffffff;
+  background-color: var(--bg-color);
   font-family: "Open Sans", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -58,7 +56,7 @@
   height: 20px;
   top: 0;
   left: 0;
-  background-color: #ffffff;
+  background-color: var(--primary-color);
 }
 
 .icon .pause:after {
@@ -74,7 +72,7 @@
   left: 0;
   border-style: solid;
   border-width: 10px 0 10px 16px;
-  border-color: var(--border-color);
+  border-color: transparent transparent transparent var(--border-color);
   transition: all 0.3s ease-in-out;
   transform: scale(0);
   opacity: 0;
@@ -104,9 +102,9 @@
   height: 40px;
   top: 180px;
   left: 150px;
-  background: #fff;
+  background: var(--primary-color);
   border-radius: 3px;
-  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 4px 8px 0 var(--shadow);
   padding: 0 6px;
   overflow: hidden;
 }
@@ -123,7 +121,7 @@
   font-size: 30px;
   line-height: 40px;
   font-weight: 400;
-  color: #478bb8;
+  color: var(--text-color);
 }
 
 .counter .units {

@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300");
 
 :root {
-  --box-bg-color: #2b4147;
-  --box-color: #7a7a7a;
-  --climate-control-bg-color: #f2f2f2;
-  --dial-bg-color: #fff;
-  --needle-bg-color: #6c6c6c;
-  --gradient-start: rgba(103, 43, 149, 1);
-  --gradient-end: rgba(206, 46, 95, 1);
-  --internal-temp-color: #873183;
-  --internal-temp-alt-color: #98317a;
+  --shadow: rgba(0, 0, 0, 0.3);
+  --light-shadow: rgba(0, 0, 0, 0.2);
+  --bg-color: #2b4147;
+  --text-color: #7a7a7a;
+  --needle-color: #6c6c6c;
+  --control-border-color: #f2f2f2;
+  --control-bg-color: #ffffff;
+  --gradient-start-color: #672b95;
+  --gradient-end-color: #ce2e5f;
+  --temp-one-color: #873183;
+  --temp-two-color: #98317a;
 }
 
 .container {
@@ -18,13 +20,12 @@
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
-  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 2px 10px var(--shadow);
   overflow: hidden;
-  background: var(--box-bg-color);
-  color: var(--box-color);
+  background-color: var(--bg-color);
+  color: var(--text-color);
   font-family: "Open Sans", Helvetica, sans-serif;
   line-height: 130%;
   -webkit-font-smoothing: antialiased;
@@ -37,9 +38,9 @@
   height: 200px;
   top: 100px;
   left: 100px;
-  background: var(--climate-control-bg-color);
+  background-color: var(--control-border-color);
   border-radius: 50%;
-  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 4px 8px 0 var(--shadow);
   cursor: pointer;
 }
 
@@ -64,9 +65,9 @@
   height: 130px;
   top: 35px;
   left: 35px;
-  background: var(--dial-bg-color);
+  background-color: var(--control-bg-color);
   border-radius: 50%;
-  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 2px 4px 0 var(--light-shadow);
 }
 
 .needle {
@@ -75,7 +76,7 @@
   height: 12px;
   left: 50%;
   top: 0;
-  background: var(--needle-bg-color);
+  background-color: var(--needle-color);
   transform-origin: 0 65px;
   transform: rotate(-50deg);
   transition: all 0.5s ease-in-out;
@@ -103,7 +104,7 @@
   font-weight: 400;
   font-size: 60px;
   line-height: 60px;
-  color: var(--internal-temp-color);
+  color: var(--temp-one-color);
   letter-spacing: -8px;
   padding-right: 12px;
   opacity: 1;
@@ -125,7 +126,7 @@
   letter-spacing: -6px;
   padding-right: 2px;
   opacity: 0;
-  color: var(--internal-temp-alt-color);
+  color: var(--temp-two-color);
   transform: translateX(50px) scale(0.5);
 }
 
@@ -149,11 +150,11 @@
   left: 10px;
   background: linear-gradient(
     90deg,
-    var(--gradient-start) 0%,
-    var(--gradient-end) 100%
+    var(--gradient-start-color) 0%,
+    var(--gradient-end-color) 100%
   );
   border-radius: 50%;
-  box-shadow: inset 2px 4px 4px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 2px 4px 4px 0px var(--shadow);
 }
 
 .overlay {
@@ -162,7 +163,7 @@
   height: 95px;
   top: 50%;
   left: 50%;
-  background: var(--climate-control-bg-color);
+  background-color: var(--control-border-color);
   transform-origin: 0 0;
   transform: rotate(45deg);
   border-radius: 0 0 95px 0;

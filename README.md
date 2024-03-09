@@ -908,6 +908,14 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 #### [My Submission - #20 (Result Image)]()
 
+#### [My Submission - #20 (CodePen Demo)]()
+
+<details>
+  <summary>Click/Open to See Goal Images</summary>
+  <img src="#"/><br/>
+  <a href="#">View Goal CodePen Demo</a>
+</details>
+
 
 <div align="right"><a href="#top">(back to top)</a></div>
 <hr>

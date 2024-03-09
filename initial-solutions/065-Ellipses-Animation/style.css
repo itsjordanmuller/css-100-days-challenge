@@ -1,19 +1,20 @@
+:root {
+  --shadow: rgba(0, 0, 0, 0.3);
+  --bg-color: #1f91dd;
+  --primary-color: #ffffff;
+}
+
 .container {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
-  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 2px 10px var(--shadow);
   overflow: hidden;
-  background: #1f91dd;
-  color: #ffffff;
-  font-family: "Open Sans", Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color);
 }
 
 .shape {
@@ -31,7 +32,7 @@
   left: 150px;
   width: 90px;
   height: 300px;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--primary-color);
   border-radius: 50%;
   transition: all 0.5s ease-in-out;
 }

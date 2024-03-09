@@ -1,15 +1,23 @@
+:root {
+  --shadow: rgba(0, 0, 0, 0.3);
+  --bg-sand-color: #f5ce51;
+  --bg-sand-shade-color: #ab9038;
+  --umbrella-pole-color: #888888;
+  --umbrella-stripe-a-color: #d70606;
+  --umbrella-stripe-b-color: #ffffff;
+}
+
 .container {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
-  box-shade: 1px 2px 10px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 2px 10px var(--shadow);
   overflow: hidden;
-  background: #f5ce51;
+  background-color: var(--bg-sand-color);
   perspective: 350px;
 }
 
@@ -28,10 +36,10 @@
   height: 50px;
   top: 100px;
   left: 97px;
-  background: #ab9038;
+  background-color: var(--bg-sand-shade-color);
   transform-origin: 50% 0%;
   transform: translateZ(-150px) rotateZ(-90deg) rotateZ(-15deg);
-  box-shade: 0 0 2px 1px #ab9038;
+  box-shadow: 0 0 2px 1px var(--bg-sand-shade-color);
   border-radius: 2px;
 }
 
@@ -42,7 +50,7 @@
   height: 150px;
   top: 100px;
   left: 97px;
-  background: #888;
+  background-color: var(--umbrella-pole-color);
   transform-origin: 50% 0;
   transform: translateZ(-1px) rotateX(-90deg);
   border-radius: 2px;
@@ -68,9 +76,9 @@
   height: 0;
   border-style: solid;
   border-width: 0 25px 98px 25px;
-  border-color: transparent transparent #ab9038 transparent;
+  border-color: transparent transparent var(--bg-sand-shade-color) transparent;
   transform-origin: 50% 0;
-  box-shade: 0 0 4px 2px #ab9038;
+  box-shadow: 0 0 4px 2px var(--bg-sand-shade-color);
 }
 
 .umbrella .top {
@@ -90,7 +98,8 @@
   height: 0;
   border-style: solid;
   border-width: 0 24px 98px 24px;
-  border-color: transparent transparent #fff transparent;
+  border-color: transparent transparent var(--umbrella-stripe-b-color)
+    transparent;
   transform-origin: 50% 0;
 }
 

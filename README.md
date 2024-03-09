@@ -902,6 +902,13 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
   <a href="https://codepen.io/roydigerhund/pen/xVKweb">View Goal CodePen Demo</a>
 </details>
 
+## Day 20
+
+### [Challenge #20 - ]()
+
+#### [My Submission - #20 (Result Image)]()
+
+
 <div align="right"><a href="#top">(back to top)</a></div>
 <hr>
 

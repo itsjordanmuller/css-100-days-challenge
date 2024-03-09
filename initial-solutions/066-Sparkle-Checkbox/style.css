@@ -1,19 +1,21 @@
+:root {
+  --shadow: rgba(0, 0, 0, 0.3);
+  --bg-color: #5a717b;
+  --primary-color: #ffffff;
+  --checked-color: #5fd17a;
+}
+
 .container {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
-  box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 2px 10px var(--shadow);
   overflow: hidden;
-  background: #5a717b;
-  color: #fff;
-  font-family: "Open Sans", Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color);
 }
 
 .checkbox {
@@ -30,9 +32,8 @@
 
 .checkbox input:checked ~ .toggle {
   border-width: 14px;
-  background: #5fd17a;
-  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2),
-    inset 2px 2px 4px 0 rgba(0, 0, 0, 0);
+  background-color: var(--checked-color);
+  box-shadow: 2px 2px 4px 0 var(--shadow);
 }
 
 .toggle {
@@ -42,13 +43,12 @@
   box-sizing: border-box;
   width: 40px;
   height: 40px;
-  border: 2px solid #fff;
+  border: 2px solid var(--primary-color);
   border-radius: 50%;
   background: transparent;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2),
-    inset 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 4px 0 var(--shadow);
 }
 
 .sparkles {
@@ -65,6 +65,6 @@
   height: 16px;
   top: 12px;
   left: 19px;
-  background: #fff;
+  background-color: var(--primary-color);
   transition: none;
 }

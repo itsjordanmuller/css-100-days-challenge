@@ -1,49 +1,47 @@
 :root {
-  --offset: 50%;
-  --container-size: 400px;
-  --margin: -200px;
-  --size: 200px;
+  --shadow: rgba(0, 0, 0, 0.3);
+  --bg-color: #d33526;
+  --primary-color: #ffffff;
+  --disc-size: 200px;
 }
 
 .container {
   position: absolute;
-  top: var(--offset);
-  left: var(--offset);
-  width: var(--container-size);
-  height: var(--container-size);
-  margin-top: var(--margin);
-  margin-left: var(--margin);
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
-  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 2px 10px var(--shadow);
   overflow: hidden;
-  background-color: #d33526;
-  color: #ffffff;
+  background-color: var(--bg-color);
 }
 
-.middle {
+.center {
   position: absolute;
-  top: var(--offset);
-  left: var(--offset);
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   perspective: 1500px;
 }
 
 .sphere {
   position: relative;
-  width: var(--size);
-  height: var(--size);
+  width: var(--disc-size);
+  height: var(--disc-size);
   animation: spin 7s ease-in-out infinite;
   transform-style: preserve-3d;
 }
 
 .disc {
   position: absolute;
-  width: var(--size);
-  height: var(--size);
+  width: var(--disc-size);
+  height: var(--disc-size);
   top: 0;
   left: 0;
-  background-color: #ffffff;
-  border-radius: var(--offset);
+  background-color: var(--primary-color);
+  border-radius: 50%;
   opacity: 0.3;
 }
 

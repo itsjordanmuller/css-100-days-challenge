@@ -1,12 +1,12 @@
 const style = document.createElement("style");
 document.head.appendChild(style);
 
-const middle = document.querySelector(".middle");
+const center = document.querySelector(".center");
 
 for (let i = 1; i <= 10; i++) {
   const circle = document.createElement("div");
   circle.classList.add("circle", `circle-${i}`);
-  middle.appendChild(circle);
+  center.appendChild(circle);
 
   circle.style.animation = `rotate-${i} 5s ease-in-out infinite`;
 

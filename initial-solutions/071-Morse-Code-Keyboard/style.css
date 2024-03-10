@@ -1,5 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
 
+:root {
+  --shadow: rgba(0, 0, 0, 0.3);
+  --bg-color: #333333;
+  --keyboard-color: #666666;
+  --keyboard-border-color: #888888;
+  --hover-keys-color: #999999;
+  --primary-color: #ffffff;
+}
+
 $symbols: (
   a: ".-",
   b: "-...",
@@ -62,13 +71,12 @@ $symbols: (
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
-  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 2px 10px var(--shadow);
   overflow: hidden;
-  background: #333;
-  color: #fff;
+  background-color: var(--bg-color);
+  color: var(--primary-color);
   font-family: "Open Sans", Helvetica, sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
@@ -83,8 +91,8 @@ $symbols: (
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #666;
-  border-top: 2px solid #888;
+  background-color: var(--keyboard-color);
+  border-top: 2px solid var(--keyboard-border-color);
   padding: 5px 0;
 }
 
@@ -102,7 +110,7 @@ $symbols: (
   cursor: pointer;
 
   &:hover {
-    background-color: #999999;
+    background-color: var(--hover-keys-color);
   }
 }
 
@@ -117,8 +125,8 @@ $symbols: (
   top: -120px;
   left: 185px;
   border-radius: 50%;
-  background-color: #ffffff;
-  box-shadow: 0 0 15px 0 #ffffff;
+  background-color: var(--primary-color);
+  box-shadow: 0 0 15px 0 var(--primary-color);
   opacity: 0;
   animation: none;
 }

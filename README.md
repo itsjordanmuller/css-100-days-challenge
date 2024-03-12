@@ -908,6 +908,8 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 #### [My Submission - #20 (Result Image)]()
 
+> Surprise your visitors with a nice animation instead of a simple "request sent".
+
 #### [My Submission - #20 (CodePen Demo)]()
 
 <details>

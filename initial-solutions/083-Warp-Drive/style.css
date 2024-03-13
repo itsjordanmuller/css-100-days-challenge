@@ -1,6 +1,9 @@
 :root {
+  --shadow: rgba(0, 0, 0, 0.3);
   --bg-color: #1e3242;
   --star-color: #c3dcec;
+  --star-streak-width: 1%;
+  --star-streak-height: 10%;
 }
 
 .container {
@@ -11,25 +14,26 @@
   height: 400px;
   transform: translate(-50%, -50%);
   border-radius: 2px;
-  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 2px 10px var(--shadow);
   overflow: hidden;
   background-color: var(--bg-color);
 }
 
 .warp .path {
   position: absolute;
-  top: 100px;
-  left: 100px;
-  width: 200px;
-  height: 200px;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .warp .path .star {
   position: absolute;
-  width: 2px;
-  height: 20px;
-  top: 100px;
-  left: 100px;
+  width: var(--star-streak-width);
+  height: var(--star-streak-height);
+  top: calc(50% - var(--star-streak-height) / 2);
+  left: calc(50% - var(--star-streak-width) / 2);
   background-color: var(--star-color);
 }
 

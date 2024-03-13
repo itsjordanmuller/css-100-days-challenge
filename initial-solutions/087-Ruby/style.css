@@ -1,13 +1,14 @@
 :root {
+  --shadow: rgba(0, 0, 0, 0.3);
   --lg-color: #ffc902;
-  --ll-color: #890505 transparent transparent transparent;
-  --lm-color: #a51012 transparent transparent transparent;
-  --lr-color: #c81718 transparent transparent transparent;
-  --ull-color: transparent transparent #9e0707 transparent;
+  --ll-color: #890505;
+  --lm-color: #a51012;
+  --lr-color: #c81718;
+  --ull-color: #9e0707;
   --ul-color: #dc2323;
-  --um-color: transparent transparent #bc0e0e transparent;
+  --um-color: #bc0e0e;
   --ur-color: #f58181;
-  --urr-color: transparent transparent #b90b0c transparent;
+  --urr-color: #b90b0c;
   --shine-color: #ffdfdf;
 }
 
@@ -19,9 +20,9 @@
   height: 400px;
   transform: translate(-50%, -50%);
   border-radius: 2px;
-  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 1px 2px 10px var(--shadow);
   overflow: hidden;
-  background: var(--lg-color);
+  background-color: var(--lg-color);
 }
 
 .gem {
@@ -42,7 +43,7 @@
     bottom: 0;
     border-style: solid;
     border-width: 85px 0px 0 96px;
-    border-color: var(--ll-color);
+    border-color: var(--ll-color) transparent transparent transparent;
   }
 
   .lower-middle {
@@ -54,7 +55,7 @@
     bottom: 0;
     border-style: solid;
     border-width: 85px 42px 0 42px;
-    border-color: var(--lm-color);
+    border-color: var(--lm-color) transparent transparent transparent;
   }
 
   .lower-right {
@@ -66,7 +67,7 @@
     bottom: 0;
     border-style: solid;
     border-width: 85px 96px 0 0px;
-    border-color: var(--lr-color);
+    border-color: var(--lr-color) transparent transparent transparent;
   }
 
   .upper-left-left {
@@ -78,7 +79,7 @@
     left: 0;
     border-style: solid;
     border-width: 0 22px 42px 32px;
-    border-color: var(--ull-color);
+    border-color: transparent transparent var(--ull-color) transparent;
   }
 
   .upper-left {
@@ -88,7 +89,7 @@
     height: 42px;
     top: 0;
     left: 32px;
-    background: var(--ul-color);
+    background-color: var(--ul-color);
   }
 
   .upper-middle {
@@ -100,7 +101,7 @@
     left: 54px;
     border-style: solid;
     border-width: 0 42px 42px 42px;
-    border-color: var(--um-color);
+    border-color: transparent transparent var(--um-color) transparent;
   }
 
   .upper-right {
@@ -110,7 +111,7 @@
     height: 42px;
     top: 0;
     right: 32px;
-    background: var(--ur-color);
+    background-color: var(--ur-color);
     overflow: hidden;
 
     .shine {
@@ -119,7 +120,7 @@
       height: 80px;
       top: -40px;
       left: 30px;
-      background: var(--shine-color);
+      background-color: var(--shine-color);
       transform: rotate(-44deg) translateX(-30px);
       animation: shine 3s linear infinite both;
       box-shadow: 0 0 5px 0 var(--shine-color);
@@ -135,7 +136,7 @@
     right: 0;
     border-style: solid;
     border-width: 0 32px 42px 22px;
-    border-color: var(--urr-color);
+    border-color: transparent transparent var(--urr-color) transparent;
   }
 }
 

@@ -1,4 +1,5 @@
 :root {
+  --shadow: rgba(0, 0, 0, 0.3);
   --bg-color: #2c3e50;
   --upper-box-color: #3f91c7;
   --left-box-color: #3289c3;
@@ -18,12 +19,11 @@
   left: 50%;
   width: 400px;
   height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  transform: translate(-50%, -50%);
   border-radius: 2px;
-  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 2px 10px var(--shadow);
   overflow: hidden;
-  background: var(--bg-color);
+  background-color: var(--bg-color);
 }
 
 .box {
@@ -110,15 +110,15 @@
 }
 
 .squares.c1 {
-  background: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 .squares.c2 {
-  background: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 .squares.c3 {
-  background: var(--accent-color);
+  background-color: var(--accent-color);
 }
 
 .square-1 {

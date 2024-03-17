@@ -1,4 +1,6 @@
 :root {
+  --shadow: rgba(0, 0, 0, 0.3);
+  --light-shadow: rgba(0, 0, 0, 0.2);
   --bg-color: #3498db;
   --square-color: #ffffff;
   --duration: 1.5s;
@@ -13,7 +15,7 @@
   height: 400px;
   transform: translate(-50%, -50%);
   border-radius: 2px;
-  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 2px 10px var(--shadow);
   overflow: hidden;
   background-color: var(--bg-color);
 }
@@ -61,8 +63,8 @@
   right: -5px;
   height: 3px;
   border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 0px 8px rgba(0, 0, 0, 0.2);
+  background-color: var(--light-shadow);
+  box-shadow: 0 0 0px 8px var(--light-shadow);
   animation: cast-shadow var(--duration) ease-in-out infinite both;
 }
 

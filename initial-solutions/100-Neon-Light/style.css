@@ -1,5 +1,7 @@
 :root {
+  --shadow: rgba(0, 0, 0, 0.3);
   --bg-color: #272c34;
+  --unlit-tube-color: #1a1e24;
   --neon-light-color: #f1f4f5;
 }
 
@@ -16,7 +18,7 @@
   height: 400px;
   transform: translate(-50%, -50%);
   border-radius: 2px;
-  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 2px 10px var(--shadow);
   overflow: hidden;
   background-color: var(--bg-color);
 }
@@ -30,8 +32,8 @@
 
   .tube {
     position: absolute;
-    background-color: #1a1e24;
-    box-shadow: 0px 0px 6px 0px #1a1e24;
+    background-color: var(--unlit-tube-color);
+    box-shadow: 0px 0px 6px 0px var(--unlit-tube-color);
     border-radius: 3px;
   }
 
@@ -159,9 +161,10 @@
           right: 10px;
           border-style: solid;
           border-width: 6px;
-          border-color: #1a1e24 #1a1e24 transparent transparent;
+          border-color: var(--unlit-tube-color) var(--unlit-tube-color)
+            transparent transparent;
           border-radius: 50%;
-          box-shadow: 0px 0px 10px 0px #1a1e24,
+          box-shadow: 0px 0px 10px 0px var(--unlit-tube-color),
             inset 0px 0px 10px 0px var(--neon-light-color);
           transform: rotate(45deg);
         }
@@ -210,8 +213,8 @@
   36%,
   38%,
   40% {
-    background-color: #1a1e24;
-    box-shadow: 0px 0px 6px 0px #1a1e24;
+    background-color: var(--unlit-tube-color);
+    box-shadow: 0px 0px 6px 0px var(--unlit-tube-color);
   }
 }
 
@@ -232,8 +235,10 @@
   36%,
   38%,
   40% {
-    border-color: #1a1e24 #1a1e24 transparent transparent;
-    box-shadow: 0px 0px 6px 0px #1a1e24, inset 0px 0px 6px 0px #1a1e24;
+    border-color: var(--unlit-tube-color) var(--unlit-tube-color) transparent
+      transparent;
+    box-shadow: 0px 0px 6px 0px var(--unlit-tube-color),
+      inset 0px 0px 6px 0px var(--unlit-tube-color);
   }
 }
 
@@ -252,7 +257,7 @@
   36%,
   38%,
   40% {
-    background-color: #1a1e24;
-    box-shadow: 0px 0px 5px 1px #1a1e24;
+    background-color: var(--unlit-tube-color);
+    box-shadow: 0px 0px 5px 1px var(--unlit-tube-color);
   }
 }

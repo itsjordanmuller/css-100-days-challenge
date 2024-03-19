@@ -5,7 +5,7 @@
 
 <a href="https://jordanmuller.com/portfolio/100-days-css-challenge/"><img src="https://custom-icon-badges.demolab.com/badge/100%20Days%20CSS%20Challenge-282A36.svg?style=for-the-badge&logo=CSS3&logoColor=1572B6" width="100%"/></a>
 
-<p>CSS Self-Paced Practice Exercises based on CSS Challenges from the website: <a href="https://100dayscss.com/">100dayscss.com</a> using CSS, HTML & JavaScript. Challenge Started 2023-11-10 and currently undergoing improvements! I plan on saving the original challenges and creating updated/hybrid versions with my own preferred styles & colors applied.</p>
+<p>CSS Self-Paced Practice Exercises based on CSS Challenges from the website: <a href="https://100dayscss.com/">100dayscss.com</a> using CSS, HTML & JavaScript. Challenge Started 2023-11-10 and currently undergoing improvements! I am currently working on saving the original challenges and creating updated/hybrid versions with my own preferred styles & colors applied.</p>
 
 [![CSS](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)](https://jordanmuller.com/portfolio/tags/css/)
 [![HTML](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)](https://jordanmuller.com/portfolio/tags/html/)

@@ -5,11 +5,11 @@
   --light-shadow: rgba(0, 0, 0, 0.25);
   --lighter-shadow: rgba(0, 0, 0, 0.08);
   --body-text-color: #666666;
-  --primary-color: #f1ba64;
-  --bg-color: #42a7a1;
+  --primary-color: #b33771;
+  --bg-color: #82589f;
   --graph-body-color: #ffffff;
-  --graph-color-a: #fa7373;
-  --graph-color-b: #7ba2ff;
+  --graph-color-a: #e84118;
+  --graph-color-b: #273c75;
 }
 
 .container {

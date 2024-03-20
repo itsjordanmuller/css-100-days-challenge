@@ -1,19 +1,19 @@
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
   --light-shadow: rgba(0, 0, 0, 0.25);
-  --bg-color: #272c34;
-  --sky-color: #7ddffc;
-  --sand-color: #f0de75;
-  --primary-sun-color: #ffef00;
-  --secondary-sun-color: #fbb904;
-  --pyramid-light-color: #f4f4f4;
-  --pyramid-color-a: #eeeeee;
-  --pyramid-color-b: #efefef;
-  --pyramid-color-c: #e2e0e0;
-  --pyramid-color-d: #dfdcdc;
-  --pyramid-color-e: #b1b3b5;
-  --pyramid-color-f: #bebdbe;
-  --pyramid-shade-color: #808185;
+  --bg-color: #413641;
+  --sky-color: #7184db;
+  --sand-color: #ffe190;
+  --primary-sun-color: #f89340;
+  --secondary-sun-color: #f05c49;
+  --pyramid-light-color: #f6f6f6;
+  --pyramid-color-a: #dedede;
+  --pyramid-color-b: #c6c6c6;
+  --pyramid-color-c: #aeaeae;
+  --pyramid-color-d: #969696;
+  --pyramid-color-e: #7e7e7e;
+  --pyramid-color-f: #676767;
+  --pyramid-shade-color: #4f4f4f;
 }
 
 .container {
@@ -123,7 +123,7 @@
     background-color: var(--primary-sun-color);
     transform: rotate(-25deg);
   }
-  70% {
+  80% {
     background-color: var(--secondary-sun-color);
   }
   100% {

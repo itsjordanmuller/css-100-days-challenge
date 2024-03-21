@@ -3,11 +3,11 @@
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
   --profile-bg-color: #ffffff;
-  --profile-text-color: #786450;
-  --gradient-start-color: #ebbb6b;
-  --gradient-end-color: #cb7d4f;
-  --button-color: #f5e8df;
-  --hover-button-color: #e1cfc2;
+  --profile-text-color: #2c3a47;
+  --gradient-start-color: #82ccdd;
+  --gradient-end-color: #3c6382;
+  --button-color: #cad3c8;
+  --hover-button-color: #c6dde6;
 }
 
 .container {

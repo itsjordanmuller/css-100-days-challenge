@@ -3,13 +3,13 @@
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
   --bg-color: #1a2238;
-  --text-color: #394568;
+  --text-color: #553968;
   --card-color: #ffffff;
-  --moon-color: #f6edbd;
-  --crater-color: #ece1a8;
-  --near-cloud: #303c5d;
-  --far-cloud: #26314f;
-  --drop-color: #7fc1f9;
+  --moon-color: #ffc596;
+  --crater-color: #d3a876;
+  --near-cloud: #50305d;
+  --far-cloud: #4f264c;
+  --drop-color: #4451c0;
 }
 
 .container {

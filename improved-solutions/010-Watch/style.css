@@ -2,13 +2,13 @@
 
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
-  --bg-color: #4c4c4c;
+  --bg-color: #4b5746;
   --text-color: #ffffff;
   --dial-color: #242424;
   --border-color: #3a3a3a;
   --tick-color: #d3d3d3;
-  --heart-color: #f85b5b;
-  --ring-color: #ec5858;
+  --heart-color: #f85b97;
+  --ring-color: #ec587d;
 }
 
 .container {

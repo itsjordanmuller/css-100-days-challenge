@@ -3,10 +3,10 @@
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
   --light-shadow: rgba(0, 0, 0, 0.2);
-  --gradient-start-color: #3a92ad;
-  --gradient-end-color: #5ca05c;
-  --button-bg-color: #6ece3b;
-  --button-border-color: #498c25;
+  --gradient-start-color: #ad3d3d;
+  --gradient-end-color: #c5642c;
+  --button-bg-color: #ce3b3b;
+  --button-border-color: #8c2525;
   --text-color: #676767;
   --dropzone-border-color: #a4a4a4;
   --ui-border-color: #d8d8d8;

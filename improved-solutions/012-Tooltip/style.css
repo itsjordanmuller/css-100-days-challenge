@@ -2,10 +2,10 @@
 
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
-  --bg-color: #4cb6de;
+  --bg-color: #de4b7c;
   --text-color: #ffffff;
-  --highlight-color: #286f8a;
-  --quotation-mark-color: #6ac2e3;
+  --highlight-color: #8a2851;
+  --quotation-mark-color: #e2699c;
 }
 
 .container {

@@ -1,8 +1,8 @@
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
   --dark-shadow: rgba(0, 0, 0, 0.4);
-  --card-bg-color: #ffce4e;
-  --bg-color: #4b4841;
+  --card-bg-color: rgba(255, 205, 78, 0.85);
+  --bg-color: #2e324d;
 }
 
 .container {

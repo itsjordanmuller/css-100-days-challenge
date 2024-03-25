@@ -1,11 +1,11 @@
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
-  --bg-color: #ffffff;
-  --card-bg-color: #353535;
-  --primary-color: #000000;
-  --penrose-color-light: #eeeeee;
-  --penrose-color-medium: #cccccc;
-  --penrose-color-dark: #aaaaaa;
+  --bg-color: #000000;
+  --card-bg-color: #cacaca;
+  --primary-color: #ffffff;
+  --penrose-color-light: #555555;
+  --penrose-color-medium: #333333;
+  --penrose-color-dark: #111111;
 }
 
 .container {

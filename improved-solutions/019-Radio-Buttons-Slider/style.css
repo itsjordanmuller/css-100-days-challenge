@@ -1,9 +1,9 @@
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
-  --color-one: #9b59b6;
-  --color-two: #3498db;
-  --color-three: #1abc9c;
-  --indicator-color: #ffffff;
+  --color-one: #e77272;
+  --color-two: #e7a772;
+  --color-three: #e7e572;
+  --indicator-color: #000000;
 }
 
 .container {

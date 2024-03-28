@@ -2,11 +2,11 @@
 
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
-  --bg-color: #2c3e50;
-  --circle-bg-color: #354a5f;
-  --button-bg-color: #ecf0f1;
-  --button-hover-bg-color: #1abc9c;
-  --text-hover-color: #ffffff;
+  --bg-color: #81ecec;
+  --circle-bg-color: #a1f3f3;
+  --button-bg-color: #1f2224;
+  --button-hover-bg-color: #e9ecf0;
+  --text-hover-color: #000000;
 }
 
 .container {

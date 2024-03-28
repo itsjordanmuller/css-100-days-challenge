@@ -1,7 +1,7 @@
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
-  --bg-color: #2c2c2c;
-  --primary-color: #f4d146;
+  --bg-color: #cfcfcf;
+  --primary-color: #2121ff;
 }
 
 .container {

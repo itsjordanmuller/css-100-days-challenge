@@ -2,13 +2,13 @@
 
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
-  --gradient-start-color: #273f4d;
-  --gradient-end-color: #1c2e38;
-  --text-color: #ffffff;
-  --unit-text-color: #648192;
-  --primary-dial-color: #27e1ae;
-  --secondary-dial-color: #5ce1ec;
-  --empty-dial-color: #1b2a33;
+  --gradient-start-color: #f5f6fa;
+  --gradient-end-color: #dcdde1;
+  --text-color: #000000;
+  --unit-text-color: #414141;
+  --primary-dial-color: #e17127;
+  --secondary-dial-color: #ec5c5c;
+  --empty-dial-color: #a5a5a5;
 }
 
 .container {

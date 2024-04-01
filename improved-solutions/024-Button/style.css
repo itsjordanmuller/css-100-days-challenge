@@ -2,10 +2,10 @@
 
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
-  --bg-color: #57d895;
+  --bg-color: #2135aa;
   --text-color: #ffffff;
-  --btn-hover-color: #37be77;
-  --btn-border: #45b078;
+  --btn-hover-color: #5254ca;
+  --btn-border: #454cb0;
 }
 
 .container {

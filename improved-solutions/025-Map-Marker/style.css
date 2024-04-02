@@ -2,10 +2,10 @@
 
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
-  --land-color: #2196f3;
-  --water-color: #1f8de4;
-  --marker-color: #ffcc30;
-  --separator-color: #91ccfb;
+  --land-color: #f3f178;
+  --water-color: #275899;
+  --marker-color: #c43350;
+  --separator-color: #398dd1;
   --card-body-color: #ffffff;
   --card-text-color: #3f3f3f;
 }

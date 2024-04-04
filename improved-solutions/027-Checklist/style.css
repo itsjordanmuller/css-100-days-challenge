@@ -3,9 +3,9 @@
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
   --light-shadow: rgba(0, 0, 0, 0.1);
-  --gradient-start-color: #fda231;
-  --gradient-end-color: #fdca31;
-  --text-color: #497081;
+  --gradient-start-color: #31fd75;
+  --gradient-end-color: #31fdca;
+  --text-color: #2b5163;
   --border-color: #d4dce0;
   --hover-text-color: #c8d4d9;
   --card-bg-color: #ffffff;

@@ -189,7 +189,7 @@
       <td>
         <blockquote>
           <p>I have provided a variety of resources and guides throughout this README for new developers. From the absolute basics, to specific videos and guides that helped me get unstuck in certain situations, I tried to include every single resource I ended up utilizing over the course of my journey.</p>
-          <p>We are so lucky to live in a time where almost all of this information is available for free on the internet. The only thing I paid for was the course itself, which can be purchased for about $20 on sale at <a href="https://www.udemy.com/">Udemy</a>. Besides that, I was able to complete the project with a low-spec <a href="https://www.amazon.com/dp/B0842X4BNF">Lenovo Thinkpad T480</a> I purchased for just under $300. It's proven to be a perfect machine for development & running <a href="https://kubuntu.org/">Kubuntu Linux</a>.</p>
+          <p>We are so lucky to live in a time where almost all of this information is available for free on the internet. The only thing I paid for was the course itself, which can be purchased for about $20 on sale at <a href="https://www.udemy.com/">Udemy</a>. Besides that, I was able to complete the project with a low-spec <a href="https://www.amazon.com/dp/B0842X4BNF">Lenovo ThinkPad T480</a> I purchased for just under $300. It's proven to be a perfect machine for development & running <a href="https://kubuntu.org/">Kubuntu Linux</a>.</p>
         </blockquote>
         <br>
         <strong><em>A full list of tech, tools, and other links & resources can be found towards the bottom of this README in the <a href="#resources-section">Links & Citations</a> section.</em></strong>
@@ -283,7 +283,7 @@ System requirements for these projects can vary due to the fact that they use di
 
 Performance will heavily rely on your specific hardware setup, including processor speed, RAM capacity, storage type, and graphics card quality. The operating system choice and its configuration also play a significant role in speed.
 
-To give you a practical example, I personally used a [Lenovo Thinkpad T480](https://www.amazon.com/dp/B0842X4BNF) for the entirety of my recent projects. This laptop, has been great for a variety of daily tasks, including programming.
+To give you a practical example, I personally used a [Lenovo ThinkPad T480](https://www.amazon.com/dp/B0842X4BNF) for the entirety of my recent projects. This laptop, has been great for a variety of daily tasks, including programming.
 
 The computer I used for the entire project features the following specifications:
 

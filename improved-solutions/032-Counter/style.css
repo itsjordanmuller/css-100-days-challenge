@@ -2,12 +2,12 @@
 
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
-  --gradient-start-color: #d2592a;
-  --gradient-end-color: #fdb03a;
+  --gradient-start-color: #a3cb38;
+  --gradient-end-color: #006266;
   --counter-bg-color: #ffffff;
   --counter-text-color: #6a85a0;
-  --decrement-btn-bg: #e26e6e;
-  --increment-btn-bg: #8ed273;
+  --decrement-btn-bg: #ee5253;
+  --increment-btn-bg: #10ac84;
 }
 
 .container {
@@ -20,7 +20,7 @@
   border-radius: 2px;
   box-shadow: 1px 2px 10px var(--shadow);
   background: linear-gradient(
-    to top right,
+    to bottom right,
     var(--gradient-start-color) 0%,
     var(--gradient-end-color) 100%
   );

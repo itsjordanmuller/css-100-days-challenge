@@ -1,7 +1,7 @@
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
-  --bg-color: #4c4ba2;
-  --dot-color: #ffffff;
+  --bg-color: #ffd32a;
+  --dot-color: #1f1f1f;
   --duration: 60s;
   --dot-count: 20;
   --amplitude: 50px;

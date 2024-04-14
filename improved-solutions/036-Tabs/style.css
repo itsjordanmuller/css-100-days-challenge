@@ -3,13 +3,13 @@
 
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
-  --bg-color: #2b3642;
+  --bg-color: #fae690;
   --nav-body-color: #ffffff;
-  --nav-header-color: #3c4f61;
-  --active-tab-color: #5cb3fa;
-  --tab-icon-color: #8293a4;
-  --tab-title-color: #3f586e;
-  --placeholder-color: #ededed;
+  --nav-header-color: #b73b15;
+  --active-tab-color: #f6b93b;
+  --tab-icon-color: #1f1f1f;
+  --tab-title-color: #000000;
+  --placeholder-color: #ff9350;
 }
 
 .container {

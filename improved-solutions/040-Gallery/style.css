@@ -1,7 +1,7 @@
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
-  --bg-color: #ffffff;
-  --pic-bg-color: #000000;
+  --bg-color: #000000;
+  --pic-bg-color: #ffffff;
   --pic-size: 128px;
   --space: 4px;
   --transition-time: 0.5s;

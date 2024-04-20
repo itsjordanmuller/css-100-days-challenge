@@ -1,9 +1,9 @@
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
-  --bg-color: #404556;
-  --bulb-color: #fff35c;
-  --bulb-hover-color: #8c8f99;
-  --contact-color: #e5e5e5;
+  --bg-color: #2e323f;
+  --bulb-color: #5cffc9;
+  --bulb-hover-color: #b5b9c4;
+  --contact-color: #e4e4e4;
 }
 
 .container {

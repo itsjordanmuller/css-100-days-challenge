@@ -1,9 +1,9 @@
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
-  --bg-color: #ffffff;
-  --sky-start-color: #1d4253;
-  --sky-end-color: #6bb5c4;
-  --star-color: #ffffff;
+  --bg-color: #1c1d22;
+  --sky-start-color: #8d2f53;
+  --sky-end-color: #5a3a79;
+  --star-color: #ffe0b0;
 }
 
 .container {

@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     div.style.height = `${210 - i * 10}px`;
     div.style.top = `${100 + i * 5}px`;
     div.style.left = `${100 + i * 5}px`;
+    div.style.borderColor = `rgb(${78 + i * 8}, ${78 + i * 8}, ${78 + i * 8})`;
     div.style.zIndex = `${i}`;
     div.style.animation = `rotate 2s ease-in-out ${animationDelay}s alternate infinite`;
 

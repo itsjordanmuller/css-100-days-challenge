@@ -1,10 +1,10 @@
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
-  --frame-bg-color: #e47512;
-  --brightest-color: #ffffff;
-  --bright-color: #eeeeee;
-  --dark-color: #dddddd;
-  --darkest-color: #cccccc;
+  --frame-bg-color: #126de4;
+  --brightest-color: #eeeeee;
+  --bright-color: #bbbbbb;
+  --dark-color: #888888;
+  --darkest-color: #555555;
   --box-size: 200px;
 }
 

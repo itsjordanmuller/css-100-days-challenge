@@ -1,7 +1,7 @@
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
-  --bg-color: #8e44ad;
-  --shell-color: #ffffff;
+  --bg-color: #000000;
+  --shell-color: #ebd615;
   --shell-border-radius: 50px 50px 50px 50px / 80px 80px 50px 50px;
 }
 

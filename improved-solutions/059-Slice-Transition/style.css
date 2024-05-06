@@ -57,7 +57,7 @@ h2 {
   position: absolute;
   width: 400px;
   height: 400px;
-  background: url("https://100dayscss.com/codepen/slice-image-1.jpg") center
+  background: url("https://100dayscss.com/codepen/slice-image-2.jpg") center
     center no-repeat;
   background-size: 400px 400px;
   cursor: pointer;
@@ -76,7 +76,7 @@ h2 {
   box-sizing: border-box;
   width: 50px;
   height: 400px;
-  background: url("https://100dayscss.com/codepen/slice-image-2.jpg") center
+  background: url("https://100dayscss.com/codepen/slice-image-1.jpg") center
     center no-repeat;
   background-size: 400px 400px;
   transition: all 1s ease-in-out;

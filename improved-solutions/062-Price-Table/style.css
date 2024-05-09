@@ -3,11 +3,11 @@
 :root {
   --shadow: rgba(0, 0, 0, 0.3);
   --light-shadow: rgba(0, 0, 0, 0.1);
-  --bg-color: #e9edef;
+  --bg-color: #bebebe;
   --card-color: #ffffff;
-  --line-color: #e4e4e4;
-  --accent-color: #7dd0ed;
-  --text-color: #5e5e5e;
+  --line-color: #999999;
+  --accent-color: #ed7d7d;
+  --text-color: #3d3d3d;
   --transition: all 0.3s ease-in-out;
 }
 

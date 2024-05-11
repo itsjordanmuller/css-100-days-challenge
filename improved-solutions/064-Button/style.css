@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+
+:root {
+  --shadow: rgba(0, 0, 0, 0.3);
+  --light-shadow: rgba(0, 0, 0, 0.15);
+  --transition: all 0.3s ease-in-out;
+  --bg-color: #424242;
+  --btn-color: #ffffff;
+  --btn-hover-color: #ad4444;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px var(--shadow);
+  overflow: hidden;
+  background-color: var(--bg-color);
+  color: var(--bg-color);
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btn {
+  position: absolute;
+  z-index: 2;
+  width: 200px;
+  height: 70px;
+  top: 160px;
+  left: 100px;
+  color: var(--bg-color);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 68px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.btn:before,
+.btn:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  display: block;
+  width: 200px;
+  height: 70px;
+  transition: var(--transition);
+  box-shadow: 2px 2px 4px 0px var(--light-shadow);
+}
+
+.btn:before {
+  z-index: -1;
+  background-color: var(--btn-color);
+}
+
+.btn:after {
+  z-index: -2;
+  background-color: var(--btn-hover-color);
+  transform: translate(13px, 12px);
+}
+
+.btn:hover {
+  transform: translate(13px, 12px);
+  color: var(--btn-color);
+}
+
+.btn:hover:before {
+  background-color: var(--btn-hover-color);
+  box-shadow: 4px 4px 8px 0px var(--light-shadow);
+}
+
+.btn:hover:after {
+  transform: translate(-15px, -10px);
+  background-color: var(--btn-color);
+}

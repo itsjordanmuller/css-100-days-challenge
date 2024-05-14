@@ -1,0 +1,124 @@
+:root {
+  --shadow: rgba(0, 0, 0, 0.3);
+  --bg-sand-color: #804b33;
+  --bg-sand-shade-color: #5e4534;
+  --umbrella-pole-color: #b3b3b3;
+  --umbrella-stripe-a-color: #581174;
+  --umbrella-stripe-b-color: #ffffff;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px var(--shadow);
+  overflow: hidden;
+  background-color: var(--bg-sand-color);
+  perspective: 350px;
+}
+
+.umbrella {
+  position: absolute;
+  top: 8%;
+  left: 13%;
+  transform-style: preserve-3d;
+  transform: rotateX(70deg) rotateY(-15deg);
+}
+
+.umbrella .poleShade {
+  position: absolute;
+  z-index: -1;
+  width: 6px;
+  height: 50px;
+  top: 100px;
+  left: 97px;
+  background-color: var(--bg-sand-shade-color);
+  transform-origin: 50% 0%;
+  transform: translateZ(-150px) rotateZ(-90deg) rotateZ(-15deg);
+  box-shadow: 0 0 2px 1px var(--bg-sand-shade-color);
+  border-radius: 2px;
+}
+
+.umbrella .pole {
+  position: absolute;
+  z-index: 2;
+  width: 6px;
+  height: 150px;
+  top: 100px;
+  left: 97px;
+  background-color: var(--umbrella-pole-color);
+  transform-origin: 50% 0;
+  transform: translateZ(-1px) rotateX(-90deg);
+  border-radius: 2px;
+}
+
+.umbrella .umbrellaShade {
+  position: absolute;
+  z-index: -1;
+  width: 200px;
+  height: 200px;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  transform: translateZ(-150px) translateX(120px) translateY(-40px) scale(0.9);
+  animation: rotateTopShade 5s linear infinite;
+}
+
+.umbrella .umbrellaShade .slice {
+  position: absolute;
+  top: 100px;
+  left: 77px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 25px 98px 25px;
+  border-color: transparent transparent var(--bg-sand-shade-color) transparent;
+  transform-origin: 50% 0;
+  box-shadow: 0 0 4px 2px var(--bg-sand-shade-color);
+}
+
+.umbrella .top {
+  position: relative;
+  z-index: 3;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  animation: rotateTop 5s linear infinite;
+}
+
+.umbrella .top .slice {
+  position: absolute;
+  top: 100px;
+  left: 77px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 24px 98px 24px;
+  border-color: transparent transparent var(--umbrella-stripe-b-color)
+    transparent;
+  transform-origin: 50% 0;
+}
+
+@keyframes rotateTop {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes rotateTopShade {
+  from {
+    transform: translateZ(-150px) translateX(120px) translateY(-40px) scale(0.9)
+      rotateZ(0deg);
+  }
+  to {
+    transform: translateZ(-150px) translateX(120px) translateY(-40px) scale(0.9)
+      rotateZ(360deg);
+  }
+}

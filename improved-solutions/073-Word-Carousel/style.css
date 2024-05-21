@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700,400");
+
+:root {
+  --shadow: rgba(0, 0, 0, 0.3);
+  --bg-color: #003e85;
+  --shadow-color: #227de6;
+  --text-color: #ffffff;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px var(--shadow);
+  overflow: hidden;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.swap {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  line-height: 38px;
+  height: 38px;
+
+  .declare {
+    position: absolute;
+    top: 0;
+    right: 56%;
+    height: 38px;
+    text-shadow: 2px 2px 2px var(--shadow-color);
+  }
+
+  .outer-swap {
+    position: absolute;
+    top: 0;
+    left: 46%;
+    text-align: left;
+    height: 38px;
+    overflow: hidden;
+
+    .inner-swap {
+      position: relative;
+      animation: swap 8s ease-in-out infinite;
+    }
+
+    .word {
+      display: block;
+      font-weight: 700;
+      text-shadow: 2px 2px 2px var(--shadow-color);
+    }
+  }
+}
+
+@keyframes swap {
+  0%,
+  20% {
+    transform: translateY(0);
+  }
+  25%,
+  45% {
+    transform: translateY(calc(-1 * 38px));
+  }
+  50%,
+  70% {
+    transform: translateY(calc(-2 * 38px));
+  }
+  75%,
+  95% {
+    transform: translateY(calc(-3 * 38px));
+  }
+  100% {
+    transform: translateY(calc(-4 * 38px));
+  }
+}

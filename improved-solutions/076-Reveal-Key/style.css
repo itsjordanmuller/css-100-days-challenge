@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700,400");
+
+:root {
+  --shadow: rgba(0, 0, 0, 0.3);
+  --box-shadow-color: rgba(0, 0, 0, 0);
+  --bg-color: #345e57;
+  --primary-color: #ffffff;
+  --secret-pass-color: #b7c760;
+  --reset-btn-color: #8400ff;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px var(--shadow);
+  overflow: hidden;
+  background-color: var(--bg-color);
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.secret-area {
+  width: 220px;
+  height: 50px;
+  box-shadow: 2px 4px 8px 0 var(--shadow);
+  perspective: 250px;
+}
+
+.form-field {
+  position: absolute;
+  z-index: 2;
+  transform-style: preserve-3d;
+  transform-origin: 50% 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.text-input {
+  box-sizing: border-box;
+  appearance: none;
+  border: none;
+  outline: none;
+  background-color: var(--primary-color);
+  width: 220px;
+  height: 50px;
+  padding: 15px 0;
+  font-size: 16px;
+  color: var(--bg-color);
+  text-align: center;
+  backface-visibility: hidden;
+  z-index: 2;
+}
+
+.hidden-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-weight: 700;
+  color: var(--bg-color);
+  text-align: center;
+  line-height: 50px;
+  background-color: var(--primary-color);
+  backface-visibility: hidden;
+  transform: rotateX(-180deg);
+}
+
+.code-display {
+  width: 220px;
+  height: 50px;
+  background-color: var(--secret-pass-color);
+  color: var(--primary-color);
+  font-size: 16px;
+  line-height: 50px;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 2px 0px 8px 0 var(--box-shadow-color);
+}
+
+.reset-btn {
+  opacity: 0;
+  visibility: hidden;
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: var(--primary-color);
+  background-color: var(--reset-btn-color);
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.5s, visibility 0.5s;
+}
+
+.form-field:valid {
+  transform: rotateX(180deg);
+}
+
+.form-field:valid ~ .code-display {
+  box-shadow: 2px -50px 8px 0 var(--shadow);
+}

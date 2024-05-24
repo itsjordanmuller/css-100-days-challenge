@@ -1,0 +1,165 @@
+:root {
+  --shadow: rgba(0, 0, 0, 0.3);
+  --circle-blur-color: rgba(48, 48, 48, 0.3);
+  --bg-color: #f97f51;
+  --circle-color: #202020;
+  --animation: 2s ease-in-out infinite;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px var(--shadow);
+  overflow: hidden;
+  background-color: var(--bg-color);
+}
+
+.circle {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 175px;
+  left: 175px;
+  background-color: var(--circle-color);
+  border-radius: 50%;
+  animation: move var(--animation);
+}
+
+.circle .blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--circle-blur-color);
+  border-radius: 50%;
+}
+
+.circle .blur-1 {
+  opacity: 0.9;
+  animation: zoom-1 var(--animation);
+}
+
+.circle .blur-2 {
+  opacity: 0.8;
+  animation: zoom-2 var(--animation);
+}
+
+.circle .blur-3 {
+  opacity: 0.7;
+  animation: zoom-3 var(--animation);
+}
+
+.circle .blur-4 {
+  opacity: 0.6;
+  animation: zoom-4 var(--animation);
+}
+
+.circle .blur-5 {
+  opacity: 0.5;
+  animation: zoom-5 var(--animation);
+}
+
+.circle .blur-6 {
+  opacity: 0.4;
+  animation: zoom-6 var(--animation);
+}
+
+@keyframes move {
+  0%,
+  100% {
+    transform: translateX(-150px);
+  }
+  50% {
+    transform: translateX(150px);
+  }
+}
+
+@keyframes zoom-1 {
+  0%,
+  50%,
+  100% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(-7px);
+  }
+  75% {
+    transform: translateX(7px);
+  }
+}
+
+@keyframes zoom-2 {
+  0%,
+  50%,
+  100% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(-14px);
+  }
+  75% {
+    transform: translateX(14px);
+  }
+}
+
+@keyframes zoom-3 {
+  0%,
+  50%,
+  100% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(-21px);
+  }
+  75% {
+    transform: translateX(21px);
+  }
+}
+
+@keyframes zoom-4 {
+  0%,
+  50%,
+  100% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(-28px);
+  }
+  75% {
+    transform: translateX(28px);
+  }
+}
+
+@keyframes zoom-5 {
+  0%,
+  50%,
+  100% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(-35px);
+  }
+  75% {
+    transform: translateX(35px);
+  }
+}
+
+@keyframes zoom-6 {
+  0%,
+  50%,
+  100% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(-42px);
+  }
+  75% {
+    transform: translateX(42px);
+  }
+}

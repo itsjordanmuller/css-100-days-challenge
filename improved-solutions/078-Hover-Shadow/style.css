@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400");
+
+:root {
+  --shadow: rgba(0, 0, 0, 0.3);
+  --lighter-shadow: rgba(0, 0, 0, 0.2);
+  --light-shadow: rgba(0, 0, 0, 0.25);
+  --bg-color: #00b894;
+  --btn-color: #ffffff;
+  --btn-text-color: #345e36;
+  --animation: 0.3s ease-in-out;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px var(--shadow);
+  overflow: hidden;
+  background-color: var(--bg-color);
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+.btn {
+  top: 50px;
+  position: relative;
+  margin: 30px auto 0;
+  width: 200px;
+  height: 60px;
+  background-color: var(--btn-color);
+  color: var(--btn-text-color);
+  font-size: 18px;
+  line-height: 60px;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform var(--animation), box-shadow var(--animation);
+}
+
+#btn-1:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 8px var(--lighter-shadow), 2px 4px 4px var(--light-shadow);
+}
+
+#btn-2:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 16px var(--lighter-shadow), 4px 8px 4px var(--light-shadow);
+}
+
+#btn-3:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 24px var(--lighter-shadow), 6px 12px 4px var(--light-shadow);
+}

@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:900,400italic);
+
+:root {
+  --shadow: rgba(0, 0, 0, 0.3);
+  --light-shadow: rgba(0, 0, 0, 0.2);
+  --dark-shadow: rgba(0, 0, 0, 0.4);
+  --bg-color: #dadfc0;
+  --cover-gradient-start-color: #30374d;
+  --cover-gradient-end-color: #4f5863;
+  --text-color: #ffffff;
+  --text-subtitle-color: #cccccc;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px var(--shadow);
+  overflow: hidden;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Lato", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cover {
+  position: absolute;
+  width: 200px;
+  height: 280px;
+  top: 60px;
+  left: 100px;
+  border-radius: 2px 4px 4px 2px;
+  box-shadow: 0 0 5px 0 var(--light-shadow), -1px 4px 4px 0 var(--shadow);
+  background-color: var(--cover-gradient-start-color);
+  background: linear-gradient(
+    45deg,
+    var(--cover-gradient-start-color) 0%,
+    var(--cover-gradient-end-color) 100%
+  );
+}
+
+.cover:before,
+.cover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 2px 0 0 2px;
+}
+
+.cover:before {
+  width: 20px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.1) 20%,
+    rgba(255, 255, 255, 0.1) 45%,
+    rgba(0, 0, 0, 0.15) 49%,
+    rgba(0, 0, 0, 0.15) 84%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.cover:after {
+  width: 10px;
+  top: -1px;
+  right: 25px;
+  bottom: -1px;
+  border-radius: 1px;
+  box-shadow: -1px 0px 1px 0 var(--dark-shadow);
+  background: linear-gradient(
+    to right,
+    #03a97f 0%,
+    #008e60 12%,
+    #03a97f 25%,
+    #008e60 37%,
+    #03a97f 50%,
+    #008e60 62%,
+    #03a97f 75%,
+    #008e60 87%,
+    #03a97f 100%
+  );
+}
+
+.text {
+  position: absolute;
+  top: 55px;
+  left: 33px;
+}
+
+.text .title {
+  font-size: 36px;
+  line-height: 100%;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.text .subtitle {
+  font-size: 13px;
+  line-height: 160%;
+  font-weight: 400;
+  padding-left: 2px;
+  color: var(--text-subtitle-color);
+}

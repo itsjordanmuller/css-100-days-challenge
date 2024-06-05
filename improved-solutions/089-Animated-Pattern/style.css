@@ -1,0 +1,93 @@
+:root {
+  --shadow: rgba(0, 0, 0, 0.3);
+  --bg-color: #000000;
+  --primary-color: #c44569;
+  --rs: 0turn;
+  --rm: 0.125turn;
+  --re: 0.25turn;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px var(--shadow);
+  overflow: hidden;
+  background-color: var(--bg-color);
+}
+
+.h,
+.v {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.h .line,
+.v .line {
+  position: relative;
+  float: left;
+  background-color: var(--primary-color);
+}
+
+.h .line {
+  width: 40px;
+  height: 10px;
+  margin: 15px 0;
+  animation: h-spin 4s ease-in-out infinite;
+}
+
+.v .line {
+  width: 10px;
+  height: 40px;
+  margin: 0 15px;
+  animation: v-spin 4s ease-in-out infinite;
+}
+
+@keyframes h-spin {
+  0% {
+    transform: rotate(var(--rs));
+  }
+  20% {
+    transform: rotate(var(--rm));
+  }
+  40% {
+    transform: rotate(var(--rm)) translateX(-20px);
+  }
+  60% {
+    transform: rotate(var(--rm)) scaleY(2) scaleX(0.5);
+  }
+  80% {
+    transform: rotate(var(--rm)) scaleY(2) scaleX(0.5);
+  }
+  100% {
+    transform: rotate(var(--re));
+  }
+}
+
+@keyframes v-spin {
+  0% {
+    transform: rotate(var(--rs));
+  }
+  20% {
+    transform: rotate(var(--rm));
+  }
+  40% {
+    transform: rotate(var(--rm)) translateX(10px);
+  }
+  60% {
+    transform: rotate(var(--rm)) scaleX(2) scaleY(0.5);
+  }
+  80% {
+    transform: rotate(var(--re)) scaleX(2) scaleY(0.5);
+  }
+  100% {
+    transform: rotate(var(--re));
+  }
+}

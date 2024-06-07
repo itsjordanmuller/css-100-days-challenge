@@ -1,0 +1,163 @@
+:root {
+  --shadow: rgba(0, 0, 0, 0.3);
+  --dark-shadow: rgba(0, 0, 0, 0.4);
+  --fill-color: rgba(207, 46, 73, 0.75);
+  --glass-color: rgba(0, 0, 0, 0.1);
+  --cube-dimensions: 120px;
+  --bg-color: #302c35;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px var(--shadow);
+  overflow: hidden;
+  background-color: var(--bg-color);
+}
+
+.mid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  perspective: 500px;
+}
+
+.cube {
+  width: var(--cube-dimensions);
+  height: var(--cube-dimensions);
+  transform-style: preserve-3d;
+  transform: rotateX(-25deg) rotateY(45deg);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    transform: rotateX(-25deg) rotateY(45deg) translateY(-15px);
+
+    .bottom-face {
+      box-shadow: -22px -22px 30px 0 var(--dark-shadow);
+    }
+  }
+
+  .face {
+    position: absolute;
+    width: var(--cube-dimensions);
+    height: var(--cube-dimensions);
+    top: 0;
+    left: 0;
+    background-color: var(--glass-color);
+  }
+
+  .bottom-face {
+    transform: rotateX(-90deg) translateZ(calc(var(--cube-dimensions) / 2));
+    background-color: var(--fill-color);
+    box-shadow: -8px -8px 10px 0 var(--dark-shadow);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .left-face {
+    transform: rotateY(-90deg) translateZ(calc(var(--cube-dimensions) / 2));
+
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: var(--fill-color);
+      transform-origin: 50% 100%;
+      animation: load 4s ease-in-out infinite alternate;
+    }
+  }
+
+  .right-face {
+    transform: rotateY(90deg) translateZ(calc(var(--cube-dimensions) / 2));
+
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: var(--fill-color);
+      transform-origin: 50% 100%;
+      animation: load 4s ease-in-out infinite alternate;
+    }
+  }
+
+  .back-face {
+    transform: rotateY(180deg) translateZ(calc(var(--cube-dimensions) / 2));
+
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: var(--fill-color);
+      transform-origin: 50% 100%;
+      animation: load 4s ease-in-out infinite alternate;
+    }
+  }
+
+  .front-face {
+    transform: rotateY(0deg) translateZ(calc(var(--cube-dimensions) / 2));
+
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: var(--fill-color);
+      transform-origin: 50% 100%;
+      animation: load 4s ease-in-out infinite alternate;
+    }
+  }
+
+  .top-face {
+    transform: rotateX(90deg) translateZ(calc(var(--cube-dimensions) / 2));
+    opacity: 0.5;
+  }
+
+  .top-filled-face {
+    background-color: var(--fill-color);
+    animation: load-up 4s ease-in-out infinite alternate;
+  }
+}
+
+@keyframes load {
+  0%,
+  20% {
+    transform: scaleY(0);
+  }
+  80%,
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes load-up {
+  0%,
+  20% {
+    transform: rotateX(90deg) translateZ(calc(var(--cube-dimensions) / -2));
+  }
+  80%,
+  100% {
+    transform: rotateX(90deg)
+      translateZ(calc((var(--cube-dimensions) / 2) - 1px));
+  }
+}

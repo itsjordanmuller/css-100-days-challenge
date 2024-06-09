@@ -1,0 +1,208 @@
+:root {
+  --shadow: rgba(0, 0, 0, 0.3);
+  --bg-color: #e84393;
+  --point-color: #ffffff;
+  --max-size: 195px;
+  --size: 10px;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px var(--shadow);
+  overflow: hidden;
+  background-color: var(--bg-color);
+}
+
+.point {
+  position: absolute;
+  top: var(--max-size);
+  left: var(--max-size);
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  background-color: var(--point-color);
+}
+
+@for $i from 1 through 8 {
+  #p-#{$i} {
+    animation: p-#{$i} 5s linear infinite;
+  }
+}
+
+@for $i from 9 through 16 {
+  #p-#{$i} {
+    animation: p-#{$i} 3s linear infinite;
+  }
+}
+
+@keyframes p-1 {
+  0%,
+  100% {
+    transform: translate(
+      calc(var(--max-size) * -1),
+      calc(var(--max-size) * -1)
+    );
+  }
+  50% {
+    transform: translate(0, var(--max-size));
+  }
+}
+
+@keyframes p-2 {
+  0%,
+  100% {
+    transform: translate(var(--max-size), calc(var(--max-size) * -1));
+  }
+  50% {
+    transform: translate(0, var(--max-size));
+  }
+}
+
+@keyframes p-3 {
+  0%,
+  100% {
+    transform: translate(var(--max-size), var(--max-size));
+  }
+  50% {
+    transform: translate(0, calc(var(--max-size) * -1));
+  }
+}
+
+@keyframes p-4 {
+  0%,
+  100% {
+    transform: translate(calc(var(--max-size) * -1), var(--max-size));
+  }
+  50% {
+    transform: translate(0, calc(var(--max-size) * -1));
+  }
+}
+
+@keyframes p-5 {
+  0%,
+  100% {
+    transform: translate(
+      calc(var(--max-size) * -1),
+      calc(var(--max-size) * -1)
+    );
+  }
+  50% {
+    transform: translate(var(--max-size), 0);
+  }
+}
+
+@keyframes p-6 {
+  0%,
+  100% {
+    transform: translate(var(--max-size), calc(var(--max-size) * -1));
+  }
+  50% {
+    transform: translate(calc(var(--max-size) * -1), 0);
+  }
+}
+
+@keyframes p-7 {
+  0%,
+  100% {
+    transform: translate(var(--max-size), var(--max-size));
+  }
+  50% {
+    transform: translate(calc(var(--max-size) * -1), 0);
+  }
+}
+
+@keyframes p-8 {
+  0%,
+  100% {
+    transform: translate(calc(var(--max-size) * -1), var(--max-size));
+  }
+  50% {
+    transform: translate(var(--max-size), 0);
+  }
+}
+
+@keyframes p-9 {
+  0%,
+  100% {
+    transform: translate(0, calc(var(--max-size) * -1));
+  }
+  50% {
+    transform: translate(var(--max-size), 0);
+  }
+}
+
+@keyframes p-10 {
+  0%,
+  100% {
+    transform: translate(0, var(--max-size));
+  }
+  50% {
+    transform: translate(var(--max-size), 0);
+  }
+}
+
+@keyframes p-11 {
+  0%,
+  100% {
+    transform: translate(0, calc(var(--max-size) * -1));
+  }
+  50% {
+    transform: translate(calc(var(--max-size) * -1), 0);
+  }
+}
+
+@keyframes p-12 {
+  0%,
+  100% {
+    transform: translate(0, var(--max-size));
+  }
+  50% {
+    transform: translate(calc(var(--max-size) * -1), 0);
+  }
+}
+
+@keyframes p-13 {
+  0%,
+  100% {
+    transform: translate(var(--max-size), 0);
+  }
+  50% {
+    transform: translate(0, var(--max-size));
+  }
+}
+
+@keyframes p-14 {
+  0%,
+  100% {
+    transform: translate(calc(var(--max-size) * -1), 0);
+  }
+  50% {
+    transform: translate(0, var(--max-size));
+  }
+}
+
+@keyframes p-15 {
+  0%,
+  100% {
+    transform: translate(var(--max-size), 0);
+  }
+  50% {
+    transform: translate(0, calc(var(--max-size) * -1));
+  }
+}
+
+@keyframes p-16 {
+  0%,
+  100% {
+    transform: translate(calc(var(--max-size) * -1), 0);
+  }
+  50% {
+    transform: translate(0, calc(var(--max-size) * -1));
+  }
+}

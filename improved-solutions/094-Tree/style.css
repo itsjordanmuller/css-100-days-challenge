@@ -1,0 +1,149 @@
+:root {
+  --shadow: rgba(0, 0, 0, 0.3);
+  --canopy-color: #fec957;
+  --bg-color: #0e4477;
+  --wood-color: #66471b;
+  --shadow-color: #082947;
+  --shade-color: rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px var(--shadow);
+  overflow: hidden;
+  background-color: var(--bg-color);
+}
+
+.tree {
+  position: absolute;
+  z-index: 2;
+  top: 120px;
+  left: 198px;
+}
+
+.tree:after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: var(--shadow-color);
+  bottom: 0px;
+  left: -38px;
+  border-radius: 2px;
+  animation: scaleXAxis 0.75s ease-in-out both;
+}
+
+.tree .canopy {
+  position: absolute;
+  z-index: -1;
+  width: 0;
+  height: 0;
+  top: -60px;
+  left: -60px;
+  border-style: solid;
+  border-width: 0 62px 204px 62px;
+  border-color: transparent transparent var(--canopy-color) transparent;
+  animation: scaleXAxis 0.75s ease-in-out 0.75s both;
+}
+
+.tree .canopy:before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: -62px;
+  border-style: solid;
+  border-width: 0 0px 204px 62px;
+  border-color: transparent transparent var(--shade-color) transparent;
+}
+
+.tree .trunk {
+  position: relative;
+  width: 4px;
+  height: 200px;
+  background-color: var(--wood-color);
+  border-radius: 2px;
+  transform-origin: 50% 100%;
+  animation: scaleYAxis 0.75s ease-in-out both;
+}
+
+.tree .trunk .branch {
+  position: absolute;
+  width: 4px;
+  height: 60px;
+  background-color: var(--wood-color);
+  border-radius: 2px;
+  transform-origin: 50% 100%;
+}
+
+.tree .trunk > .branch {
+  transform: rotate(-40deg);
+}
+
+.tree .trunk > .branch:nth-child(2n) {
+  transform: rotate(40deg);
+}
+
+.tree .trunk > .branch:nth-child(1) {
+  top: 0px;
+  height: 10px;
+}
+
+.tree .trunk > .branch:nth-child(2) {
+  top: 20px;
+  height: 20px;
+}
+
+.tree .trunk > .branch:nth-child(3) {
+  top: 40px;
+  height: 30px;
+}
+
+.tree .trunk > .branch:nth-child(4) {
+  top: 60px;
+  height: 40px;
+}
+
+.tree .trunk > .branch:nth-child(5) {
+  top: 80px;
+  height: 50px;
+}
+
+@keyframes scaleYAxis {
+  0% {
+    transform: scaleY(0);
+  }
+  50% {
+    transform: scaleY(1.15);
+  }
+  70% {
+    transform: scaleY(0.9);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes scaleXAxis {
+  0% {
+    transform: scaleX(0);
+  }
+  50% {
+    transform: scaleX(1.15);
+  }
+  70% {
+    transform: scaleX(0.9);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}

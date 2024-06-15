@@ -1,0 +1,411 @@
+:root {
+  --shadow: rgba(0, 0, 0, 0.3);
+  --bg-color: #1b1f24;
+  --upper-box-color: #f7cf40;
+  --left-box-color: #e0bb32;
+  --right-box-color: #caa930;
+  --lower-box-color: #c9a526;
+  --primary-color: #397fe7;
+  --secondary-color: #e05d36;
+  --accent-color: #b82e57;
+  --bezier-triangles: cubic-bezier(0.2, 0.7, 0.4, 1);
+  --bezier-shapes: cubic-bezier(0.2, 0.7, 0.4, 1);
+  --duration: 1.5s;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px var(--shadow);
+  overflow: hidden;
+  background-color: var(--bg-color);
+}
+
+.box {
+  position: absolute;
+  z-index: 10;
+  width: 160px;
+  height: 160px;
+  top: 120px;
+  left: 120px;
+}
+
+.triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.triangle.upper {
+  top: 0;
+  left: 0;
+  border-width: 80px 80px 0 80px;
+  border-color: var(--upper-box-color) transparent transparent transparent;
+  animation: triangle-t var(--duration) var(--bezier-triangles) infinite
+    alternate;
+}
+
+.triangle.left {
+  top: 0;
+  left: 0;
+  border-width: 80px 0 80px 80px;
+  border-color: transparent transparent transparent var(--left-box-color);
+  animation: triangle-l var(--duration) var(--bezier-triangles) infinite
+    alternate;
+}
+
+.triangle.right {
+  top: 0;
+  right: 0;
+  border-width: 80px 80px 80px 0;
+  border-color: transparent var(--right-box-color) transparent transparent;
+  animation: triangle-r var(--duration) var(--bezier-triangles) infinite
+    alternate;
+}
+
+.triangle.lower {
+  bottom: 0;
+  right: 0;
+  border-width: 0 80px 80px 80px;
+  border-color: transparent transparent var(--lower-box-color) transparent;
+  animation: triangle-b var(--duration) var(--bezier-triangles) infinite
+    alternate;
+}
+
+.shapes {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 185px;
+  left: 185px;
+  transform: rotate(180deg);
+}
+
+.squares {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 5px;
+  left: 5px;
+}
+
+.squares.sm {
+  width: 10px;
+  height: 10px;
+  top: 10px;
+  left: 10px;
+}
+
+.squares.lg {
+  width: 30px;
+  height: 30px;
+  top: 0;
+  left: 0;
+}
+
+.squares.c1 {
+  background-color: var(--primary-color);
+}
+
+.squares.c2 {
+  background-color: var(--secondary-color);
+}
+
+.squares.c3 {
+  background-color: var(--accent-color);
+}
+
+.square-1 {
+  animation: square-1 var(--duration) var(--bezier-shapes) infinite alternate;
+}
+
+.square-2 {
+  animation: square-2 var(--duration) var(--bezier-shapes) infinite alternate;
+}
+
+.square-3 {
+  animation: square-3 var(--duration) var(--bezier-shapes) infinite alternate;
+}
+
+.square-4 {
+  animation: square-4 var(--duration) var(--bezier-shapes) infinite alternate;
+}
+
+.square-5 {
+  animation: square-5 var(--duration) var(--bezier-shapes) infinite alternate;
+}
+
+.square-6 {
+  animation: square-6 var(--duration) var(--bezier-shapes) infinite alternate;
+}
+
+.square-7 {
+  animation: square-7 var(--duration) var(--bezier-shapes) infinite alternate;
+}
+
+.square-8 {
+  animation: square-8 var(--duration) var(--bezier-shapes) infinite alternate;
+}
+
+.circles {
+  position: absolute;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 4px;
+  top: 5px;
+  left: 5px;
+}
+
+.circles.sm {
+  width: 10px;
+  height: 10px;
+  border-width: 2px;
+  top: 10px;
+  left: 10px;
+}
+
+.circles.lg {
+  width: 30px;
+  height: 30px;
+  border-width: 8px;
+  top: 0;
+  left: 0;
+}
+
+.circles.c1 {
+  border-color: var(--primary-color);
+}
+
+.circles.c2 {
+  border-color: var(--secondary-color);
+}
+
+.circles.c3 {
+  border-color: var(--accent-color);
+}
+
+.circle-1 {
+  animation: circle-1 var(--duration) var(--bezier-shapes) infinite alternate;
+}
+
+.circle-2 {
+  animation: circle-2 var(--duration) var(--bezier-shapes) infinite alternate;
+}
+
+.circle-3 {
+  animation: circle-3 var(--duration) var(--bezier-shapes) infinite alternate;
+}
+
+.circle-4 {
+  animation: circle-4 var(--duration) var(--bezier-shapes) infinite alternate;
+}
+
+.circle-5 {
+  animation: circle-5 var(--duration) var(--bezier-shapes) infinite alternate;
+}
+
+.circle-6 {
+  animation: circle-6 var(--duration) var(--bezier-shapes) infinite alternate;
+}
+
+.circle-7 {
+  animation: circle-7 var(--duration) var(--bezier-shapes) infinite alternate;
+}
+
+.circle-8 {
+  animation: circle-8 var(--duration) var(--bezier-shapes) infinite alternate;
+}
+
+@keyframes triangle-t {
+  0%,
+  20% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-180px);
+  }
+}
+
+@keyframes triangle-l {
+  0%,
+  20% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateX(-180px);
+  }
+}
+
+@keyframes triangle-r {
+  0%,
+  20% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateX(180px);
+  }
+}
+
+@keyframes triangle-b {
+  0%,
+  20% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(180px);
+  }
+}
+
+@keyframes square-1 {
+  0%,
+  20% {
+    transform: scale(0) translate(0) rotate(0);
+  }
+  100% {
+    transform: scale(1) translate(85px, 68px) rotate(55deg);
+  }
+}
+@keyframes square-2 {
+  0%,
+  20% {
+    transform: scale(0) translate(0) rotate(0);
+  }
+  100% {
+    transform: scale(1) translate(-33px, -140px) rotate(45deg);
+  }
+}
+@keyframes square-3 {
+  0%,
+  20% {
+    transform: scale(0) translate(0) rotate(0);
+  }
+  100% {
+    transform: scale(1) translate(139px, -108px) rotate(35deg);
+  }
+}
+@keyframes square-4 {
+  0%,
+  20% {
+    transform: scale(0) translate(0) rotate(0);
+  }
+  100% {
+    transform: scale(1) translate(87px, -109px) rotate(45deg);
+  }
+}
+@keyframes square-5 {
+  0%,
+  20% {
+    transform: scale(0) translate(0) rotate(0);
+  }
+  100% {
+    transform: scale(1) translate(145px, -15px) rotate(85deg);
+  }
+}
+@keyframes square-6 {
+  0%,
+  20% {
+    transform: scale(0) translate(0) rotate(0);
+  }
+  100% {
+    transform: scale(1) translate(-101px, -76px) rotate(75deg);
+  }
+}
+@keyframes square-7 {
+  0%,
+  20% {
+    transform: scale(0) translate(0) rotate(0);
+  }
+  100% {
+    transform: scale(1) translate(-96px, 61px) rotate(80deg);
+  }
+}
+@keyframes square-8 {
+  0%,
+  20% {
+    transform: scale(0) translate(0) rotate(0);
+  }
+  100% {
+    transform: scale(1) translate(-73px, 34px) rotate(40deg);
+  }
+}
+@keyframes circle-1 {
+  0%,
+  20% {
+    transform: scale(0) translate(0);
+  }
+  100% {
+    transform: scale(1) translate(26px, -105px);
+  }
+}
+@keyframes circle-2 {
+  0%,
+  20% {
+    transform: scale(0) translate(0);
+  }
+  100% {
+    transform: scale(1) translate(12px, -70px);
+  }
+}
+@keyframes circle-3 {
+  0%,
+  20% {
+    transform: scale(0) translate(0);
+  }
+  100% {
+    transform: scale(1) translate(-15px, -30px);
+  }
+}
+@keyframes circle-4 {
+  0%,
+  20% {
+    transform: scale(0) translate(0);
+  }
+  100% {
+    transform: scale(1) translate(-25px, 96px);
+  }
+}
+@keyframes circle-5 {
+  0%,
+  20% {
+    transform: scale(0) translate(0);
+  }
+  100% {
+    transform: scale(1) translate(-20px, 40px);
+  }
+}
+@keyframes circle-6 {
+  0%,
+  20% {
+    transform: scale(0) translate(0);
+  }
+  100% {
+    transform: scale(1) translate(60px, 22px);
+  }
+}
+@keyframes circle-7 {
+  0%,
+  20% {
+    transform: scale(0) translate(0);
+  }
+  100% {
+    transform: scale(1) translate(76px, -35px);
+  }
+}
+@keyframes circle-8 {
+  0%,
+  20% {
+    transform: scale(0) translate(0);
+  }
+  100% {
+    transform: scale(1) translate(-143px, -148px);
+  }
+}

@@ -480,9 +480,9 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ### [Challenge #1 - 100 Days CSS Logo](https://100dayscss.com/days/1/)
 
-#### [My Submission - #1 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/001-Challenge-Logo)
+#### [My Submission - #1 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/tree/main/initial-solutions/001-100-Days-CSS)
 
-![Challenge 1 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/001-Challenge-Logo/001-Submission.png)
+![Challenge 1 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/001-100-Days-CSS/001-Submission.png)
 
 > An easy start into the challenge with a custom build number with gradient.
 
@@ -490,7 +490,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <details>
   <summary>Click/Open to See Goal Image</summary>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/001-Challenge-Logo/001-Goal.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/001-100-Days-CSS/001-Goal.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/JGmvaE">View Goal CodePen Demo</a>
 </details>
 

@@ -904,7 +904,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 20
 
-### [Challenge #20 - ]()
+### [Challenge #20 - ](https://100dayscss.com/days/20/)
 
 #### [My Submission - #20 (Result Image)]()
 
@@ -920,11 +920,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 21
 
-### [Challenge #21 - ]()
+### [Challenge #21 - Pac-Man](https://100dayscss.com/days/21/)
 
 #### [My Submission - #21 (Result Image)]()
 
-> 
+> Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka Waka…
 
 #### [My Submission - #21 (CodePen Demo)]()
 
@@ -936,11 +936,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 22
 
-### [Challenge #22 - ]()
+### [Challenge #22 - Fitness Tracker](https://100dayscss.com/days/22/)
 
 #### [My Submission - #22 (Result Image)]()
 
-> 
+> Don't sit on your chair all day long. Get up, jump, run, exercice and burn some calories.
 
 #### [My Submission - #22 (CodePen Demo)]()
 
@@ -952,11 +952,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 23
 
-### [Challenge #23 - ]()
+### [Challenge #23 - Animated Typography](https://100dayscss.com/days/23/)
 
 #### [My Submission - #23 (Result Image)]()
 
-> 
+> Some big, bold and beautiful animated typography will enhance every boring header section.
 
 #### [My Submission - #23 (CodePen Demo)]()
 
@@ -968,11 +968,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 24
 
-### [Challenge #24 - ]()
+### [Challenge #24 - Button](https://100dayscss.com/days/24/)
 
 #### [My Submission - #24 (Result Image)]()
 
-> 
+> Do you really wanna let your users guess if their actions were successful? No! So give them some feedback if they click a button.
 
 #### [My Submission - #24 (CodePen Demo)]()
 
@@ -984,11 +984,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 25
 
-### [Challenge #25 - ]()
+### [Challenge #25 - Map Marker](https://100dayscss.com/days/25/)
 
 #### [My Submission - #25 (Result Image)]()
 
-> 
+> Did I just place a marker in the middle of some water to get a nice color contrast? Maybe. Click on it for a nice transition.
 
 #### [My Submission - #25 (CodePen Demo)]()
 
@@ -1000,11 +1000,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 26
 
-### [Challenge #26 - ]()
+### [Challenge #26 - Motivational Modal](https://100dayscss.com/days/26/)
 
 #### [My Submission - #26 (Result Image)]()
 
-> 
+> What's worse than a motivational quote? Three motivational quotes... so don't focus on the text and click through them quickly.
 
 #### [My Submission - #26 (CodePen Demo)]()
 
@@ -1016,11 +1016,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 27
 
-### [Challenge #27 - ]()
+### [Challenge #27 - Checklist](https://100dayscss.com/days/27/)
 
 #### [My Submission - #27 (Result Image)]()
 
-> 
+> What's the great thing about working through your to-do list? That's right, the relieving feeling when you can check off the tasks.
 
 #### [My Submission - #27 (CodePen Demo)]()
 
@@ -1032,11 +1032,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 28
 
-### [Challenge #28 - ]()
+### [Challenge #28 - Ring Ring](https://100dayscss.com/days/28/)
 
 #### [My Submission - #28 (Result Image)]()
 
-> 
+> Fortunately for you, I left out the alarm sound. But hopefully the signal color and the movement have served their purpose.
 
 #### [My Submission - #28 (CodePen Demo)]()
 
@@ -1048,11 +1048,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 29
 
-### [Challenge #29 - ]()
+### [Challenge #29 - Search Field](https://100dayscss.com/days/29/)
 
 #### [My Submission - #29 (Result Image)]()
 
-> 
+> You won't find anything unless you start looking. So go ahead, write something in the search box.
 
 #### [My Submission - #29 (CodePen Demo)]()
 
@@ -1064,11 +1064,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 30
 
-### [Challenge #30 - ]()
+### [Challenge #30 - Random Line](https://100dayscss.com/days/30/)
 
 #### [My Submission - #30 (Result Image)]()
 
-> 
+> What can I say, it is a line. A line that moves and circles something. What should it be? That's for you to decide.
 
 #### [My Submission - #30 (CodePen Demo)]()
 

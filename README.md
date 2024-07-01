@@ -521,7 +521,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 #### [My Submission - #3 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/003-Pyramide)
 
-![Challenge 3 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/003-Pyramide/003-Submission.png)
+![Challenge 3 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/003-The-Pyramide/003-Submission.png)
 
 > Not as challenging as the real pyramids in Egypt, but the shadow path is not easy.
 
@@ -529,7 +529,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <details>
   <summary>Click/Open to See Goal Image</summary>
-  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/003-Pyramide/003-Goal.png"/><br/>
+  <img src="https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/003-The-Pyramide/003-Goal.png"/><br/>
   <a href="https://codepen.io/roydigerhund/pen/PZxpKO">View Goal CodePen Demo</a>
 </details>
 

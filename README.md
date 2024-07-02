@@ -1240,162 +1240,162 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 41
 
-### [Challenge #41 - ]()
+### [Challenge #41 - Error Modal](https://100dayscss.com/days/41/)
 
 #### [My Submission - #41 (Result Image)]()
 
-> 
+> Don't worry, it's not a real error, this is part of the challenge.
 
 #### [My Submission - #41 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/grgKbj">View Goal CodePen Demo</a>
 </details>
 
 ## Day 42
 
-### [Challenge #42 - ]()
+### [Challenge #42 - Stars](https://100dayscss.com/days/42/)
 
 #### [My Submission - #42 (Result Image)]()
 
-> 
+> If you look closely, you can see the stars sparkling. And with a bit of luck, you might even spot a shooting star. Make a wish!
 
 #### [My Submission - #42 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/dMNrxP">View Goal CodePen Demo</a>
 </details>
 
 ## Day 43
 
-### [Challenge #43 - ]()
+### [Challenge #43 - Lightbulb](https://100dayscss.com/days/43/)
 
 #### [My Submission - #43 (Result Image)]()
 
-> 
+> Light on, light off, light on, light off, light on.
 
 #### [My Submission - #43 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/GZWqKL">View Goal CodePen Demo</a>
 </details>
 
 ## Day 44
 
-### [Challenge #44 - ]()
+### [Challenge #44 - Twisted Pyramid](https://100dayscss.com/days/44/)
 
 #### [My Submission - #44 (Result Image)]()
 
-> 
+> Impressive how quickly squares can become a spiral.
 
 #### [My Submission - #44 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/bpqRLe">View Goal CodePen Demo</a>
 </details>
 
 ## Day 45
 
-### [Challenge #45 - ]()
+### [Challenge #45 - Button](https://100dayscss.com/days/45/)
 
 #### [My Submission - #45 (Result Image)]()
 
-> 
+> If normal hover effects aren't enough for you anymore, try this.
 
 #### [My Submission - #45 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/GZWzWd">View Goal CodePen Demo</a>
 </details>
 
 ## Day 46
 
-### [Challenge #46 - ]()
+### [Challenge #46 - Iris Circles](https://100dayscss.com/days/46/)
 
 #### [My Submission - #46 (Result Image)]()
 
-> 
+> What do you see? Camera shutter, tornado, flower or dancing people from above?
 
 #### [My Submission - #46 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/XdRdRm">View Goal CodePen Demo</a>
 </details>
 
 ## Day 47
 
-### [Challenge #47 - ]()
+### [Challenge #47 - Pixel Art](https://100dayscss.com/days/47/)
 
 #### [My Submission - #47 (Result Image)]()
 
-> 
+> You don't like Space Invaders? No problem, click on the pixels to create your own piece of art.
 
 #### [My Submission - #47 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/xVdXXE">View Goal CodePen Demo</a>
 </details>
 
 ## Day 48
 
-### [Challenge #48 - ]()
+### [Challenge #48 - 3D Cube](https://100dayscss.com/days/48/)
 
 #### [My Submission - #48 (Result Image)]()
 
-> 
+> With CSS you can work not only two-dimensional but also three-dimensional. Simple objects and animation are no problem.
 
 #### [My Submission - #48 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/QNveWd">View Goal CodePen Demo</a>
 </details>
 
 ## Day 49
 
-### [Challenge #49 - ]()
+### [Challenge #49 - CSS Follow](https://100dayscss.com/days/49/)
 
 #### [My Submission - #49 (Result Image)]()
 
-> 
+> It wouldn't be a big challenge to implement that with JS only, but with CSS you have to come up with a good solution.
 
 #### [My Submission - #49 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/bpRpJz">View Goal CodePen Demo</a>
 </details>
 
 ## Day 50
 
-### [Challenge #50 - ]()
+### [Challenge #50 - Easter Egg](https://100dayscss.com/days/50/)
 
 #### [My Submission - #50 (Result Image)]()
 
-> 
+> Are you familiar with the 12 Basic Principles of Animation? This is an example for squash and stretch.
 
 #### [My Submission - #50 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/VaWMYa">View Goal CodePen Demo</a>
 </details>
 
 ## Day 51

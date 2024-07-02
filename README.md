@@ -915,7 +915,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/NNKzgP">View Goal CodePen Demo</a>
 </details>
 
 ## Day 21
@@ -931,7 +931,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/pyozgJ">View Goal CodePen Demo</a>
 </details>
 
 ## Day 22
@@ -947,7 +947,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/BKadMO">View Goal CodePen Demo</a>
 </details>
 
 ## Day 23
@@ -963,7 +963,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/wGvEVY">View Goal CodePen Demo</a>
 </details>
 
 ## Day 24
@@ -979,7 +979,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/zqxoEo">View Goal CodePen Demo</a>
 </details>
 
 ## Day 25
@@ -995,7 +995,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/WwbmXx">View Goal CodePen Demo</a>
 </details>
 
 ## Day 26
@@ -1011,7 +1011,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/reVGbL">View Goal CodePen Demo</a>
 </details>
 
 ## Day 27
@@ -1027,7 +1027,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/pyjdRJ">View Goal CodePen Demo</a>
 </details>
 
 ## Day 28
@@ -1043,7 +1043,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/GZpzEE">View Goal CodePen Demo</a>
 </details>
 
 ## Day 29
@@ -1059,7 +1059,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/WwrNqQ">View Goal CodePen Demo</a>
 </details>
 
 ## Day 30
@@ -1075,7 +1075,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/BKNEoK">View Goal CodePen Demo</a>
 </details>
 
 ## Day 31
@@ -1091,7 +1091,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/GZoxRy">View Goal CodePen Demo</a>
 </details>
 
 ## Day 32
@@ -1107,7 +1107,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/KzzgEm">View Goal CodePen Demo</a>
 </details>
 
 ## Day 33
@@ -1123,7 +1123,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/grrqap">View Goal CodePen Demo</a>
 </details>
 
 ## Day 34
@@ -1139,7 +1139,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/vGKZKy">View Goal CodePen Demo</a>
 </details>
 
 ## Day 35
@@ -1155,7 +1155,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/bpeJLP">View Goal CodePen Demo</a>
 </details>
 
 ## Day 36
@@ -1171,7 +1171,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/bpwwWZ">View Goal CodePen Demo</a>
 </details>
 
 ## Day 37
@@ -1187,7 +1187,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/mPrqQw">View Goal CodePen Demo</a>
 </details>
 
 ## Day 38
@@ -1203,7 +1203,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/JXbXGM">View Goal CodePen Demo</a>
 </details>
 
 ## Day 39
@@ -1219,7 +1219,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/BKQGVR">View Goal CodePen Demo</a>
 </details>
 
 ## Day 40
@@ -1235,7 +1235,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/VaPKvj">View Goal CodePen Demo</a>
 </details>
 
 ## Day 41

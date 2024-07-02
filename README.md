@@ -1080,11 +1080,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 31
 
-### [Challenge #31 - ]()
+### [Challenge #31 - Pendulum Wave](https://100dayscss.com/days/31/)
 
 #### [My Submission - #31 (Result Image)]()
 
-> 
+> If you are not yet fascinated by mathematics, you should be now at the latest. Wonderful what a small calculations brings forth.
 
 #### [My Submission - #31 (CodePen Demo)]()
 
@@ -1096,11 +1096,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 32
 
-### [Challenge #32 - ]()
+### [Challenge #32 - Counter](https://100dayscss.com/days/32/)
 
 #### [My Submission - #32 (Result Image)]()
 
-> 
+> I wonder how high or low is the maximum you can count here? The transitions are pure CSS, but I used some JS for the counting.
 
 #### [My Submission - #32 (CodePen Demo)]()
 
@@ -1112,11 +1112,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 33
 
-### [Challenge #33 - ]()
+### [Challenge #33 - Sunny Day](https://100dayscss.com/days/33/)
 
 #### [My Submission - #33 (Result Image)]()
 
-> 
+> What else could be visible on this sunny day? Some birds, plains or even superman?
 
 #### [My Submission - #33 (CodePen Demo)]()
 
@@ -1128,11 +1128,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 34
 
-### [Challenge #34 - ]()
+### [Challenge #34 - Hello](https://100dayscss.com/days/34/)
 
 #### [My Submission - #34 (Result Image)]()
 
-> 
+> Yes, another animation of some text. But this time I used SVGs as a base. What kind of animation will you make?
 
 #### [My Submission - #34 (CodePen Demo)]()
 
@@ -1144,11 +1144,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 35
 
-### [Challenge #35 - ]()
+### [Challenge #35 - Loading Circle](https://100dayscss.com/days/35/)
 
 #### [My Submission - #35 (Result Image)]()
 
-> 
+> Is that a dark circle with a white stripe or the other way around?
 
 #### [My Submission - #35 (CodePen Demo)]()
 
@@ -1160,11 +1160,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 36
 
-### [Challenge #36 - ]()
+### [Challenge #36 - Tabs](https://100dayscss.com/days/36/)
 
 #### [My Submission - #36 (Result Image)]()
 
-> 
+> The solution for layouts with little space or many navigation levels.
 
 #### [My Submission - #36 (CodePen Demo)]()
 
@@ -1176,11 +1176,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 37
 
-### [Challenge #37 - ]()
+### [Challenge #37 - Carousel](https://100dayscss.com/days/37/)
 
 #### [My Submission - #37 (Result Image)]()
 
-> 
+> Images, quotes, prices or logos. A carousel can be used in many ways and is an eye-catcher.
 
 #### [My Submission - #37 (CodePen Demo)]()
 
@@ -1192,11 +1192,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 38
 
-### [Challenge #38 - ]()
+### [Challenge #38 - Logo Transition](https://100dayscss.com/days/38/)
 
 #### [My Submission - #38 (Result Image)]()
 
-> 
+> Logos don't always have to be static, as a transition or stylistic element they can have animations.
 
 #### [My Submission - #38 (CodePen Demo)]()
 
@@ -1208,11 +1208,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 39
 
-### [Challenge #39 - ]()
+### [Challenge #39 - Menu Toggle](https://100dayscss.com/days/39/)
 
 #### [My Submission - #39 (Result Image)]()
 
-> 
+> What looks like another simple menu icon turns out to be a full-fledged navigation.
 
 #### [My Submission - #39 (CodePen Demo)]()
 
@@ -1224,11 +1224,11 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 40
 
-### [Challenge #40 - ]()
+### [Challenge #40 - Gallery](https://100dayscss.com/days/40/)
 
 #### [My Submission - #40 (Result Image)]()
 
-> 
+> Take a closer look by clicking on the images. The animations are CSS only and precalculated.
 
 #### [My Submission - #40 (CodePen Demo)]()
 

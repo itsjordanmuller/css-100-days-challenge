@@ -1560,162 +1560,162 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 61
 
-### [Challenge #61 - ]()
+### [Challenge #61 - CSS Gradient Transition](https://100dayscss.com/days/61/)
 
 #### [My Submission - #61 (Result Image)]()
 
-> 
+> A recurring trend, gradients have often been pronounced dead and yet appear anew.
 
 #### [My Submission - #61 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/pypvVj">View Goal CodePen Demo</a>
 </details>
 
 ## Day 62
 
-### [Challenge #62 - ]()
+### [Challenge #62 - Price Table](https://100dayscss.com/days/62/)
 
 #### [My Submission - #62 (Result Image)]()
 
-> 
+> Don't worry, 100 Days CSS is free. For everything else, you have these sample pricing tables.
 
 #### [My Submission - #62 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/VayMGJ">View Goal CodePen Demo</a>
 </details>
 
 ## Day 63
 
-### [Challenge #63 - ]()
+### [Challenge #63 - Hypnotic Ring](https://100dayscss.com/days/63/)
 
 #### [My Submission - #63 (Result Image)]()
 
-> 
+> A few animated dots on circles and you find yourself in the longest tunnel in the world.
 
 #### [My Submission - #63 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/ZWvPbj">View Goal CodePen Demo</a>
 </details>
 
 ## Day 64
 
-### [Challenge #64 - ]()
+### [Challenge #64 - Button](https://100dayscss.com/days/64/)
 
 #### [My Submission - #64 (Result Image)]()
 
-> 
+> A nice effect for very important buttons with that certain wow factor.
 
 #### [My Submission - #64 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/WwMNNO">View Goal CodePen Demo</a>
 </details>
 
 ## Day 65
 
-### [Challenge #65 - ]()
+### [Challenge #65 - Ellipses Animation](https://100dayscss.com/days/65/)
 
 #### [My Submission - #65 (Result Image)]()
 
-> 
+> Did you also draw geometric shapes back in school. This one reminds me a bit of that.
 
 #### [My Submission - #65 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/vGdGaw">View Goal CodePen Demo</a>
 </details>
 
 ## Day 66
 
-### [Challenge #66 - ]()
+### [Challenge #66 - Sparkle Checkbox](https://100dayscss.com/days/66/)
 
 #### [My Submission - #66 (Result Image)]()
 
-> 
+> Looks quite ordinary at first, but click on it for a little surprise.
 
 #### [My Submission - #66 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/oxEoNO">View Goal CodePen Demo</a>
 </details>
 
 ## Day 67
 
-### [Challenge #67 - ]()
+### [Challenge #67 - 3D Parasol](https://100dayscss.com/days/67/)
 
 #### [My Submission - #67 (Result Image)]()
 
-> 
+> Is it possible to display more than just basic bodies in 3D with CSS? Apparently yes!
 
 #### [My Submission - #67 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/redByy">View Goal CodePen Demo</a>
 </details>
 
 ## Day 68
 
-### [Challenge #68 - ]()
+### [Challenge #68 - Recording](https://100dayscss.com/days/68/)
 
 #### [My Submission - #68 (Result Image)]()
 
-> 
+> Click on it for a faked audio recording process animation.
 
 #### [My Submission - #68 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/XdENQV">View Goal CodePen Demo</a>
 </details>
 
 ## Day 69
 
-### [Challenge #69 - ]()
+### [Challenge #69 - Eye](https://100dayscss.com/days/69/)
 
 #### [My Submission - #69 (Result Image)]()
 
-> 
+> Do you also feel a little observed? Why not give that eye a few chic eyelashes?
 
 #### [My Submission - #69 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/VaXgwM">View Goal CodePen Demo</a>
 </details>
 
 ## Day 70
 
-### [Challenge #70 - ]()
+### [Challenge #70 - Calendar Days](https://100dayscss.com/days/70/)
 
 #### [My Submission - #70 (Result Image)]()
 
-> 
+> A test to create depth in user actions. A haptic feedback would be great.
 
 #### [My Submission - #70 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/MyGyQy">View Goal CodePen Demo</a>
 </details>
 
 ## Day 71

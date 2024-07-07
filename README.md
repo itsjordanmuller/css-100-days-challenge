@@ -1720,162 +1720,162 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 71
 
-### [Challenge #71 - ]()
+### [Challenge #71 - Morse Code Keyboard](https://100dayscss.com/days/71/)
 
 #### [My Submission - #71 (Result Image)]()
 
-> 
+> Did it take some time? Absolutely! Is it really only possible with CSS? Yep. Are you crazy? Maybe!
 
 #### [My Submission - #71 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/qZYryb">View Goal CodePen Demo</a>
 </details>
 
 ## Day 72
 
-### [Challenge #72 - ]()
+### [Challenge #72 - The Rings](https://100dayscss.com/days/72/)
 
 #### [My Submission - #72 (Result Image)]()
 
-> 
+> A simple and meditative animation made of circles. What geometric patterns of circles come to your mind?
 
 #### [My Submission - #72 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/YqLaJm">View Goal CodePen Demo</a>
 </details>
 
 ## Day 73
 
-### [Challenge #73 - ]()
+### [Challenge #73 - Word Carousel](https://100dayscss.com/days/73/)
 
 #### [My Submission - #73 (Result Image)]()
 
-> 
+> If you are not one of these animals, the Word Carousel is also good for showing off your skills.
 
 #### [My Submission - #73 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/xVjvyb">View Goal CodePen Demo</a>
 </details>
 
 ## Day 74
 
-### [Challenge #74 - ]()
+### [Challenge #74 - Pagination](https://100dayscss.com/days/74/)
 
 #### [My Submission - #74 (Result Image)]()
 
-> 
+> Does anyone still use pagination at all or is everything now equipped with endless scroll?
 
 #### [My Submission - #74 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/RaJgvX">View Goal CodePen Demo</a>
 </details>
 
 ## Day 75
 
-### [Challenge #75 - ]()
+### [Challenge #75 - Spinning Discs](https://100dayscss.com/days/75/)
 
 #### [My Submission - #75 (Result Image)]()
 
-> 
+> A real 3D sphere is not possible with CSS only as far as I know. But the illusion of a sphere can be achieved in several ways.
 
 #### [My Submission - #75 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/WwyYgw">View Goal CodePen Demo</a>
 </details>
 
 ## Day 76
 
-### [Challenge #76 - ]()
+### [Challenge #76 - Reveal Key](https://100dayscss.com/days/76/)
 
 #### [My Submission - #76 (Result Image)]()
 
-> 
+> Can you solve the puzzle and uncover the secret? Just follow the instruction.
 
 #### [My Submission - #76 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/xVJGEG">View Goal CodePen Demo</a>
 </details>
 
 ## Day 77
 
-### [Challenge #77 - ]()
+### [Challenge #77 - Motion Blur](https://100dayscss.com/days/77/)
 
 #### [My Submission - #77 (Result Image)]()
 
-> 
+> In the future we may have native support for Motion Blur, until then we'll have to help ourselves with a few tricks.
 
 #### [My Submission - #77 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/LNBdEj">View Goal CodePen Demo</a>
 </details>
 
 ## Day 78
 
-### [Challenge #78 - ]()
+### [Challenge #78 - Hover Shadow](https://100dayscss.com/days/78/)
 
 #### [My Submission - #78 (Result Image)]()
 
-> 
+> Three similar hover effects for buttons, which nevertheless create quite different results.
 
 #### [My Submission - #78 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/NNBoWw">View Goal CodePen Demo</a>
 </details>
 
 ## Day 79
 
-### [Challenge #79 - ]()
+### [Challenge #79 - Lines Animation](https://100dayscss.com/days/79/)
 
 #### [My Submission - #79 (Result Image)]()
 
-> 
+> Now and then, animation can also be loud and exciting. What will you make out of the initial square?
 
 #### [My Submission - #79 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/aNjror">View Goal CodePen Demo</a>
 </details>
 
 ## Day 80
 
-### [Challenge #80 - ]()
+### [Challenge #80 - Flexbox Accordion](https://100dayscss.com/days/80/)
 
 #### [My Submission - #80 (Result Image)]()
 
-> 
+> I implemented the whole thing with Flexbox, but I'm sure you can think of many other variations to create this effect.
 
 #### [My Submission - #80 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/LNJWjM">View Goal CodePen Demo</a>
 </details>
 
 ## Day 81

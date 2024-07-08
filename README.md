@@ -1880,162 +1880,162 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 81
 
-### [Challenge #81 - ]()
+### [Challenge #81 - Jumping Ball](https://100dayscss.com/days/81/)
 
 #### [My Submission - #81 (Result Image)]()
 
-> 
+> Oh nice, CSS supports physics! Not really, but you can fake it with the right animations. Don't forget the principles of animation.
 
 #### [My Submission - #81 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/vGzaeR">View Goal CodePen Demo</a>
 </details>
 
 ## Day 82
 
-### [Challenge #82 - ]()
+### [Challenge #82 - Action Button](https://100dayscss.com/days/82/)
 
 #### [My Submission - #82 (Result Image)]()
 
-> 
+> A good interface will tell the user about the result and state of an action.
 
 #### [My Submission - #82 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/bpxXOw">View Goal CodePen Demo</a>
 </details>
 
 ## Day 83
 
-### [Challenge #83 - ]()
+### [Challenge #83 - Warp Drive](https://100dayscss.com/days/83/)
 
 #### [My Submission - #83 (Result Image)]()
 
-> 
+> Is this what traveling at near light speed looks like? Physicists would probably disagree, but for the sake of learning some CSS, let's ignore that.
 
 #### [My Submission - #83 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/bpmLBW">View Goal CodePen Demo</a>
 </details>
 
 ## Day 84
 
-### [Challenge #84 - ]()
+### [Challenge #84 - Book Cover](https://100dayscss.com/days/84/)
 
 #### [My Submission - #84 (Result Image)]()
 
-> 
+> Nope, not an image or svg file, just some styling rules to create the illusion of a book.
 
 #### [My Submission - #84 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/BKqENE">View Goal CodePen Demo</a>
 </details>
 
 ## Day 85
 
-### [Challenge #85 - ]()
+### [Challenge #85 - It's Something](https://100dayscss.com/days/85/)
 
 #### [My Submission - #85 (Result Image)]()
 
-> 
+> I really don't know what this should be. But is it rotating or just going up and down for you?
 
 #### [My Submission - #85 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/QNJjMJ">View Goal CodePen Demo</a>
 </details>
 
 ## Day 86
 
-### [Challenge #86 - ]()
+### [Challenge #86 - Newton's Cradle](https://100dayscss.com/days/86/)
 
 #### [My Submission - #86 (Result Image)]()
 
-> 
+> Do you have one of these click-clack-things on your desk? If not, just look at this one.
 
 #### [My Submission - #86 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/ZWmLeN">View Goal CodePen Demo</a>
 </details>
 
 ## Day 87
 
-### [Challenge #87 - ]()
+### [Challenge #87 - Ruby](https://100dayscss.com/days/87/)
 
 #### [My Submission - #87 (Result Image)]()
 
-> 
+> Shine bright like a diamond...uh...ruby. Look carefully and don't forget the polish.
 
 #### [My Submission - #87 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/grQKdM">View Goal CodePen Demo</a>
 </details>
 
 ## Day 88
 
-### [Challenge #88 - ]()
+### [Challenge #88 - Candle](https://100dayscss.com/days/88/)
 
 #### [My Submission - #88 (Result Image)]()
 
-> 
+> Thanks to the magic of border-radius, this flame is animated by CSS only. It looks way better than I would have imagined.
 
 #### [My Submission - #88 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/qZLBBW">View Goal CodePen Demo</a>
 </details>
 
 ## Day 89
 
-### [Challenge #89 - ]()
+### [Challenge #89 - Animated Pattern](https://100dayscss.com/days/89/)
 
 #### [My Submission - #89 (Result Image)]()
 
-> 
+> Looking closely will you make feel dizzy, but you have to if you want to figure out the movements.
 
 #### [My Submission - #89 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/EKGXpx">View Goal CodePen Demo</a>
 </details>
 
 ## Day 90
 
-### [Challenge #90 - ]()
+### [Challenge #90 - Mouse Trap](https://100dayscss.com/days/90/)
 
 #### [My Submission - #90 (Result Image)]()
 
-> 
+> Not the trap for real mice, but your cursor will get trapped on hover.
 
 #### [My Submission - #90 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/WwLYPg">View Goal CodePen Demo</a>
 </details>
 
 ## Day 91

@@ -2040,164 +2040,163 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ## Day 91
 
-### [Challenge #91 - ]()
+### [Challenge #91 - Cube Loader](https://100dayscss.com/days/91/)
 
 #### [My Submission - #91 (Result Image)]()
 
-> 
+> This will be the result if you have too much time coding a loading animation.
 
 #### [My Submission - #91 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/oxmgWw">View Goal CodePen Demo</a>
 </details>
 
 ## Day 92
 
-### [Challenge #92 - ]()
+### [Challenge #92 - Dancing Points](https://100dayscss.com/days/92/)
 
 #### [My Submission - #92 (Result Image)]()
 
-> 
+> Can you recognize the underlying pattern which controls the single points?
 
 #### [My Submission - #92 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/mPvRXO">View Goal CodePen Demo</a>
 </details>
 
 ## Day 93
 
-### [Challenge #93 - ]()
+### [Challenge #93 - Padlock](https://100dayscss.com/days/93/)
 
 #### [My Submission - #93 (Result Image)]()
 
-> 
+> Did you know you can combine multiple box-shadows? This will help you on this one.
 
 #### [My Submission - #93 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/zqePgO">View Goal CodePen Demo</a>
 </details>
 
 ## Day 94
 
-### [Challenge #94 - ]()
+### [Challenge #94 - Tree](https://100dayscss.com/days/94/)
 
 #### [My Submission - #94 (Result Image)]()
 
-> 
+> Ever wanted to be a gardener? Go on and code yourself a tree.
 
 #### [My Submission - #94 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/wGNxzg">View Goal CodePen Demo</a>
 </details>
 
 ## Day 95
 
-### [Challenge #95 - ]()
+### [Challenge #95 - Pig](https://100dayscss.com/days/95/)
 
 #### [My Submission - #95 (Result Image)]()
 
-> 
+> Innocent, cute and consists entirely of simple basic shapes.
 
 #### [My Submission - #95 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/GZerZg">View Goal CodePen Demo</a>
 </details>
 
 ## Day 96
 
-### [Challenge #96 - ]()
+### [Challenge #96 - Jumping Square](https://100dayscss.com/days/96/)
 
 #### [My Submission - #96 (Result Image)]()
 
-> 
+> Squashed and stretched, this is how objects in motion should look like.
 
 #### [My Submission - #96 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/jqJvWK">View Goal CodePen Demo</a>
 </details>
 
 ## Day 97
 
-### [Challenge #97 - ]()
+### [Challenge #97 - Puppet](https://100dayscss.com/days/97/)
 
 #### [My Submission - #97 (Result Image)]()
 
-> 
+> Hello there, do you have a minute to talk about HTML and CSS?
 
 #### [My Submission - #97 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/EKJajz">View Goal CodePen Demo</a>
 </details>
 
 ## Day 98
 
-### [Challenge #98 - ]()
+### [Challenge #98 - Plopp](https://100dayscss.com/days/98/)
 
 #### [My Submission - #98 (Result Image)]()
 
-> 
+> What do you want to fill your box with?
 
 #### [My Submission - #98 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/PNgKEJ">View Goal CodePen Demo</a>
 </details>
 
 ## Day 99
 
-### [Challenge #99 - ]()
+### [Challenge #99 - Circle-Square](https://100dayscss.com/days/99/)
 
 #### [My Submission - #99 (Result Image)]()
 
-> 
+> Click me for a moment of joy and excitement
 
 #### [My Submission - #99 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/LNvBNB">View Goal CodePen Demo</a>
 </details>
 
 ## Day 100
 
-### [Challenge #100 - ]()
+### [Challenge #100 - Neon Light](https://100dayscss.com/days/100/)
 
 #### [My Submission - #100 (Result Image)]()
 
-> 
+> This is either the end of this challenge or the day before you start again from day one.
 
 #### [My Submission - #100 (CodePen Demo)]()
 
 <details>
   <summary>Click/Open to See Goal Images</summary>
   <img src="#"/><br/>
-  <a href="#">View Goal CodePen Demo</a>
+  <a href="https://codepen.io/roydigerhund/pen/WwWPYe">View Goal CodePen Demo</a>
 </details>
-
 
 <div align="right"><a href="#top">(back to top)</a></div>
 <hr>

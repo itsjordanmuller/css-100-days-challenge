@@ -2242,10 +2242,10 @@ Be sure to view the <a href="#setup-section"><strong><em>Setup Instructions</em>
 
 <h3>💌 Special Thanks</h3>
 
-<!-- <blockquote>
-
+<blockquote>
+<p>Thank you for creating such an inspiring and valuable resource for developers like myself. Your work has had a profound impact on my professional growth, and I am deeply appreciative of the effort and thought you have put into this challenge.</p>
 <p>Sincerely,<br><strong><em>Jordan Muller</em></strong></p>
-</blockquote> -->
+</blockquote>
 
 </div>
 

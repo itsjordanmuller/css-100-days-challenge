@@ -2245,6 +2245,7 @@ Be sure to view the <a href="#setup-section"><strong><em>Setup Instructions</em>
 <blockquote>
 <p>Dear Matthias Martin,</p>
 <p>Thank you for creating such an inspiring and valuable resource for developers like myself. Your work has had a profound impact on my professional growth, and I am deeply appreciative of the effort and thought you have put into this challenge.</p>
+<p>I learned so much while working through the 100 Challenges. There are so many ways we can utilize CSS and you opened my eyes to that fact. For that, I am eternally grateful.</p>
 <p>Sincerely,<br><strong><em>Jordan Muller</em></strong></p>
 </blockquote>
 

@@ -483,7 +483,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 #### [My Submission - #1 (Result Image)](https://github.com/itsjordanmuller/css-100-days-challenge/tree/main/initial-solutions/001-100-Days-CSS)
 
 ![Challenge 1 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/001-100-Days-CSS/001-Submission.png)
-
+![Challenge 1 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/improved-solutions/001-100-Days-CSS/001-Improved.png)
 > An easy start into the challenge with a custom build number with gradient.
 
 #### [My Submission - #1 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/jOdmXzY)

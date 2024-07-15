@@ -529,6 +529,8 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 ![Challenge 3 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/initial-solutions/003-The-Pyramide/003-Submission.png)
 
+![Challenge 3 Submission Image](https://github.com/itsjordanmuller/css-100-days-challenge/blob/main/improved-solutions/003-The-Pyramide/003-Improved.png)
+
 > Not as challenging as the real pyramids in Egypt, but the shadow path is not easy.
 
 #### [My Submission - #3 (CodePen Demo)](https://codepen.io/itsjordanmuller/pen/MWLoOMm)
